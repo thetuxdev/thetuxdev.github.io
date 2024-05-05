@@ -1,0 +1,17 @@
+name = "The TUX Dev"
+license = "MIT"
+licenselink = "https://github.com/gethinode/hinode/blob/main/LICENSE"
+description = "A clean documentation and blog theme for your Hugo site based on Bootstrap 5."
+homepage = "https://gethinode.com"
+demosite = "https://demo.gethinode.com"
+tags = ["blog", "documentation", "minimal", "modern", "customizable", "search", "guide"]
+features = ["security aware", "fast by default", "seo-ready", "development tools", "bootstrap framework", "netlify-ready", "full text search", "page layouts", "versioned documentation"]
+min_version = "0.120.0"
+
+[author]
+  name = "The TUX Dev"
+  homepage = "https://github.com/markdumay"
+
+
+[markup.goldmark.renderer]
+unsafe= true

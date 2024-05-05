@@ -1,0 +1,29 @@
+---
+title: Contatti
+author: Alberto
+type: page
+date: 2024-03-11T13:46:54+00:00
+nectar-metabox-portfolio-display:
+  - all
+nectar-metabox-portfolio-display-sortable:
+  - off
+
+---
+\[vc\_row type=&#8221;full\_width\_content&#8221; full\_screen\_row\_position=&#8221;middle&#8221; column\_margin=&#8221;default&#8221; equal\_height=&#8221;yes&#8221; content\_placement=&#8221;top&#8221; column\_direction=&#8221;default&#8221; column\_direction\_tablet=&#8221;default&#8221; column\_direction\_phone=&#8221;default&#8221; bg\_color=&#8221;#f7f7f7&#8243; scene\_position=&#8221;center&#8221; text\_color=&#8221;light&#8221; text\_align=&#8221;left&#8221; row\_border\_radius=&#8221;none&#8221; row\_border\_radius\_applies=&#8221;bg&#8221; overflow=&#8221;visible&#8221; overlay\_strength=&#8221;0.3&#8243; gradient\_direction=&#8221;left\_to\_right&#8221; shape\_divider\_position=&#8221;bottom&#8221; bg\_image\_animation=&#8221;none&#8221; shape\_type=&#8221;&#8221; gradient\_type=&#8221;default&#8221;\]\[vc\_column column\_padding=&#8221;padding-8-percent&#8221; column\_padding\_tablet=&#8221;inherit&#8221; column\_padding\_phone=&#8221;inherit&#8221; column\_padding\_position=&#8221;all&#8221; column\_element\_direction\_desktop=&#8221;default&#8221; column\_element\_spacing=&#8221;default&#8221; desktop\_text\_alignment=&#8221;default&#8221; tablet\_text\_alignment=&#8221;default&#8221; phone\_text\_alignment=&#8221;default&#8221; background\_color=&#8221;#0a0a0a&#8221; background\_color\_opacity=&#8221;0.8&#8243; background\_hover\_color\_opacity=&#8221;1&#8243; background\_image=&#8221;https://themenectar.com/img/demo-media/unsplash/webp/large-mountains-2.webp&#8221; background\_image\_position=&#8221;center center&#8221; background\_image\_stacking=&#8221;default&#8221; background\_image\_loading=&#8221;default&#8221; column\_backdrop\_filter=&#8221;none&#8221; font\_color=&#8221;#ffffff&#8221; column\_shadow=&#8221;none&#8221; column\_border\_radius=&#8221;none&#8221; column\_link\_target=&#8221;\_self&#8221; column\_position=&#8221;default&#8221; gradient\_direction=&#8221;left\_to\_right&#8221; overlay\_strength=&#8221;0.3&#8243; width=&#8221;1/2&#8243; tablet\_width\_inherit=&#8221;default&#8221; animation\_type=&#8221;default&#8221; bg\_image\_animation=&#8221;none&#8221; border\_type=&#8221;simple&#8221; column\_border\_width=&#8221;none&#8221; column\_border\_style=&#8221;solid&#8221; column\_padding\_type=&#8221;default&#8221; gradient\_type=&#8221;default&#8221;\]\[divider line\_type=&#8221;No Line&#8221; custom\_height=&#8221;0&#8243; custom\_height\_phone=&#8221;10%&#8221;\]\[divider line\_type=&#8221;No Line&#8221; custom\_height=&#8221;50px&#8221;\]\[vc\_custom\_heading text=&#8221;CONTATTI&#8221; font\_container=&#8221;tag:h2|text\_align:left|color:%23ffffff&#8221; use\_theme\_fonts=&#8221;yes&#8221;\]\[vc\_column\_text css=&#8221;.vc\_custom\_1710180752495{margin-top: 20px !important;margin-bottom: 60px !important;}&#8221; max\_width=&#8221;475&#8243; text\_direction=&#8221;default&#8221;\]Per qualsiasi richiesta o domanda, sono a tua disposizione. Non esitare a contattarmi.
+
+Puoi contattarmi compilando il modulo di contatto, [scrivendomi][1] direttamente via email oppure nella chat in basso a destra.[/vc\_column\_text]
+
+<div class="iwithtext">
+  <div class="iwt-icon">
+    <i class="icon-default-style linecon-icon-mail accent-color"></i>
+  </div>
+  
+  <div class="iwt-text">
+    <a href="mailto:info@albertoreineri.it">info@albertoreineri.it</a>
+  </div>
+  
+  <div class="clear">
+  </div>
+</div>\[divider line\_type=&#8221;No Line&#8221;\]\[/vc\_column\]\[vc\_column column\_padding=&#8221;padding-8-percent&#8221; column\_padding\_tablet=&#8221;inherit&#8221; column\_padding\_phone=&#8221;inherit&#8221; column\_padding\_position=&#8221;all&#8221; column\_element\_direction\_desktop=&#8221;default&#8221; column\_element\_spacing=&#8221;default&#8221; desktop\_text\_alignment=&#8221;default&#8221; tablet\_text\_alignment=&#8221;default&#8221; phone\_text\_alignment=&#8221;default&#8221; background\_color=&#8221;#ffdd00&#8243; background\_color\_opacity=&#8221;1&#8243; background\_hover\_color\_opacity=&#8221;1&#8243; column\_backdrop\_filter=&#8221;none&#8221; column\_shadow=&#8221;none&#8221; column\_border\_radius=&#8221;none&#8221; column\_link\_target=&#8221;\_self&#8221; column\_position=&#8221;default&#8221; gradient\_direction=&#8221;left\_to\_right&#8221; overlay\_strength=&#8221;0.3&#8243; width=&#8221;1/2&#8243; tablet\_width\_inherit=&#8221;default&#8221; animation\_type=&#8221;default&#8221; bg\_image\_animation=&#8221;none&#8221; border\_type=&#8221;simple&#8221; column\_border\_width=&#8221;none&#8221; column\_border\_style=&#8221;solid&#8221; column\_padding\_type=&#8221;default&#8221; gradient\_type=&#8221;default&#8221;\]\[divider line\_type=&#8221;No Line&#8221; custom\_height=&#8221;50px&#8221; custom\_height\_phone=&#8221;0&#8243;\]\[vc\_raw\_html]JTNDc2NyaXB0JTIwY2hhcnNldCUzRCUyMnV0Zi04JTIyJTIwdHlwZSUzRCUyMnRleHQlMkZqYXZhc2NyaXB0JTIyJTIwc3JjJTNEJTIyJTJGJTJGanMtZXUxLmhzZm9ybXMubmV0JTJGZm9ybXMlMkZlbWJlZCUyRnYyLmpzJTIyJTNFJTNDJTJGc2NyaXB0JTNFJTBBJTNDc2NyaXB0JTNFJTBBJTIwJTIwaGJzcHQuZm9ybXMuY3JlYXRlJTI4JTdCJTBBJTIwJTIwJTIwJTIwcmVnaW9uJTNBJTIwJTIyZXUxJTIyJTJDJTBBJTIwJTIwJTIwJTIwcG9ydGFsSWQlM0ElMjAlMjIyNTQ5MTU1MCUyMiUyQyUwQSUyMCUyMCUyMCUyMGZvcm1JZCUzQSUyMCUyMmYwMzZmMDNjLTUxMGMtNDllZi05YWYxLWY5OTNhZjYxZmM5MiUyMiUwQSUyMCUyMCU3RCUyOSUzQiUwQSUzQyUyRnNjcmlwdCUzRSUwQSUzQ2RpdiUyMGNsYXNzJTNEJTIyaHVic3BvdC1oaWRlciUyMiUzRSUzQyUyRmRpdiUzRQ==[/vc\_raw\_html\]\[/vc\_column\][/vc_row]
+
+ [1]: mailto:info@albertoreineri.it

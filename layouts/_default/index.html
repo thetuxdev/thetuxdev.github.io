@@ -1,0 +1,245 @@
+{{- define "featured" }}
+{{ .Render "list/header" }}
+{{ end }}
+
+{{- define "main" -}}
+{{- $page := . -}}
+{{- $sections := $.Scratch.Get "sections" -}}
+{{- $fullCover := $.Scratch.Get "fullCover" -}}
+{{- $layout := $page.Params.layout -}}
+
+<div class="container-xxl p-4 px-xxl-0">
+    {{- if ne $layout "featured" -}}
+    {{ if and (not $page.IsHome) site.Params.navigation.breadcrumb }}
+    <div>{{ partial "assets/breadcrumb.html" (dict "page" $page) }}</div>
+    {{ end -}}
+    {{- end -}}
+
+    {{ .Render "list/body" }}
+
+    {{ .Render "list/footer" }}
+</div>
+
+<div class="container-fluid  p-0" id="ultimi-articoli">
+    <div class="container-xxl p-4 px-xxl-0 pb-5">
+        <div class="container-fluid p-0">
+            <div class="row mb-5 align-items-center">
+                <div class="col-md">
+                    <h2 class="mb-0">Ultimi Articoli</h2>
+                </div>
+                <div class="col-md-auto text-md-start text-start pt-3 pt-md-0">
+                    <a href="/blog">
+                        <p class="mb-0">Leggi tutti gli articoli »</p>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                {{ range first 6 (where .Site.RegularPages "Type" "post") }}
+                <div class="article">
+                    <div class="col">
+                        <div class="card  h-100 border-0 card-zoom text-start">
+                            <div class="card-body d-flex flex-column p-0">
+                                <p class="card-text"><small class="text-body-secondary text-uppercase">{{ .Date.Format
+                                        "2 gennaio 2006" }}&nbsp;•
+                                        {{ $list := .Params.tags }}
+                                        {{ $len := len $list }}
+                                        {{ range $index, $tag := $list }}
+
+                                        <a href="{{ " /tags/" | relLangURL }}{{ $tag | urlize }}"
+                                            class="text-decoration-none link-primary tag-link">
+                                            {{ $tag }}
+                                        </a>
+                                        {{ if ne (add $index 1) $len }}
+                                        -
+                                        {{ end }}
+
+                                        {{ end }}
+                                    </small></p><a href="{{ .Permalink }}" class="card-body-link stretched-link">
+                                    <p class="card-title fs-5 fw-bold">{{ .Title }}</p>
+
+                                    <div class="card-text card-body-link">
+                                        {{ .Summary }}
+                                    </div>
+                                </a>
+                                <p class="card-text"><small class="text-body-secondary text-uppercase"></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid  p-0">
+    <div class="container-xxl p-4 px-xxl-0 pb-5">
+        <div class="container-fluid p-0">
+            <div class="row mb-5 align-items-center">
+                <div class="col-md">
+                    <h2 class="mb-0">Guide</h2>
+                </div>
+                <div class="col-md-auto text-md-start text-start pt-3 pt-md-0">
+                    <a href="/tags/guide">
+                        <p class="mb-0">Leggi tutte le Guide »</p>
+                    </a>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                {{ range first 3 (where .Site.RegularPages "Params.tags" "intersect" (slice "Guide")) }}
+                <div class="article">
+                    <div class="col">
+                        <div class="card  h-100 border-0 card-zoom text-start">
+                            <div class="card-body d-flex flex-column p-0">
+                                <p class="card-text"><small class="text-body-secondary text-uppercase">{{ .Date.Format
+                                        "2 gennaio 2006" }}&nbsp;•
+                                        {{ $list := .Params.tags }}
+                                        {{ $len := len $list }}
+                                        {{ range $index, $tag := $list }}
+
+                                        <a href="{{ " /tags/" | relLangURL }}{{ $tag | urlize }}"
+                                            class="text-decoration-none link-primary tag-link">
+                                            {{ $tag }}
+                                        </a>
+                                        {{ if ne (add $index 1) $len }}
+                                        -
+                                        {{ end }}
+
+                                        {{ end }}
+
+                                    </small></p><a href="{{ .Permalink }}" class="card-body-link stretched-link">
+                                    <p class="card-title fs-5 fw-bold">{{ .Title }}</p>
+
+                                    <div class="card-text card-body-link">
+                                        {{ .Summary }}
+                                    </div>
+                                </a>
+                                <p class="card-text"><small class="text-body-secondary text-uppercase"></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container-fluid  p-0">
+    <div class="container-xxl p-4 px-xxl-0 pb-5">
+        <div class="container-fluid p-0">
+            <div class="row mb-5 align-items-center">
+                <div class="col-md">
+                    <h2 class="mb-0">Linux</h2>
+                </div>
+                <div class="col-md-auto text-md-start text-start pt-3 pt-md-0">
+                    <a href="/tags/linux">
+                        <p class="mb-0">Leggi tutte gli articoli Linux »</p>
+                    </a>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                {{ range first 3 (where .Site.RegularPages "Params.tags" "intersect" (slice "Linux")) }}
+                <div class="article">
+                    <div class="col">
+                        <div class="card  h-100 border-0 card-zoom text-start">
+                            <div class="card-body d-flex flex-column p-0">
+                                <p class="card-text"><small class="text-body-secondary text-uppercase">{{ .Date.Format
+                                        "2 gennaio 2006" }}&nbsp;•
+                                        {{ $list := .Params.tags }}
+                                        {{ $len := len $list }}
+                                        {{ range $index, $tag := $list }}
+
+                                        <a href="{{ " /tags/" | relLangURL }}{{ $tag | urlize }}"
+                                            class="text-decoration-none link-primary tag-link">
+                                            {{ $tag }}
+                                        </a>
+                                        {{ if ne (add $index 1) $len }}
+                                        -
+                                        {{ end }}
+
+                                        {{ end }}
+
+                                    </small></p><a href="{{ .Permalink }}" class="card-body-link stretched-link">
+                                    <p class="card-title fs-5 fw-bold">{{ .Title }}</p>
+
+                                    <div class="card-text card-body-link">
+                                        {{ .Summary }}
+                                    </div>
+                                </a>
+                                <p class="card-text"><small class="text-body-secondary text-uppercase"></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="container-fluid  p-0">
+    <div class="container-xxl p-4 px-xxl-0 pb-5">
+        <div class="container-fluid p-0">
+            <div class="row mb-5 align-items-center">
+                <div class="col-md">
+                    <h2 class="mb-0">Web Dev</h2>
+                </div>
+                <div class="col-md-auto text-md-start text-start pt-3 pt-md-0">
+                    <a href="/tags/web-dev">
+                        <p class="mb-0">Leggi tutte gli articoli Web Dev »</p>
+                    </a>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                {{ range first 3 (where .Site.RegularPages "Params.tags" "intersect" (slice "Web Dev")) }}
+                <div class="article">
+                    <div class="col">
+                        <div class="card  h-100 border-0 card-zoom text-start">
+                            <div class="card-body d-flex flex-column p-0">
+                                <p class="card-text"><small class="text-body-secondary text-uppercase">{{ .Date.Format
+                                        "2 gennaio 2006" }}&nbsp;•
+                                        {{ $list := .Params.tags }}
+                                        {{ $len := len $list }}
+                                        {{ range $index, $tag := $list }}
+
+                                        <a href="{{ " /tags/" | relLangURL }}{{ $tag | urlize }}"
+                                            class="text-decoration-none link-primary tag-link">
+                                            {{ $tag }}
+                                        </a>
+                                        {{ if ne (add $index 1) $len }}
+                                        -
+                                        {{ end }}
+
+                                        {{ end }}
+
+                                    </small></p><a href="{{ .Permalink }}" class="card-body-link stretched-link">
+                                    <p class="card-title fs-5 fw-bold">{{ .Title }}</p>
+
+                                    <div class="card-text card-body-link">
+                                        {{ .Summary }}
+                                    </div>
+                                </a>
+                                <p class="card-text"><small class="text-body-secondary text-uppercase"></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="mt-5"></div>
+{{/* Fill remaining space to push page footer to viewport bottom */}}
+<div class="container-fluid flex-fill"></div>
+{{- end -}}
