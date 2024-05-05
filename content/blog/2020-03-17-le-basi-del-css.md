@@ -11,27 +11,27 @@ tags:
   - Inizia Qui
 
 ---
-Il CSS è il linguaggio di&nbsp;**formattazione&nbsp;**del web. Sta per&nbsp;_Cascading Style Sheets_&nbsp;ed è utilizzato per&nbsp;**assegnare uno stile alle pagine html**.
+Il CSS è il linguaggio di **formattazione **del web. Sta per _Cascading Style Sheets_ ed è utilizzato per **assegnare uno stile alle pagine html**.
 
-Ha una sintassi specifica e permette di separare l’html dal suo stile, mantene do così il&nbsp;**codice pulito ed ordinato**.
+Ha una sintassi specifica e permette di separare l’html dal suo stile, mantene do così il **codice pulito ed ordinato**.
 
-Come l’HTML, anche il css&nbsp;**non è un linguaggio di programmazione**, è un linguaggio utilizzato per creare i layout delle pagine web. Consente di gestire gli spazi, modificare i colori, creare i layout e tutto ciò che ha a che fare con la parte grafica di un contenuto web.
+Come l’HTML, anche il css **non è un linguaggio di programmazione**, è un linguaggio utilizzato per creare i layout delle pagine web. Consente di gestire gli spazi, modificare i colori, creare i layout e tutto ciò che ha a che fare con la parte grafica di un contenuto web.
 
-<hr class="wp-block-separator" />
+<hr class="wp-block-separator"/>
 
-_Questo corso è rivolto ai&nbsp;**principianti**, pertanto se conosci già il CSS questo articolo non fa per te, se invece sei agli inizi&nbsp;**BENVENUTO&nbsp;**e buono studio! Vedrai che**&nbsp;imparerai presto**&nbsp;a cerare fantastici contenuti web!_
+_Questo corso è rivolto ai **principianti**, pertanto se conosci già il CSS questo articolo non fa per te, se invece sei agli inizi **BENVENUTO **e buono studio! Vedrai che** imparerai presto** a cerare fantastici contenuti web!_
 
-<hr class="wp-block-separator" />
+<hr class="wp-block-separator"/>
 
 Questo articolo è una continuazione del la guida [Le basi di][1] [HTML][2], che puoi trovare [qui][1].
 
-Se ti perdi durante l’articolo sul&nbsp;fondo di questo&nbsp;articolo potrai trovare il&nbsp;codice&nbsp;di tutto ciò che andremo a creare.
+Se ti perdi durante l’articolo sul fondo di questo articolo potrai trovare il codice di tutto ciò che andremo a creare.
 
 ## Come inserire il CSS in una pagina HTML
 
-Il CSS da solo quindi non serve a nulla, ma&nbsp;**deve essere inserito in una pagina html.**
+Il CSS da solo quindi non serve a nulla, ma **deve essere inserito in una pagina html.**
 
-Esistono&nbsp;**3 modi**&nbsp;per inserire del codice CSS in una pagina HTML
+Esistono **3 modi** per inserire del codice CSS in una pagina HTML
 
   * **Inline CSS**
   * **CSS Interno**
@@ -39,15 +39,15 @@ Esistono&nbsp;**3 modi**&nbsp;per inserire del codice CSS in una pagina HTML
 
 ### Inline CSS
 
-Consente di inserire del codice CSS&nbsp;**direttamente all’interno del codice HTML.**
+Consente di inserire del codice CSS **direttamente all’interno del codice HTML.**
 
-Con questo metodo&nbsp;**i linguaggi HTML e CSS restano mischiati insieme**. Un esempio di questa tipologia di codice è quello che abbiamo inserito nel corso intensivo di HTML, quando abbiamo impostato lo sfondo verde al div, o il rosso alla parola nello span.
+Con questo metodo **i linguaggi HTML e CSS restano mischiati insieme**. Un esempio di questa tipologia di codice è quello che abbiamo inserito nel corso intensivo di HTML, quando abbiamo impostato lo sfondo verde al div, o il rosso alla parola nello span.
 
 **Esempio**:
 
 <pre class="wp-block-code"><code>&lt;div style="background-color:green&gt;Ciao Mondo&lt;/div&gt;</code></pre>
 
-Sebbene sia molto veloce da applicare,&nbsp;**è il modo peggiore**&nbsp;per inserire del codice CSS.
+Sebbene sia molto veloce da applicare, **è il modo peggiore** per inserire del codice CSS.
 
 **Mischiare i linguaggi di programmazione non è mai un bene**, è meglio imparare fin da subito che l’ordine è una caratteristica fondamentale per un buon sviluppatore.
 
@@ -55,11 +55,11 @@ Vediamo quindi gli altri metodi.
 
 ### CSS Interno
 
-Questo metodo consiste nell’inserire il codice CSS&nbsp;**all’interno dell’head&nbsp;**della pagina HTML.
+Questo metodo consiste nell’inserire il codice CSS **all’interno dell’head **della pagina HTML.
 
-In questo modo il CSS è all’interno della pagina HTML ma&nbsp;**non in mezzo al contenuto HTML.**&nbsp;È una scelta sicuramente migliore rispetto all’Inline CSS ma non ancora ottimale.
+In questo modo il CSS è all’interno della pagina HTML ma **non in mezzo al contenuto HTML.** È una scelta sicuramente migliore rispetto all’Inline CSS ma non ancora ottimale.
 
-Per inserire del CSS interno occorre andare&nbsp;**fra i tag <head></head>**&nbsp;e indicare che stiamo per scrivere del codice CSS, in questo modo:
+Per inserire del CSS interno occorre andare **fra i tag <head></head>** e indicare che stiamo per scrivere del codice CSS, in questo modo:
 
 <pre class="wp-block-code"><code>&lt;style type="text/css"&gt;
 
@@ -118,7 +118,7 @@ Ecco uno&nbsp;**schema**&nbsp;che raccoglie gli&nbsp;**elementi**&nbsp;del lingu
 
 
 <div class="wp-block-image">
-  <figure class="aligncenter size-full"><img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/schema-CSS.jpeg" alt="" class="wp-image-189" /></figure>
+  <figure class="aligncenter size-full"><img decoding="async" src="/assets/img/uploads/2022/03/schema-CSS.jpeg" alt="" class="wp-image-189" /></figure>
 </div>
 
 ### Selettore
@@ -224,7 +224,7 @@ Qua possiamo cercare il font che più ci piace. In questa guida utilizzeremo il 
 Inseriamo quindi “**Source Sans Pro**” nella barra di ricerca di Google Fonts
 
 <div class="wp-block-image">
-  <figure class="aligncenter size-full"><img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/image-5.png" alt="" class="wp-image-190" /></figure>
+  <figure class="aligncenter size-full"><img decoding="async" src="/assets/img/uploads/2022/03/image-5.png" alt="" class="wp-image-190" /></figure>
 </div>
 
 e lo&nbsp;**selezioniamo**.
@@ -232,7 +232,7 @@ e lo&nbsp;**selezioniamo**.
 Ora ci troveremo di fronte ad una schermata come questa:
 
 <div class="wp-block-image">
-  <figure class="aligncenter size-large"><img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/image-6-1536x725-1-1024x483.png" alt="" class="wp-image-192" /></figure>
+  <figure class="aligncenter size-large"><img decoding="async" src="/assets/img/uploads/2022/03/image-6-1536x725-1-1024x483.png" alt="" class="wp-image-192" /></figure>
 </div>
 
 Sulla destra possiamo cliccare su “**+ Select this style**” in corrispondenza del carattere che vogliamo. Possiamo selezionarli tutti per avere tutte le variabili possibili del font, ma per ottimizzare i tempo di caricamento della pagina è meglio selezionare solo l’essenziale.
@@ -242,16 +242,16 @@ In questa guida selezioniamo solo il “**regular 400**” e il “**bold 700**�
 Ora si aprirà sulla destra una finestra come questa:
 
 <div class="wp-block-image">
-  <figure class="aligncenter size-full"><img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/image-7.png" alt="" class="wp-image-193" /></figure>
+  <figure class="aligncenter size-full"><img decoding="async" src="/assets/img/uploads/2022/03/image-7.png" alt="" class="wp-image-193" /></figure>
 </div>
 
 Qua clicchiamo su “**Embed**” e successivamente su “**@import**“
 
 <div class="wp-block-image">
-  <figure class="aligncenter size-full"><img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/image-8.png" alt="" class="wp-image-194" /></figure>
+  <figure class="aligncenter size-full"><img decoding="async" src="/assets/img/uploads/2022/03/image-8.png" alt="" class="wp-image-194" /></figure>
 </div>
 
-Adesso possiamo copiare il contenuto fra&nbsp;_<style>_&nbsp;e&nbsp;_</style>_&nbsp;e incollarlo nel nostro&nbsp;**“style.css**“, cancellando tutto il resto.
+Adesso possiamo copiare il contenuto fra&nbsp;_<style>_&nbsp;e&nbsp;_</style>_ e incollarlo nel nostro **“style.css**“, cancellando tutto il resto.
 
 Ora aggiungiamo questo codice:
 
@@ -263,28 +263,28 @@ Ora aggiungiamo questo codice:
     line-height: 35px;
 }</code></pre>
 
-In questo modo abbiamo impostato&nbsp;**“Source Sans Pro” come font primario&nbsp;**del sito.
+In questo modo abbiamo impostato **“Source Sans Pro” come font primario **del sito.
 
 Ecco cos’altro abbiamo impostato:
 
-  * **Font-size**&nbsp;indica la&nbsp;**dimensione&nbsp;**del font, che abbiamo settato a 22 pixel.
-  * **Font-weight**&nbsp;indica lo&nbsp;**spessore&nbsp;**del font, in questo caso è settato come regolare. In questo campo possiamo utilizzare sia i numeri da 100 a 900, sia il nome, da “lighter” a “bolder”. Logicamente occorrerà importare queste dimensioni da google fonts, per il momento abbiamo importato solo il 400 e il 700.
-  * **Font-style**&nbsp;indica lo&nbsp;**stile&nbsp;**del font, in questo caso è normale. Puoi inserire per esempio “italiac” per avere un font in corsivo.
-  * **Line-height&nbsp;**indica&nbsp;**l’altezza&nbsp;**del font, lo spazio fra le righe, in questo caso impostato a 35 pixel.
+  * **Font-size** indica la **dimensione **del font, che abbiamo settato a 22 pixel.
+  * **Font-weight** indica lo **spessore **del font, in questo caso è settato come regolare. In questo campo possiamo utilizzare sia i numeri da 100 a 900, sia il nome, da “lighter” a “bolder”. Logicamente occorrerà importare queste dimensioni da google fonts, per il momento abbiamo importato solo il 400 e il 700.
+  * **Font-style** indica lo **stile **del font, in questo caso è normale. Puoi inserire per esempio “italiac” per avere un font in corsivo.
+  * **Line-height **indica **l’altezza **del font, lo spazio fra le righe, in questo caso impostato a 35 pixel.
 
-Prova a&nbsp;**salvare&nbsp;**il foglio di stile e&nbsp;**aggiornare&nbsp;**la pagina, vedrai che&nbsp;**il testo sarà cambiato!**
+Prova a **salvare **il foglio di stile e **aggiornare **la pagina, vedrai che **il testo sarà cambiato!**
 
 ## Classi e id
 
-Come abbiamo già accennato poco fa, è possibile impostare delle classi e degli id ai tag html, in modo da poterli&nbsp;**raggruppare&nbsp;**alcune regole di css.
+Come abbiamo già accennato poco fa, è possibile impostare delle classi e degli id ai tag html, in modo da poterli **raggruppare **alcune regole di css.
 
-Classi e id sono&nbsp;**attributi&nbsp;**che possiamo**&nbsp;aggiungere ai tag html**&nbsp;per distinguerli fra loro.
+Classi e id sono **attributi **che possiamo** aggiungere ai tag html** per distinguerli fra loro.
 
 ### Id
 
-Un&nbsp;**id&nbsp;**è un**&nbsp;attributo univoco**, va utilizzato nel caso ci sia un elemento particolare che&nbsp;**non si ripeterà&nbsp;**mai. Se per esempio voglio che un titolo sia giallo, solo quel titolo, posso dargli un id particolare.
+Un **id **è un** attributo univoco**, va utilizzato nel caso ci sia un elemento particolare che **non si ripeterà **mai. Se per esempio voglio che un titolo sia giallo, solo quel titolo, posso dargli un id particolare.
 
-Per indicare un id nel CSS occorre farlo precedere da un&nbsp;**hashtag**
+Per indicare un id nel CSS occorre farlo precedere da un **hashtag**
 
 **Esempio:**
 
@@ -300,9 +300,9 @@ Per indicare un id nel CSS occorre farlo precedere da un&nbsp;**hashtag**
 
 ### Classi
 
-Una classe è un**&nbsp;elemento che ritorna spesso**, e che quindi posso&nbsp;**riutilizzare**. Per esempio se voglio inserire una serie di bottoni con la stessa formattazione, posso dare loro la classe “**bottone**“, impostarla una sola volta nel CSS e questa verrà applicata a tutti gli elementi con la classe “bottone”
+Una classe è un** elemento che ritorna spesso**, e che quindi posso **riutilizzare**. Per esempio se voglio inserire una serie di bottoni con la stessa formattazione, posso dare loro la classe “**bottone**“, impostarla una sola volta nel CSS e questa verrà applicata a tutti gli elementi con la classe “bottone”
 
-Per indicare una classe nel CSS occorre farla precedere da un&nbsp;**punto**.
+Per indicare una classe nel CSS occorre farla precedere da un **punto**.
 
 **Esempio:**
 
@@ -322,17 +322,15 @@ _**style.css**_
 
 Per gestire gli spazi fra gli elementi si possono utilizzare “**margin**” e “**padding**“.
 
-Ecco uno&nbsp;**schema&nbsp;**per spiegarti che differenza c’è fra i due:
+Ecco uno **schema **per spiegarti che differenza c’è fra i due:
 
-<div class="wp-block-image">
-  <figure class="aligncenter size-full"><img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/margin-e-padding-1.jpeg" alt="" class="wp-image-195" /></figure>
-</div>
+{{< image src="/assets/img/uploads/2022/03/margin-e-padding-1.jpeg" >}}
 
-Il&nbsp;**margin&nbsp;**indica lo spazio&nbsp;**all’esterno**&nbsp;del contenuto, il&nbsp;**padding&nbsp;**lo spazio&nbsp;**all’interno**.
+Il **margin **indica lo spazio **all’esterno** del contenuto, il **padding **lo spazio **all’interno**.
 
-È possibile indicare la&nbsp;**direzione&nbsp;**dello spazio sia per il margin che per il padding, per esempio se si vuole inserire un margine superiore occorre utiilzzare “**margin-top**“.
+È possibile indicare la **direzione **dello spazio sia per il margin che per il padding, per esempio se si vuole inserire un margine superiore occorre utiilzzare “**margin-top**“.
 
-Ecco alcuni&nbsp;**esempi**:
+Ecco alcuni **esempi**:
 
 _**style.css**_
 
@@ -368,15 +366,15 @@ _**style.css**_
 
 ## Contenitore
 
-Gli elementi del CSS possono essere**&nbsp;uno dentro l’altro**, in questo modo permettono di creare layout più elaborati.
+Gli elementi del CSS possono essere** uno dentro l’altro**, in questo modo permettono di creare layout più elaborati.
 
-Proviamo a rendere la nostra pagina HTML un po’ più carina inserendola in un&nbsp;**contenitore**.
+Proviamo a rendere la nostra pagina HTML un po’ più carina inserendola in un **contenitore**.
 
-Andiamo**&nbsp;sotto il tag body**&nbsp;e inseriamo un&nbsp;**div&nbsp;**con classe “**container**“, in questo modo:
+Andiamo** sotto il tag body** e inseriamo un **div **con classe “**container**“, in questo modo:
 
 <pre class="wp-block-code"><code>&lt;div class="container"&gt;</code></pre>
 
-Ora andiamo prima del </body> e**&nbsp;chiudiamo questo div**, inserendo:
+Ora andiamo prima del  e** chiudiamo questo div**, inserendo:
 
 <pre class="wp-block-code"><code>&lt;/div&gt;</code></pre>
 
@@ -387,23 +385,23 @@ Ora aggiungiamo questo codice nel nostro “**style.css**“:
     margin: 0 auto;
 }</code></pre>
 
-In questo modo abbiamo impostato una&nbsp;**larghezza massima del contenuto della nostra pagina a 800 pixel**, e impostato il margine del contenuto a 0 pixel dall’alto e dal basso e&nbsp;**automaticamente&nbsp;**da destra e sinistra.
+In questo modo abbiamo impostato una **larghezza massima del contenuto della nostra pagina a 800 pixel**, e impostato il margine del contenuto a 0 pixel dall’alto e dal basso e **automaticamente **da destra e sinistra.
 
-Ora&nbsp;**salviamo&nbsp;**e&nbsp;**aggiorniamo&nbsp;**e vedremo il contenuto inserito a centro pagina, più carino no?
+Ora **salviamo **e **aggiorniamo **e vedremo il contenuto inserito a centro pagina, più carino no?
 
 ## Immagine come sfondo
 
-Vediamo ancora un’ultima cosa prima di terminare questa prima carrellata generale di CSS: come inserire&nbsp;**un’immagine come sfondo**&nbsp;di un elemento.
+Vediamo ancora un’ultima cosa prima di terminare questa prima carrellata generale di CSS: come inserire **un’immagine come sfondo** di un elemento.
 
 Per poter inserire un’immagine come sfondo occorre utilizzare la proprietà “**background-image**“.
 
-Creiamo un&nbsp;**div&nbsp;**che conterrà la nostra immagine nel file&nbsp;**html**:
+Creiamo un **div **che conterrà la nostra immagine nel file **html**:
 
 <pre class="wp-block-code"><code>&lt;div class="immagine-sfondo"&gt;
     Questo div ha un'immagine di sfondo!
 &lt;/div&gt;</code></pre>
 
-E inseriamo l’url all’immagine tramite il&nbsp;**CSS&nbsp;**nel nostro “style.css”:
+E inseriamo l’url all’immagine tramite il **CSS **nel nostro “style.css”:
 
 <pre class="wp-block-code"><code>.immagine-sfondo{
     background-image: url(img/immagine.jpg);
@@ -413,17 +411,17 @@ E inseriamo l’url all’immagine tramite il&nbsp;**CSS&nbsp;**nel nostro “st
     color:white;
 }</code></pre>
 
-In questo modo abbiamo impostato&nbsp;**la nostra immagine come sfondo.&nbsp;**Abbiamo anche impostato&nbsp;**un’altezza&nbsp;**in modo da far vedere bene l’immagine.
+In questo modo abbiamo impostato **la nostra immagine come sfondo. **Abbiamo anche impostato **un’altezza **in modo da far vedere bene l’immagine.
 
-Prova a&nbsp;**salvare&nbsp;**e&nbsp;**aggiornare&nbsp;**e vedrai cosa succede.
+Prova a **salvare **e **aggiornare **e vedrai cosa succede.
 
-**Ora prova a smanettare un po’&nbsp;**con queste classi e con queste regole, modificando dimensioni, font, colori, immagini e tutto ciò che hai in mente!
+**Ora prova a smanettare un po’ **con queste classi e con queste regole, modificando dimensioni, font, colori, immagini e tutto ciò che hai in mente!
 
-Ricorda che**&nbsp;il modo migliore per imparare e dedicare tanto tempo**&nbsp;alla pratica, quindi**&nbsp;inizia a darci dentro con il CSS!**
+Ricorda che** il modo migliore per imparare e dedicare tanto tempo** alla pratica, quindi** inizia a darci dentro con il CSS!**
 
 ### Codice completo:
 
-Qua puoi trovare il&nbsp;**codice completo**&nbsp;dei file index.html e style.css
+Qua puoi trovare il **codice completo** dei file index.html e style.css
 
 **_index.html_**
 
@@ -524,7 +522,7 @@ Qua puoi trovare il&nbsp;**codice completo**&nbsp;dei file index.html e style.cs
 
 **_style.css_**
 
-<pre class="wp-block-code"><code>@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+<pre class="wp-block-code"><code>@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&amp;display=swap');
 body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 22px;
@@ -555,20 +553,18 @@ body{
     padding-top: 250px;
     color:white;
 }</code></pre>
-
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-4 wp-block-columns-is-layout-flex">
-  <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-    <p>
-      <em><a href="https://albertoreineri.it/guide/le-basi-dellhtml/"><< Le basi di HTML</a></em>
-    </p>
-  </div>
-
-  <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-    <p class="has-text-align-right">
-      <em><a href="https://albertoreineri.it/guide/le-basi-di-javascript/">Le basi di Javascript >></a></em>
-    </p>
-  </div>
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
+<p>
+<em><a href="/le-basi-dellhtml/">&lt;&lt; Le basi di HTML</a></em>
+</p>
+</div>
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
+<p class="has-text-align-right">
+<em><a href="/le-basi-di-javascript/">Le basi di Javascript &gt;&gt;</a></em>
+</p>
+</div>
 </div>
 
- [1]: https://albertoreineri.it/guide/le-basi-dellhtml/
- [2]: https://albertoreineri.it/guide/le-basi-dell-html/
+ [1]: /le-basi-dellhtml/
+ [2]: /le-basi-dellhtml/

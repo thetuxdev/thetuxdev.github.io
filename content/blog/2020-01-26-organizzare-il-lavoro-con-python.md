@@ -7,34 +7,32 @@ url: /organizzare-il-lavoro-con-python/
 nectar_blog_post_view_count:
   - 54
 tags:
-  - Personal
+  - Web Dev
 
 ---
 Da qualche tempo sto sviluppando **piccoli progettini in Python**. Non per lavoro, ma perché nella **community degli sviluppatori** online se ne parla molto spesso e sembra che questo linguaggio sia veramente fantastico.
 
-Così ho deciso di dedicarci qualche oretta alla settimana, in modo da avere un’**infarinatura generale**&nbsp;casomai dovessi realizzare qualcosa in questo linguaggio in futuro.
+Così ho deciso di dedicarci qualche oretta alla settimana, in modo da avere un’**infarinatura generale** casomai dovessi realizzare qualcosa in questo linguaggio in futuro.
 
-Mentre studiavo e sviluppavo, mi è venuta in mente un’idea per un**&nbsp;piccolo software realizzabile**&nbsp;molto semplicemente proprio**&nbsp;con Python.**
+Mentre studiavo e sviluppavo, mi è venuta in mente un’idea per un** piccolo software realizzabile** molto semplicemente proprio** con Python.**
 
-**Tutte le mattine**&nbsp;quando inizio a lavorare&nbsp;**lancio una serie di software&nbsp;**e pagine web, sempre le stesse, tutti i giorni…
+**Tutte le mattine** quando inizio a lavorare **lancio una serie di software **e pagine web, sempre le stesse, tutti i giorni…
 
-Così ho pensato di&nbsp;**automatizzare questo passaggio**, creando uno script che mi permetta di organizzarmi il computer appena acceso, aprendo tutto ciò di cui ho bisogno con un solo click.
+Così ho pensato di **automatizzare questo passaggio**, creando uno script che mi permetta di organizzarmi il computer appena acceso, aprendo tutto ciò di cui ho bisogno con un solo click.
 
-<div class="wp-block-image">
-  <figure class="aligncenter size-full"><img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/ezgif-6-6f58fa3bf18b.gif" alt="" class="wp-image-143" /></figure>
-</div>
+{{< image src="/assets/img/uploads/2022/03/ezgif-6-6f58fa3bf18b.gif" >}}
 
 
 
 ## Aprire browser web con Python
 
-Per prima cosa apro&nbsp;**google chrome**&nbsp;(o Microsoft Edge, dalla nuova versione è veramente migliorato).
+Per prima cosa apro **google chrome** (o Microsoft Edge, dalla nuova versione è veramente migliorato).
 
-Per prima cosa occorre importare il modulo&nbsp;_webbrowser_
+Per prima cosa occorre importare il modulo _webbrowser_
 
 <pre class="wp-block-code"><code>import webbrowser</code></pre>
 
-Dopodiché è sufficiente indicare quali siti vogliamo visualizzare. Io per esempio apro&nbsp;**Gmail&nbsp;**e poi Google&nbsp;**Calendar**&nbsp;e Google&nbsp;**Keep&nbsp;**in due tab separate, in questo modo:
+Dopodiché è sufficiente indicare quali siti vogliamo visualizzare. Io per esempio apro **Gmail **e poi Google **Calendar** e Google **Keep **in due tab separate, in questo modo:
 
 <pre class="wp-block-code"><code># Apro una nuova finestra del browser
 webbrowser.open_new("https://mail.google.com/mail/u/0/#inbox")
@@ -62,9 +60,9 @@ In questo modo il codice è più semplice da capire e più pulito.
 
 ## Aprire software esterni con Python
 
-Oltre al browser solitamente apro anche alcuni software. Uno in particolare è&nbsp;**XAMPP**, per poter lavorare comodamente in locale con i miei progetti in&nbsp;**PHP**.
+Oltre al browser solitamente apro anche alcuni software. Uno in particolare è **XAMPP**, per poter lavorare comodamente in locale con i miei progetti in **PHP**.
 
-Per aprire un software con&nbsp;**Python&nbsp;**è necessario importare il modulo&nbsp;_os_&nbsp;in questo modo:
+Per aprire un software con **Python **è necessario importare il modulo _os_ in questo modo:
 
 <pre class="wp-block-code"><code>import os</code></pre>
 
@@ -79,9 +77,9 @@ os.system(path)</code></pre>
 
 ## Aprire una cartella con Python
 
-Infine voglio aprire anche la cartella&nbsp;_htdocs_, nella quale risiedono tutti i miei progetti. Per questa operazione utilizzeremo sempre il modulo os, quindi non sarà più necessario importarlo.
+Infine voglio aprire anche la cartella _htdocs_, nella quale risiedono tutti i miei progetti. Per questa operazione utilizzeremo sempre il modulo os, quindi non sarà più necessario importarlo.
 
-Basterà indicare il percorso della cartella e utilizzare il metodo&nbsp;_startfile_, in questo modo:
+Basterà indicare il percorso della cartella e utilizzare il metodo _startfile_, in questo modo:
 
 <pre class="wp-block-code"><code>path = "C:/xampp/htdocs"
 path = os.path.realpath(path)
@@ -89,9 +87,9 @@ os.startfile(path)</code></pre>
 
 ## Nascondere la console di Python
 
-Questo è lo script. Ma c’è ancora una cosa che non mi piace:**&nbsp;la console di python che rimane aperta**&nbsp;sotto i software appena lanciati.
+Questo è lo script. Ma c’è ancora una cosa che non mi piace:** la console di python che rimane aperta** sotto i software appena lanciati.
 
-Fortunatamente si può nascondere in maniera molto semplice, basta inserire il seguente codice per&nbsp;**Windows**:
+Fortunatamente si può nascondere in maniera molto semplice, basta inserire il seguente codice per **Windows**:
 
 <pre class="wp-block-code"><code># Nascondere python console
 import win32gui, win32con

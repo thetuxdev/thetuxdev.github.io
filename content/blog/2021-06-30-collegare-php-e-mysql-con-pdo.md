@@ -11,10 +11,9 @@ tags:
   - PHP
 
 ---
-Collegare un database MySQL ad un progetto&nbsp;[PHP][1]&nbsp;è quasi sempre fondamentale, vediamo come farlo utilizzando PDO.
+Collegare un database MySQL ad un progetto [PHP][1] è quasi sempre fondamentale, vediamo come farlo utilizzando PDO.
 
-È possibile continuare ad utilizzare MySQLi, ma <a href="https://www.html.it/pag/63991/pdo-vs-mysqli/" target="_blank" rel="noreferrer noopener">PDO</a> garantisce livelli di sicurezza maggiori.<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
-
+È possibile continuare ad utilizzare MySQLi, ma <a href="https://www.html.it/pag/63991/pdo-vs-mysqli/" rel="noreferrer noopener" target="_blank">PDO</a> garantisce livelli di sicurezza maggiori.<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
 <div class="wp-block-embed__wrapper">
 </div></figure>
 
@@ -50,7 +49,7 @@ $query = $db-&gt;prepare("SELECT * FROM Users");
 $query-&gt;execute();
 $query-&gt;setFetchMode(PDO::FETCH_ASSOC);
 while($row = $query-&gt;fetch()){
-    echo $row&#91;'nome']. "&lt;br&gt;;
+    echo $row['nome']. "&lt;br&gt;;
 }</code></pre>
 
 E Voilà! Se vi appare l’elenco dei nomi che avete inserito nel DB allora la connessione del php con MySQL attraverso PDO è fatta, non resta che svilupparci la web app intorno!

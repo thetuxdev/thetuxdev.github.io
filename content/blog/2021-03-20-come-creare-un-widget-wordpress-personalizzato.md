@@ -11,58 +11,57 @@ tags:
   - WordPress Tricks
 
 ---
-Vuoi**&nbsp;creare i tuoi widget&nbsp;**personalizzati in WordPress?&nbsp;I widget ti consentono di aggiungere elementi non contenuti in una sidebar o in qualsiasi area predisposta per i widget del tuo sito web.
+Vuoi** creare i tuoi widget **personalizzati in WordPress? I widget ti consentono di aggiungere elementi non contenuti in una sidebar o in qualsiasi area predisposta per i widget del tuo sito web.
 
-Puoi utilizzare i widget per&nbsp;**aggiungere banner, pubblicità, moduli di iscrizione alla newsletter e altri elementi**&nbsp;sul tuo sito web.
+Puoi utilizzare i widget per **aggiungere banner, pubblicità, moduli di iscrizione alla newsletter e altri elementi** sul tuo sito web.
 
 In questo articolo, ti mostreremo come creare un widget WordPress personalizzato, passo dopo passo.
 
 ## CHE COS’È UN WIDGET WORDPRESS?
 
-I widget di WordPress contengono&nbsp;**parti di codice che puoi aggiungere alle sidebar del tuo sito Web o alle aree predisposte per accogliere i widget.**
+I widget di WordPress contengono **parti di codice che puoi aggiungere alle sidebar del tuo sito Web o alle aree predisposte per accogliere i widget.**
 
-Pensali come moduli che puoi usare per aggiungere diversi elementi usando una semplice**&nbsp;interfaccia drag and drop.**
+Pensali come moduli che puoi usare per aggiungere diversi elementi usando una semplice** interfaccia drag and drop.**
 
-Per impostazione predefinita,&nbsp;**WordPress viene fornito con un set standard di widget**&nbsp;che è possibile utilizzare con qualsiasi tema WordPress.&nbsp;Consulta la nostra guida per principianti su&nbsp;[come utilizzare i widget in WordPress][1]&nbsp;.<figure class="wp-block-image size-large">
+Per impostazione predefinita, **WordPress viene fornito con un set standard di widget** che è possibile utilizzare con qualsiasi tema WordPress. Consulta la nostra guida per principianti su [come utilizzare i widget in WordPress][1] .<figure class="wp-block-image size-large">
+<img alt="" class="wp-image-440" decoding="async" src="/assets/img/uploads/2022/03/image-1-2-1-1024x484.png"/> </figure>
 
-<img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/image-1-2-1-1024x484.png" alt="" class="wp-image-440" /> </figure>
-
-WordPress consente inoltre agli sviluppatori di&nbsp;**creare i propri widget personalizzati.**
+WordPress consente inoltre agli sviluppatori di **creare i propri widget personalizzati.**
 
 Molti temi e plugin premium di WordPress sono dotati di widget personalizzati che puoi aggiungere alle sidebar.
 
-Ad esempio, puoi aggiungere un&nbsp;modulo di contatto&nbsp;, un&nbsp;modulo di accesso personalizzato&nbsp;o una&nbsp;galleria fotografica&nbsp;a una sidebar senza scrivere alcun codice.
+Ad esempio, puoi aggiungere un modulo di contatto , un modulo di accesso personalizzato o una galleria fotografica a una sidebar senza scrivere alcun codice.
 
 Detto questo, vediamo come creare facilmente i tuoi widget personalizzati in WordPress.
 
 ## CREAZIONE DI UN WIDGET PERSONALIZZATO IN WORDPRESS
 
-Se stai imparando a sviluppare in WordPress, avrai bisogno di un&nbsp;**ambiente di sviluppo locale**.&nbsp;Puoi&nbsp;[installare WordPress][2]&nbsp;sul tuo computer (Mac o Windows).
+Se stai imparando a sviluppare in WordPress, avrai bisogno di un **ambiente di sviluppo locale**. Puoi [installare WordPress][2] sul tuo computer (Mac o Windows).
 
-Esistono&nbsp;**diversi modi&nbsp;**per aggiungere il codice del widget personalizzato in WordPress.
+Esistono **diversi modi **per aggiungere il codice del widget personalizzato in WordPress.
 
-Puoi&nbsp;creare un**&nbsp;plug-in**&nbsp;specifico per il sito&nbsp;e incollare qui il codice del tuo widget.
+Puoi creare un** plug-in** specifico per il sito e incollare qui il codice del tuo widget.
 
-Puoi anche incollare il codice nel**&nbsp;file&nbsp;Functions.php&nbsp;**del tuo tema&nbsp;.&nbsp;Tuttavia, sarà disponibile solo quando quel particolare tema è attivo.
+Puoi anche incollare il codice nel** file Functions.php **del tuo tema . Tuttavia, sarà disponibile solo quando quel particolare tema è attivo.
 
-In questo tutorial, creeremo un semplice widget che saluta i visitatori.&nbsp;L’obiettivo è familiarizzare con la classe del widget WordPress.
+In questo tutorial, creeremo un semplice widget che saluta i visitatori. L’obiettivo è familiarizzare con la classe del widget WordPress.
 
 _**Iniziamo**_.
 
 ## CREAZIONE DI UN WIDGET WORDPRESS DI BASE
 
-WordPress viene fornito con una classe Widget WordPress integrata.&nbsp;**Ogni nuovo widget WordPress estende la classe del widget WordPress.**
+WordPress viene fornito con una classe Widget WordPress integrata. **Ogni nuovo widget WordPress estende la classe del widget WordPress.**
 
-Esistono&nbsp;**18 metodi&nbsp;**menzionati nel manuale dello sviluppatore di WordPress che possono essere utilizzati con la&nbsp;<a rel="noreferrer noopener" href="http://developer.wordpress.org/reference/classes/wp_widget/" target="_blank">classe Widget WP</a>&nbsp;.
+Esistono **18 metodi **menzionati nel manuale dello sviluppatore di WordPress che possono essere utilizzati con la <a href="http://developer.wordpress.org/reference/classes/wp_widget/" rel="noreferrer noopener" target="_blank">classe Widget WP</a> .
 
-Tuttavia, per il bene di questo tutorial,&nbsp;**ci concentreremo sui seguenti metodi.**
+Tuttavia, per il bene di questo tutorial, **ci concentreremo sui seguenti metodi.**
 
   * __construct (): questa è la parte in cui creiamo l’ID del widget, il titolo e la descrizione.
   * widget: Qui è dove definiamo l’output generato dal widget.
   * modulo: questa parte del codice è dove creiamo il modulo con le opzioni del widget per il backend.
   * aggiornamento: questa è la parte in cui salviamo le opzioni del widget nel database.
 
-Studiamo il seguente codice in cui abbiamo usato questi quattro metodi all’interno della classe&nbsp;**WP_Widget**.
+Studiamo il seguente codice in cui abbiamo usato questi quattro metodi all’interno della classe **WP_Widget**.
 
 <pre class="wp-block-code"><code>// Creo il widget
 class swp_widget extends WP_Widget {
@@ -99,9 +98,9 @@ function swp_load_widget()
 }
 add_action('widgets_init', 'swp_load_widget');</code></pre>
 
-Ora mettiamo tutto insieme per**&nbsp;creare un widget WordPress di base.**
+Ora mettiamo tutto insieme per** creare un widget WordPress di base.**
 
-Puoi&nbsp;**copiare e incollare il seguente codice&nbsp;**nel tuo plugin personalizzato o nel file Functions.php del tema.
+Puoi **copiare e incollare il seguente codice **nel tuo plugin personalizzato o nel file Functions.php del tema.
 
 <pre class="wp-block-code"><code>// Creo il widget
 class swp_widget extends WP_Widget
@@ -126,23 +125,23 @@ class swp_widget extends WP_Widget
 
 	public function widget($args, $instance)
 	{
-		$title = apply_filters('widget_title', $instance&#91;'title']);
+		$title = apply_filters('widget_title', $instance['title']);
 
 		// Gli argomenti before and after widget sono definiti dal tema
-		echo $args&#91;'before_widget'];
+		echo $args['before_widget'];
 		if (!empty($title))
-			echo $args&#91;'before_title'] . $title . $args&#91;'after_title'];
+			echo $args['before_title'] . $title . $args['after_title'];
 
 		// Qua è dove vediamo l'output
 		echo __('Ciao mondo!', 'swp_widget_domain');
-		echo $args&#91;'after_widget'];
+		echo $args['after_widget'];
 	}
 
 	// Widget Backend
 	public function form($instance)
 	{
-		if (isset($instance&#91;'title'])) {
-			$title = $instance&#91;'title'];
+		if (isset($instance['title'])) {
+			$title = $instance['title'];
 		} else {
 			$title = __('Titolo', 'swp_widget_domain');
 		}
@@ -159,7 +158,7 @@ class swp_widget extends WP_Widget
 	public function update($new_instance, $old_instance)
 	{
 		$instance = array();
-		$instance&#91;'title'] = (!empty($new_instance&#91;'title'])) ? strip_tags($new_instance&#91;'title']) : '';
+		$instance['title'] = (!empty($new_instance['title'])) ? strip_tags($new_instance['title']) : '';
 		return $instance;
 	}
 
@@ -175,29 +174,27 @@ function swp_load_widget()
 add_action('widgets_init', 'swp_load_widget');
 </code></pre>
 
-Dopo aver aggiunto il codice, devi andare alla&nbsp;pagina&nbsp;**Aspetto »Widget**&nbsp;.&nbsp;Noterai il nuovo widget SpecialistaWP nell’elenco dei widget disponibili.&nbsp;Devi trascinare questo widget su una barra laterale.<figure class="wp-block-image size-large">
+Dopo aver aggiunto il codice, devi andare alla pagina **Aspetto »Widget** . Noterai il nuovo widget SpecialistaWP nell’elenco dei widget disponibili. Devi trascinare questo widget su una barra laterale.<figure class="wp-block-image size-large">
+<img alt="" class="wp-image-441" decoding="async" src="/assets/img/uploads/2022/03/image-2-1-1-1024x678.png"/> </figure>
 
-<img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/image-2-1-1-1024x678.png" alt="" class="wp-image-441" /> </figure>
+Questo widget ha solo un campo modulo da compilare, puoi **aggiungere il tuo testo e fare clic sul pulsante Salva **per memorizzare le modifiche.
 
-Questo widget ha solo un campo modulo da compilare, puoi&nbsp;**aggiungere il tuo testo e fare clic sul pulsante Salva&nbsp;**per memorizzare le modifiche.
+Ora puoi **visitare il tuo sito Web per vederlo in azione.**<figure class="wp-block-image size-large">
+<img alt="" class="wp-image-442" decoding="async" src="/assets/img/uploads/2022/03/image-3-1-2-1024x626.png"/> </figure>
 
-Ora puoi&nbsp;**visitare il tuo sito Web per vederlo in azione.**<figure class="wp-block-image size-large">
+Ora **studiamo di nuovo il codice.**
 
-<img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/image-3-1-2-1024x626.png" alt="" class="wp-image-442" /> </figure>
+Innanzitutto **abbiamo registrato “swp_widget” e caricato il nostro widget personalizzato**. Successivamente abbiamo definito cosa fa quel widget e come visualizzare il back-end del widget.
 
-Ora&nbsp;**studiamo di nuovo il codice.**
+Infine, abbiamo definito come **gestire le modifiche apportate al widget**.
 
-Innanzitutto&nbsp;**abbiamo registrato “swp_widget” e caricato il nostro widget personalizzato**.&nbsp;Successivamente abbiamo definito cosa fa quel widget e come visualizzare il back-end del widget.
+Ora ci sono alcune cose che potresti voler chiedere. Ad esempio, qual è lo scopo `swp_text_domain`?
 
-Infine, abbiamo definito come&nbsp;**gestire le modifiche apportate al widget**.
+WordPress utilizza gettext per gestire la traduzione e la localizzazione. Questo `swp_text_domain` e dice a gettext di rendere disponibile una stringa per la traduzione.
 
-Ora ci sono alcune cose che potresti voler chiedere.&nbsp;Ad esempio, qual è lo scopo&nbsp;`swp_text_domain`?
+Se stai creando un widget personalizzato per il tuo tema, puoi sostituirlo `swp_text_domain` con il **text_domain del tuo tema.**
 
-WordPress utilizza gettext per gestire la traduzione e la localizzazione.&nbsp;Questo&nbsp;`swp_text_domain`&nbsp;e&nbsp;dice a gettext di rendere disponibile una stringa per la traduzione.
-
-Se stai creando un widget personalizzato per il tuo tema, puoi sostituirlo&nbsp;`swp_text_domain`&nbsp;con il&nbsp;**text_domain del tuo tema.**
-
-Speriamo che questo articolo ti abbia&nbsp;**aiutato a imparare come creare facilmente un widget WordPress personalizzato**.&nbsp;
+Speriamo che questo articolo ti abbia **aiutato a imparare come creare facilmente un widget WordPress personalizzato**. 
 
 Buono sviluppo!
 

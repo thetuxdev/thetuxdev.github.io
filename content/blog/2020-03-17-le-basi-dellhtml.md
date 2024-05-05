@@ -21,7 +21,7 @@ _Questo corso è rivolto ai **principianti**, pertanto se conosci già l’HTML
 
 L’HTML non è proprio un linguaggio di programmazione, ma è un **linguaggio di markup,** infatti HTML è l’acronimo di _HyperText Markup Language_.
 
-Ciò significa che l’HTML non fa operazioni di calcolo, ma sostanzialmente indica al browser **come _montare _la pagina**, cosa posizionare e come posizionarlo.
+Ciò significa che l’HTML non fa operazioni di calcolo, ma sostanzialmente indica al browser **come _montare_ la pagina**, cosa posizionare e come posizionarlo.
 
 ## Cosa serve per iniziare
 
@@ -62,8 +62,6 @@ Anche qui hai comunque molta scelta! Ecco alcune delle migliori **alternative 
 Ora che hai scaricato un browser e un editor di testo, possiamo crerare il nostro primo file HTML.
 
 Creiamo una **cartella **sul desktop chiamata “**HTML**“. Ora apriamo questa cartella con **VS Code**, facendo click con il tasto destro del mouse all’interno della cartella e cliccando “**Apri con Code**“
-
-{{< image src="https://albertoreineri.it/wp-content/uploads/2022/03/Group-5-1.jpeg" >}}
 
 Ora possiamo creare il nostro file con VS Code.
 
@@ -169,8 +167,6 @@ Chiamiamo questa pagina “**La mia prima pagina web**“
 
 Ora salviamo il file e apriamolo, semplicemente aprendo la cartella “**HTML**” e facendoci **doppio click** sopra.
 
-{{< image src="https://albertoreineri.it/wp-content/uploads/2022/03/image-1536x529-1-1024x353.png" >}}
-
 Ci troveremo di fonte una **pagina completamente bianca**, perché non abbiamo ancora inserito nessun codice nel contenuto.
 
 Possiamo vedere però che il nome della scheda in alto è “**La mia prima pagina web**“. Questo è il **_<title>_** della nostra pagina.
@@ -192,7 +188,7 @@ Andiamo **fra i tag <body></body>** e inseriamo questo:
 
 Ora** salva la pagina e aggiornala nel browser**, vedrai comparire del contenuto!
 
-{{< image src="https://albertoreineri.it/wp-content/uploads/2022/03/image-1.png" >}}
+{{< image src="/assets/img/uploads/2022/03/image-1.png" >}}
 
 Non è difficile da capire, ogni tag spiega se stesso.
 
@@ -224,7 +220,7 @@ Adesso** richiamiamo l’immagine nel nostro file _index.html_,** in questo m
 
 Ora **salviamo **il file e **aggiorniamo **il browser.
 
-{{< image src="https://albertoreineri.it/wp-content/uploads/2022/03/image-2-768x370-1.png" >}}
+{{< image src="/assets/img/uploads/2022/03/image-2-768x370-1.png" >}}
 
 Vediamo che l’immagine viene visualizzata nella nostra pagina html.
 
@@ -236,7 +232,7 @@ Per visualizzare l’immagine in modo più carino possiamo aggiungere un altro a
 
 In questo modo sto **impostando la larghezza dell’immagine a 200px.** Ed ecco che si vede tutto decisamente meglio.
 
-{{< image src="https://albertoreineri.it/wp-content/uploads/2022/03/image-3.png" >}}
+{{< image src="/assets/img/uploads/2022/03/image-3.png" >}}
 
 In questo modo posso **ridimensionare **l’immagine.
 
@@ -268,8 +264,6 @@ Aggiungi questo codice a_** index.html**_
     &lt;/p&gt;</code></pre>
 
 ed ecco il **risultato**
-
-{{< image src="https://albertoreineri.it/wp-content/uploads/2022/03/image-4-1536x666-1-1024x444.png" >}}
 
 Per inserire i colori ho utilizzato l’attributo “style”, che permette di inserire del codice CSS all’interno dell’HTML, ma lo vedremo meglio nella[ guida][1] [al CSS.][2]
 
@@ -394,11 +388,11 @@ Per questa guida è tutto. Ti lascio ancora **il codice per intero della nostra
 
 
 <p class="has-text-align-right">
-  Leggi anche <em><a href="https://albertoreineri.it/guide/le-basi-del-css/">Le basi del CSS &gt;&gt;</a></em>
+  Leggi anche <em><a href="/le-basi-del-css/">Le basi del CSS &gt;&gt;</a></em>
 </p>
 <div class="wp-block-buttons is-content-justification-right is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
 </div>
 
- [1]: https://albertoreineri.it/guide/le-basi-del-css/
- [2]: https://albertoreineri.it/corso-intensivo-di-css/side
+ [1]: /le-basi-del-css/
+ [2]: /corso-intensivo-di-css/side
 </span></div></span></span></div></div></title></title></li></ol></ul>

@@ -29,14 +29,8 @@
 [[social]]
   name = "GitHub"
   pre = "fab fa-github"
-  url = "https://github.com/"
+  url = "https://github.com/thetuxdev"
   weight = 20
-
-[[social]]
-  name = "Medium"
-  pre = "fab medium"
-  url = "https://medium.com/"
-  weight = 30
 
 # toml-docs-start sample-navigation
 [[sample]]

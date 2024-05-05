@@ -10,17 +10,17 @@ tags:
   - Tech
 
 ---
-Ebbene sì, sono passato ad&nbsp;**Apple**! Ho acquistato il nuovo Macbook Pro 2020.
+Ebbene sì, sono passato ad **Apple**! Ho acquistato il nuovo Macbook Pro 2020.
 
 È stata una decisione **[pensata a lungo][1]**, ho valutato tutto nei minimi dettagli e alla fine mi sono deciso a fare l’acquisto. **Ne è valsa la pena?**
 
-Ve lo racconto in questo articolo. Essendo uno&nbsp;**sviluppatore**&nbsp;mi concentrerò soprattutto sul software, ma parlerò anche un pochino di hardware.
+Ve lo racconto in questo articolo. Essendo uno **sviluppatore** mi concentrerò soprattutto sul software, ma parlerò anche un pochino di hardware.
 
 ## Quale Macbook?
 
 Per prima cosa devo specificare il modello che ho acquistato. L’offerta della Apple, sebbene sia sempre limitata, contiene macchine molto diverse fra loro per prestazioni e potenza.
 
-Io mi sono portato a casa il&nbsp;**<a href="https://www.apple.com/it/macbook-pro/" target="_blank" rel="noreferrer noopener">Macbook Pro 2020 Modello Base</a>**&nbsp;(core i5 di ottava generazione, 8Gb di RAM e 250Gb di SSD).
+Io mi sono portato a casa il **<a href="https://www.apple.com/it/macbook-pro/" rel="noreferrer noopener" target="_blank">Macbook Pro 2020 Modello Base</a>** (core i5 di ottava generazione, 8Gb di RAM e 250Gb di SSD).
 
 Secondo me al momento è il miglior compromesso fra prezzo e prestazioni. Certo è sempre molto più caro di un suo equivalente Windows, ma analizzandolo a fondo alla fine si scopre che non è proprio così.
 
@@ -32,9 +32,9 @@ Non perché odio Windows, anzi, però Mac Os è molto più gradevole e ordinato.
 
 ## Perché sono passato a Apple?
 
-**Unix&nbsp;**è la risposta base. Lavorando sempre più spesso con il terminale sentivo molto la mancanza di questo tool in Windows. Mi sono arrangiato per molto con WSL, ma non è la stessa cosa.
+**Unix **è la risposta base. Lavorando sempre più spesso con il terminale sentivo molto la mancanza di questo tool in Windows. Mi sono arrangiato per molto con WSL, ma non è la stessa cosa.
 
-Sono un tipo un po’&nbsp;**precisino**, e avere un PC con due terminali suoi (cmd e Powershell) più altri sottosistemi (io avevo Ubuntu e Kali Linux) crea un gran disordine d’insieme. Ci sono alcune cose che funzionano solo su linux e quindi necessitano della WSL, altre che invece devono girare per forza con Powershell, e alla fine tutto questo disordine è disorientativo e porta via molto tempo in configurazioni.
+Sono un tipo un po’ **precisino**, e avere un PC con due terminali suoi (cmd e Powershell) più altri sottosistemi (io avevo Ubuntu e Kali Linux) crea un gran disordine d’insieme. Ci sono alcune cose che funzionano solo su linux e quindi necessitano della WSL, altre che invece devono girare per forza con Powershell, e alla fine tutto questo disordine è disorientativo e porta via molto tempo in configurazioni.
 
 Su MacOS il terminale funziona alla grande, e può contare su un ambiente bello e elegante, cosa che purtroppo non ho mai trovato il Linux. Certo Ubuntu è molto figo anche come design, ma non mi ci sono mai trovato veramente a mio agio, soprattutto quando si trattava di usare strumenti di design.
 
@@ -81,4 +81,4 @@ Questa è la mia esperienza con il nuovo Macbook Pro fino ad adesso, spero conti
 
 _Buon codice!_
 
- [1]: https://albertoreineri.it/nuovi-macbook-con-m1-per-programmare/
+ [1]: /nuovi-macbook-con-m1-per-programmare/

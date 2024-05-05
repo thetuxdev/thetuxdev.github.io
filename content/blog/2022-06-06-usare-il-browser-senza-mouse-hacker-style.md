@@ -11,11 +11,11 @@ tags:
   - Web Dev
 
 ---
-Passiamo molto, moltissimo tempo sul browser ormai, e usare il mouse per la navigazione può essere frustranete per noi sviluppatori&#8230; Ma è possibile farne a meno e muoversi solamente utilizzando la tastiera, come un vero hacker! Vediamo come si fa.
+Passiamo molto, moltissimo tempo sul browser ormai, e usare il mouse per la navigazione può essere frustranete per noi sviluppatori… Ma è possibile farne a meno e muoversi solamente utilizzando la tastiera, come un vero hacker! Vediamo come si fa.
 
 ## Vimium Extension
 
-Per prima cosa devi scaricare l&#8217;estensione <a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb" target="_blank" rel="noreferrer noopener">Vimium</a>. Io uso Google Chrome, ma è presente anche per <a href="https://addons.mozilla.org/it/firefox/addon/vimium-ff/" target="_blank" rel="noreferrer noopener">Firefox</a> e <a href="https://apps.apple.com/us/app/vimari/id1480933944?mt=12" target="_blank" rel="noreferrer noopener">Safari</a> (se usi Brave o Edge non preoccuparti, puoi installare l&#8217;estensione per Google Chrome, funzionerà perfettamente perché questi browser condividono la stessa base).
+Per prima cosa devi scaricare l’estensione <a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb" rel="noreferrer noopener" target="_blank">Vimium</a>. Io uso Google Chrome, ma è presente anche per <a href="https://addons.mozilla.org/it/firefox/addon/vimium-ff/" rel="noreferrer noopener" target="_blank">Firefox</a> e <a href="https://apps.apple.com/us/app/vimari/id1480933944?mt=12" rel="noreferrer noopener" target="_blank">Safari</a> (se usi Brave o Edge non preoccuparti, puoi installare l’estensione per Google Chrome, funzionerà perfettamente perché questi browser condividono la stessa base).
 
 Dopo averla installata potrete iniziare ad utilizzare il vostro browser direttamente dalla tasitera.
 
@@ -62,7 +62,7 @@ x          Chiudi tab corrente
 X          Riapri tab chiusa
 T          Cerca fra le tab</code></pre>
 
-Ecco qua, questi sono solamente i comandi principali, ne esistono altri che puoi leggere qua: <a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb" target="_blank" rel="noreferrer noopener">https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb</a>
+Ecco qua, questi sono solamente i comandi principali, ne esistono altri che puoi leggere qua: <a href="https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb" rel="noreferrer noopener" target="_blank">https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb</a>
 
 E questo è tutto! Non ti resta che provare ad utilizzarli e vedrai che in breve tempo potrai usare il browser totalmente in hacker style ?‍?
 

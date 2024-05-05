@@ -13,7 +13,7 @@ tags:
 ---
 Usare un sistema di routing in php può portare grandi vantaggi a un progetto.
 
-Gli&nbsp;**URL&nbsp;**delle pagine web di un sito sono**&nbsp;molto importanti**, sia per i motori di ricerca, sia per gli utenti, che sempre di più li usano per navigare velocemente all’interno di un sito.
+Gli **URL **delle pagine web di un sito sono** molto importanti**, sia per i motori di ricerca, sia per gli utenti, che sempre di più li usano per navigare velocemente all’interno di un sito.
 
 _Se per esempio l’url di una pagina che elenca una serie di articoli è http://www.nomesito.it/2019/05/15 l’utente, se conosce minimamente come funziona un browser ed il web, saprà già che se cancella il “15” dall’URL vedrà l’elenco degli articoli del mese, se cancella “05” vedrà l’elenco degli articoli dell’anno e così via._
 
@@ -23,18 +23,17 @@ Una cosa che non mi è mai piaciuta dei primi siti web che realizzavo era vedere
 
 **Ma è possibile creare degli URL custom e SEO friendly senza utilizzare un CMS o un framework?**
 
-La risposta è**&nbsp;assolutamente SI!!!**
+La risposta è** assolutamente SI!!!**
 
-Se sei interessato ad una semplice soluzione per “nascondere” il “.php” alla fine dell’URL leggi questo&nbsp;[articolo][1].
+Se sei interessato ad una semplice soluzione per “nascondere” il “.php” alla fine dell’URL leggi questo [articolo][1].
 
 Se vuoi imparare ad utilizzare un semplice sistema di routing in PHP ecco come puoi fare.
 
 ## CREARE UN SISTEMA DI GESTIONE DEL ROUTING DEL SITO<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
-
 <div class="wp-block-embed__wrapper">
 </div></figure>
 
-Andremo a&nbsp;**dirigere tutto il traffico alla index.php e poi eseguiremo un “routing” alla pagina che vogliamo**.
+Andremo a **dirigere tutto il traffico alla index.php e poi eseguiremo un “routing” alla pagina che vogliamo**.
 
 ### Dirigere tutto il traffico alla index.php
 
@@ -48,7 +47,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteCond %{REQUEST_FILENAME} !-f
 
-RewriteRule ^(.+)$ index.php &#91;QSA,L]</code></pre>
+RewriteRule ^(.+)$ index.php [QSA,L]</code></pre>
 
 In questo modo qualsiasi richiesta verrà fatta al server questo aprirà il file “index.php”
 
@@ -58,7 +57,7 @@ Nel file index.php inserisci il seguente codice:
 
 <pre class="wp-block-code"><code>&lt;?php
 
-$request = $_SERVER&#91;'REQUEST_URI'];
+$request = $_SERVER['REQUEST_URI'];
 
 switch ($request) {
     case '/' :
@@ -75,19 +74,19 @@ switch ($request) {
         break;
 }</code></pre>
 
-In questo modo si salverà nella variabile&nbsp;**$request**&nbsp;la richiesta inviata al server (la parte dell’url dopo “www.nomesito.it”).
+In questo modo si salverà nella variabile **$request** la richiesta inviata al server (la parte dell’url dopo “www.nomesito.it”).
 
-Dopodiché effettuando una switch si può richiamare la pagina corrispondente alla richiesta nell’URL.&nbsp;
+Dopodiché effettuando una switch si può richiamare la pagina corrispondente alla richiesta nell’URL. 
 
-Nei casi in cui la richiesta sia vuota oppure uno “**/**” allora si rimanda alla&nbsp;**homepage**, altrimenti si può rimandare alla pagina corretta.
+Nei casi in cui la richiesta sia vuota oppure uno “**/**” allora si rimanda alla **homepage**, altrimenti si può rimandare alla pagina corretta.
 
 Nell’esempio ho creato una cartella “**views**” nella root del sito nella quale saranno presenti i file delle singole pagine. In questo modo il codice sarà anche più snello e capibile.
 
-Infine è già presente anche la gestione dell’errore&nbsp;**404**, senza dover inserire altro codice nell’htaccess.
+Infine è già presente anche la gestione dell’errore **404**, senza dover inserire altro codice nell’htaccess.
 
 ### Creare le views
 
-A questo punto non ci resta che creare i file per le nostre&nbsp;**views**, cioè le pagine visualizzate dall’utente.
+A questo punto non ci resta che creare i file per le nostre **views**, cioè le pagine visualizzate dall’utente.
 
 Potete creare semplicemente i seguenti file con il seguente codice in ognuno di essi:
 
@@ -105,12 +104,12 @@ Potete creare semplicemente i seguenti file con il seguente codice in ognuno di 
 
 E voilà! Avrete un sistema di routing in PHP semplice da gestire ma funzionale.
 
-Questo sistema&nbsp;è alla base di&nbsp;<a href="https://orange.albertoreineri.it/" target="_blank" rel="noreferrer noopener">Orange CMS</a>, il mio CMS realizzato in php. Ampliandolo a dovere è possibile raggiungere risultati molto soddisfacenti.
+Questo sistema è alla base di <a href="https://orange.albertoreineri.it/" rel="noreferrer noopener" target="_blank">Orange CMS</a>, il mio CMS realizzato in php. Ampliandolo a dovere è possibile raggiungere risultati molto soddisfacenti.
 
 Spero possa esservi di aiuto.
 
 _Buon codice!_
 
-Se l’articolo ti è stato&nbsp;**utile&nbsp;**lasciami un commento oppure condividilo sui social, lo&nbsp;**apprezzerei&nbsp;**molto!
+Se l’articolo ti è stato **utile **lasciami un commento oppure condividilo sui social, lo **apprezzerei **molto!
 
- [1]: https://albertoreineri.it/guide/nascondere-lestensione-alla-fine-dellurl/
+ [1]: /nascondere-lestensione-alla-fine-dellurl/

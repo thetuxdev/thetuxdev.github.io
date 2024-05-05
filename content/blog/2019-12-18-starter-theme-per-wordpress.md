@@ -38,6 +38,6 @@ In questo modo non devo ogni volta dipartire proprio da zero, ho già lo schelet
 
 ## Starter Theme per WordPress Open Source
 
-Dopo aver realizzato Orange Starter Theme per WordPress ed averlo utilizzato con successo in molti siti web, ho deciso di renderlo&nbsp;<a href="https://github.com/alby-dev/orange-starter-theme" target="_blank" rel="noreferrer noopener">open source</a>, in questo modo potrà essere utilizzato e ampliato da chiunque.
+Dopo aver realizzato Orange Starter Theme per WordPress ed averlo utilizzato con successo in molti siti web, ho deciso di renderlo <a href="https://github.com/alby-dev/orange-starter-theme" rel="noreferrer noopener" target="_blank">open source</a>, in questo modo potrà essere utilizzato e ampliato da chiunque.
 
-Ogni eventuale bug potrà essermi segnalato tramite&nbsp;<a href="https://github.com/alby-dev/orange-starter-theme" target="_blank" rel="noreferrer noopener">github</a>&nbsp;o direttamente dal modulo contatti di questo sito, prenderò in carico il problema e lo risolverò nel più breve tempo possibile.
+Ogni eventuale bug potrà essermi segnalato tramite <a href="https://github.com/alby-dev/orange-starter-theme" rel="noreferrer noopener" target="_blank">github</a> o direttamente dal modulo contatti di questo sito, prenderò in carico il problema e lo risolverò nel più breve tempo possibile.

@@ -12,62 +12,61 @@ tags:
 
 ---
 <p class="has-cyan-bluish-gray-color has-text-color">
-  <em>Questa guida fa riferimento a Bootstrap 4, ora è uscita la versione 5&#8230; Appena avrò un attimo di tempo la aggiornerò!</em>
+<em>Questa guida fa riferimento a Bootstrap 4, ora è uscita la versione 5… Appena avrò un attimo di tempo la aggiornerò!</em>
 </p>
+<hr class="wp-block-separator"/>
 
-<hr class="wp-block-separator" />
+Se vuoi diventare uno **sviluppatore web** oggi non puoi fare a meno che scontrarti con **bootstrap**.
 
-Se vuoi diventare uno&nbsp;**sviluppatore web**&nbsp;oggi non puoi fare a meno che scontrarti con&nbsp;**bootstrap**.
+Come dice il <a href="https://getbootstrap.com/" rel="noreferrer noopener" target="_blank">sito web uffiliale</a>, **Bootstrap è il framework HTML, CSS e JS più popolare al mondo!**
 
-Come dice il&nbsp;<a href="https://getbootstrap.com/" target="_blank" rel="noreferrer noopener">sito web uffiliale</a>,&nbsp;**Bootstrap è il framework HTML, CSS e JS più popolare al mondo!**
+Una vastissima parte dei layout web sono create attraverso **Bootstrap**, perché rende lo sviluppo responsive **semplice e veloce.**
 
-Una vastissima parte dei layout web sono create attraverso&nbsp;**Bootstrap**, perché rende lo sviluppo responsive&nbsp;**semplice e veloce.**
-
-Sebbene esisteno anche altre alternative, Bootstrap rimane un fondamento nei&nbsp;**layout del web**.
+Sebbene esisteno anche altre alternative, Bootstrap rimane un fondamento nei **layout del web**.
 
 ## Cos’è Bootstrap
 
-Ma che cos’è praticamente&nbsp;**Bootstrap**?
+Ma che cos’è praticamente **Bootstrap**?
 
-Bootstrap è un insieme di**&nbsp;librerie css e js**&nbsp;che velocizzano la realizzazione dei layout delle pagine web.
+Bootstrap è un insieme di** librerie css e js** che velocizzano la realizzazione dei layout delle pagine web.
 
-È stato sviluppato da&nbsp;**Twitter&nbsp;**ed è un progetto&nbsp;**open source.**
+È stato sviluppato da **Twitter **ed è un progetto **open source.**
 
 ## Come includere Bootstrap
 
-Per poter utilizzare Bootstrap occorre includerlo nel progetto,&nbsp;**inserendo&nbsp;**le librerie css e js nella pagina web.
+Per poter utilizzare Bootstrap occorre includerlo nel progetto, **inserendo **le librerie css e js nella pagina web.
 
-Questo può essere fatto in&nbsp;**2 modi:**
+Questo può essere fatto in **2 modi:**
 
   * Tramite CDN
   * Scaricando i file
 
 ### CDN
 
-Questo metodo consiste nel&nbsp;**richiamare Bootstrap dalla CDN**. È facile e veloce, non occorre scaricare nulla, basta inserire questo codice nell’**_<head>_**:
+Questo metodo consiste nel **richiamare Bootstrap dalla CDN**. È facile e veloce, non occorre scaricare nulla, basta inserire questo codice nell’**_<head>_**:
 
 <pre class="wp-block-code"><code>&lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"&gt;
 </code></pre>
 
-e questo prima della fine del&nbsp;**_<body>_**:
+e questo prima della fine del **_<body>_**:
 
 <pre class="wp-block-code"><code>&lt;script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"&gt;&lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"&gt;&lt;/script&gt;
 &lt;script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"&gt;&lt;/script&gt;</code></pre>
 
-**_E voilà!&nbsp;_**Bootstrap è inserito sul sito ed è pronto a funzionare!
+**_E voilà! _**Bootstrap è inserito sul sito ed è pronto a funzionare!
 
 ### Scaricando i file
 
-Questo metodo consiste nello**&nbsp;scaricare i file di bootstrap**, inserirli nella cartella del sito web e&nbsp;**richiamarli**.
+Questo metodo consiste nello** scaricare i file di bootstrap**, inserirli nella cartella del sito web e **richiamarli**.
 
-I file di Bootstrap sono&nbsp;**scaricabili**&nbsp;a questa pagina:
+I file di Bootstrap sono **scaricabili** a questa pagina:
 
-<https://getbootstrap.com/docs/4.0/getting-started/download/>
+<https: 4.0="" docs="" download="" getbootstrap.com="" getting-started=""></https:>
 
-Una volta scaricati occorrerà inserire il file&nbsp;**css nell'<head>**&nbsp;e il&nbsp;**js prima del </body>.**
+Una volta scaricati occorrerà inserire il file **css nell'<head>** e il **js prima del </head></body>.**
 
-Nel download saranno presenti&nbsp;**molte versioni**&nbsp;dei file, a noi interessano quelli minizzati:
+Nel download saranno presenti **molte versioni** dei file, a noi interessano quelli minizzati:
 
   * bootstrap.min.css
   * bootstrap.min.js
@@ -76,11 +75,11 @@ Inseriamo quindi questo codice nell’_**<head>**_:
 
 <pre class="wp-block-code"><code>&lt;link rel="stylesheet" href="css/bootstrap.min.css"&gt;</code></pre>
 
-E questo prima del**_&nbsp;</body>_**:
+E questo prima del**_ _**:
 
 <pre class="wp-block-code"><code>&lt;script src="js/bootstrap.min.css"&gt;&lt;/script&gt;</code></pre>
 
-Proseguendo**&nbsp;utilizzeremo il metodo CDN**, per semplicità e velocità di configurazione.
+Proseguendo** utilizzeremo il metodo CDN**, per semplicità e velocità di configurazione.
 
 **Ecco il template di base da cui partiremo:**
 
@@ -112,17 +111,17 @@ Proseguendo**&nbsp;utilizzeremo il metodo CDN**, per semplicità e velocità di 
 
 ## La griglia di Bootstrap
 
-La&nbsp;**parte fondamentale**&nbsp;di Bootstrap è la sua griglia.
+La **parte fondamentale** di Bootstrap è la sua griglia.
 
-Bootstrap utilizza un sistema basato su&nbsp;**12 colonne**, che si&nbsp;**adattano&nbsp;**alla dimensione dello&nbsp;**schermo**.
+Bootstrap utilizza un sistema basato su **12 colonne**, che si **adattano **alla dimensione dello **schermo**.
 
-La griglia è composta da un&nbsp;**contenitore&nbsp;**(_container_), al cui interno vengono inserite delle&nbsp;**righe&nbsp;**(_row_), al cui interno possono essere inserite delle&nbsp;**colonne&nbsp;**(_col_).
+La griglia è composta da un **contenitore **(_container_), al cui interno vengono inserite delle **righe **(_row_), al cui interno possono essere inserite delle **colonne **(_col_).
 
-Le colonne possono essere configurate in modo che la loro**&nbsp;larghezza si adatti e cambi**&nbsp;a seconda della dimensione dello schermo.
+Le colonne possono essere configurate in modo che la loro** larghezza si adatti e cambi** a seconda della dimensione dello schermo.
 
 **Ma è tutto più facile a farsi che a dirsi, quindi iniziamo!**
 
-Creiamo un&nbsp;**layout&nbsp;**suddiviso su&nbsp;**2 colonne**&nbsp;che diventeranno 1 se lo schermo è più piccolo di un laptop!
+Creiamo un **layout **suddiviso su **2 colonne** che diventeranno 1 se lo schermo è più piccolo di un laptop!
 
 Sotto l'<h1> del nostro file inseriamo questo:
 
@@ -140,17 +139,12 @@ Sotto l'<h1> del nostro file inseriamo questo:
 
 Il codice si spiega da solo!
 
-Ecco che abbiamo un layout con 2 colonne su&nbsp;**desktop**:
+Ecco che abbiamo un layout con 2 colonne su **desktop**:
 
-<div class="wp-block-image">
-  <figure class="aligncenter size-large"><img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/image-15-1024x76.png" alt="" class="wp-image-199" /></figure>
-</div>
 
-E di 1 colonna da&nbsp;**tablet&nbsp;**in giù:
+E di 1 colonna da **tablet **in giù:
 
-<div class="wp-block-image">
-  <figure class="aligncenter size-full"><img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/image-17.png" alt="" class="wp-image-200" /></figure>
-</div>
+{{< image src="/assets/img/uploads/2022/03/image-17.png" >}}
 
 Vedrai che la larghezza è minore dell’intero schermo del desktop.
 
@@ -158,111 +152,89 @@ Se vuoi una larghezza del layout al 100% sostituisci “**container**” con “
 
 ## Come visualizzare la modalità mobile da pc
 
-Per avere un’idea di come il sito sarà sui vari&nbsp;**dispositivi&nbsp;**puoi utilizzare la funzione “**Toggle Device**” di Chrome.
+Per avere un’idea di come il sito sarà sui vari **dispositivi **puoi utilizzare la funzione “**Toggle Device**” di Chrome.
 
-Su google chrome premi&nbsp;**f12&nbsp;**e poi questa&nbsp;**icona**&nbsp;sulla sinistra:
+Su google chrome premi **f12 **e poi questa **icona** sulla sinistra:
 
-<div class="wp-block-image">
-  <figure class="aligncenter size-full"><img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/image-18.png" alt="" class="wp-image-201" /></figure>
-</div>
+{{< image src="/assets/img/uploads/2022/03/image-18.png" >}}
 
-Dopodiché in alto potrai scegliere un dispositivo mobile oppure selezionare le&nbsp;**dimensioni&nbsp;**che preferisci attraverso l’opzione “**Responsive**“
+Dopodiché in alto potrai scegliere un dispositivo mobile oppure selezionare le **dimensioni **che preferisci attraverso l’opzione “**Responsive**“
 
-<div class="wp-block-image">
-  <figure class="aligncenter size-full"><img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/image-20.png" alt="" class="wp-image-203" /></figure>
-</div>
+{{< image src="/assets/img/uploads/2022/03/image-20.png" >}}
 
 ## Breakpoints
 
-Bootstrap ha già preimpostati vari&nbsp;**breakpoints**, dal&nbsp;**desktop&nbsp;**al&nbsp;**mobile**.
+Bootstrap ha già preimpostati vari **breakpoints**, dal **desktop **al **mobile**.
 
-Indicando&nbsp;**col-lg-6**&nbsp;significa che il contenuto occuperà**&nbsp;6 colonne delle 12&nbsp;**disponibili finché la larghezza è maggiore di lg, dopodiché il contenuto occuperà l’intera larghezza dello schermo.
+Indicando **col-lg-6** significa che il contenuto occuperà** 6 colonne delle 12 **disponibili finché la larghezza è maggiore di lg, dopodiché il contenuto occuperà l’intera larghezza dello schermo.
 
-Ecco una tabella delle&nbsp;**dimensioni&nbsp;**e delle colonne di bootstrap:<figure class="wp-block-table">
-
+Ecco una tabella delle **dimensioni **e delle colonne di bootstrap:<figure class="wp-block-table">
 <table>
-  <tr>
-    <th>
-      &nbsp;
+<tr>
+<th>
+       
     </th>
-
-    <th>
-      Extra small<br /><small><576px</small>
-    </th>
-
-    <th>
-      Small<br /><small>≥576px</small>
-    </th>
-
-    <th>
-      Medium<br /><small>≥768px</small>
-    </th>
-
-    <th>
-      Large<br /><small>≥992px</small>
-    </th>
-
-    <th>
-      Extra large<br /><small>≥1200px</small>
-    </th>
-  </tr>
-
-  <tr>
-    <th scope="row">
+<th>
+      Extra small<br/><small>&lt;576px</small>
+</th>
+<th>
+      Small<br/><small>≥576px</small>
+</th>
+<th>
+      Medium<br/><small>≥768px</small>
+</th>
+<th>
+      Large<br/><small>≥992px</small>
+</th>
+<th>
+      Extra large<br/><small>≥1200px</small>
+</th>
+</tr>
+<tr>
+<th scope="row">
       Max container width
     </th>
-
-    <td>
+<td>
       None (auto)
     </td>
-
-    <td>
+<td>
       540px
     </td>
-
-    <td>
+<td>
       720px
     </td>
-
-    <td>
+<td>
       960px
     </td>
-
-    <td>
+<td>
       1140px
     </td>
-  </tr>
-
-  <tr>
-    <th scope="row">
+</tr>
+<tr>
+<th scope="row">
       Class prefix
     </th>
-
-    <td>
-      <code>.col-</code>
-    </td>
-
-    <td>
-      <code>.col-sm-</code>
-    </td>
-
-    <td>
-      <code>.col-md-</code>
-    </td>
-
-    <td>
-      <code>.col-lg-</code>
-    </td>
-
-    <td>
-      <code>.col-xl-</code>
-    </td>
-  </tr>
+<td>
+<code>.col-</code>
+</td>
+<td>
+<code>.col-sm-</code>
+</td>
+<td>
+<code>.col-md-</code>
+</td>
+<td>
+<code>.col-lg-</code>
+</td>
+<td>
+<code>.col-xl-</code>
+</td>
+</tr>
 </table></figure>
 
-È possibile creare**&nbsp;layout complessi in modo semplice**, grazie a questo sistema di suddivisione delle colonne.
+È possibile creare** layout complessi in modo semplice**, grazie a questo sistema di suddivisione delle colonne.
 
-Ecco un&nbsp;**esempio**:
+Ecco un **esempio**:
 
 <pre class="wp-block-code"><code>    &lt;!-- Layout 2 colonne Laptop, 3 colonna da tablet, 1 colonna da smartphone --&gt;
     &lt;div class="container bg-secondary"&gt;
@@ -290,15 +262,15 @@ Ecco un&nbsp;**esempio**:
 
 In questo caso abbiamo 2 colonne da desktop, 3 da tablet e 1 da smartphone.
 
-Ora**&nbsp;prova anche tu&nbsp;**a creare dei layout utilizzando la tabella qua sopra! Il modo migliore per imparare è**&nbsp;provare, provare e provare!**
+Ora** prova anche tu **a creare dei layout utilizzando la tabella qua sopra! Il modo migliore per imparare è** provare, provare e provare!**
 
 ## Componenti
 
-Bootstrap, oltre alla griglia, comprende una serie di&nbsp;**componenti già belli e pronti&nbsp;**da utilizzare sui nostri siti, basta copiare il componente,&nbsp;**incollarlo&nbsp;**nel nostro sito e poi andarlo a modificare come più ci piace!
+Bootstrap, oltre alla griglia, comprende una serie di **componenti già belli e pronti **da utilizzare sui nostri siti, basta copiare il componente, **incollarlo **nel nostro sito e poi andarlo a modificare come più ci piace!
 
-Tutti i componenti sono visibili a questo&nbsp;**link**:
+Tutti i componenti sono visibili a questo **link**:
 
-<https://getbootstrap.com/docs/4.3/components/alerts/>
+<https: 4.3="" alerts="" components="" docs="" getbootstrap.com=""></https:>
 
 Sulla sinistra vedrai un menù con l’elenco dei componenti.
 
@@ -306,9 +278,9 @@ Sulla sinistra vedrai un menù con l’elenco dei componenti.
 
 ### Navbar
 
-Andiamo a creare una&nbsp;**navbar&nbsp;**per il nostro sito!
+Andiamo a creare una **navbar **per il nostro sito!
 
-Nulla di più semplice con Bootstrap, ci basterà andare a cercare “**Navbar**” fra i vari componenti (<https://getbootstrap.com/docs/4.3/components/navbar/>) e&nbsp;**copiare il codice&nbsp;**per inserirla, nel nostro caso questo:
+Nulla di più semplice con Bootstrap, ci basterà andare a cercare “**Navbar**” fra i vari componenti (<https: 4.3="" components="" docs="" getbootstrap.com="" navbar=""></https:>) e **copiare il codice **per inserirla, nel nostro caso questo:
 
 <pre class="wp-block-code"><code>&lt;nav class="navbar navbar-expand-lg navbar-light bg-light"&gt;
   &lt;a class="navbar-brand" href="#"&gt;Navbar&lt;/a&gt;
@@ -346,9 +318,9 @@ Nulla di più semplice con Bootstrap, ci basterà andare a cercare “**Navbar**
   &lt;/div&gt;
 &lt;/nav&gt;</code></pre>
 
-Vogliamo però apportare qualche&nbsp;**modifica**, per esempio non ci serve la ricerca sulla navbar, ma vogliamo che il nome del sito sia a sinistra, mente il menù a destra.
+Vogliamo però apportare qualche **modifica**, per esempio non ci serve la ricerca sulla navbar, ma vogliamo che il nome del sito sia a sinistra, mente il menù a destra.
 
-Ci basterà quindi&nbsp;**eliminare il form**&nbsp;di ricerca e modificare il margine del menù, da “**mr-auto**” a “**ml-auto**“, nell’ul “navbar-nav”:
+Ci basterà quindi **eliminare il form** di ricerca e modificare il margine del menù, da “**mr-auto**” a “**ml-auto**“, nell’ul “navbar-nav”:
 
 <pre class="wp-block-code"><code>    &lt;nav class="navbar navbar-expand-lg navbar-light bg-light"&gt;
         &lt;a class="navbar-brand" href="#"&gt;Navbar&lt;/a&gt;
@@ -382,25 +354,19 @@ Ci basterà quindi&nbsp;**eliminare il form**&nbsp;di ricerca e modificare il ma
         &lt;/div&gt;
       &lt;/nav&gt;</code></pre>
 
-Vediamo che abbiamo la nostra bella**&nbsp;navbar pronta e responsiva!**
+Vediamo che abbiamo la nostra bella** navbar pronta e responsiva!**
 
-Prova a visualizzare in modalità smartphone, vedrai che il menù scompare e apparirà&nbsp;**l’hamburgher&nbsp;**che mostrerà il menù al click:
+Prova a visualizzare in modalità smartphone, vedrai che il menù scompare e apparirà **l’hamburgher **che mostrerà il menù al click:
 
 **Desktop:**
 
-<div class="wp-block-image">
-  <figure class="aligncenter size-large"><img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/image-21-1536x495-1-1024x330.png" alt="" class="wp-image-204" /></figure>
-</div>
-
 **Mobile:**
 
-<div class="wp-block-image">
-  <figure class="aligncenter size-full"><img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/image-22.png" alt="" class="wp-image-205" /></figure>
-</div>
+{{< image src="/assets/img/uploads/2022/03/image-22.png" >}}
 
 ### Bottoni
 
-Un altro componente utilissimo sono i&nbsp;**bottoni**! Bootstrap fornisce un insieme di bottoni già pronti e&nbsp;**ben formattati**, disponibili nei colori più utilizzati, eccoli qui:
+Un altro componente utilissimo sono i **bottoni**! Bootstrap fornisce un insieme di bottoni già pronti e **ben formattati**, disponibili nei colori più utilizzati, eccoli qui:
 
 <pre class="wp-block-code"><code>&lt;button type="button" class="btn btn-primary"&gt;Primary&lt;/button&gt;
 &lt;button type="button" class="btn btn-secondary"&gt;Secondary&lt;/button&gt;
@@ -412,10 +378,7 @@ Un altro componente utilissimo sono i&nbsp;**bottoni**! Bootstrap fornisce un in
 &lt;button type="button" class="btn btn-dark"&gt;Dark&lt;/button&gt;
 
 &lt;button type="button" class="btn btn-link"&gt;Link&lt;/button&gt;</code></pre>
-
-<div class="wp-block-image">
-  <figure class="aligncenter size-full"><img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/image-24.png" alt="" class="wp-image-206" /></figure>
-</div>
+{{< image src="/assets/img/uploads/2022/03/image-24.png" >}}
 
 La classe “**btn**” indica il bottone, mentre “**btn-primary**” indica la tipologia del bottone.
 
@@ -452,13 +415,13 @@ Inserire dei caroselli non è mai stato così semplice! Anche qua basta andare a
   &lt;/a&gt;
 &lt;/div&gt;</code></pre>
 
-Logicamente dobbiamo**&nbsp;inserire un “src” alle immagini**&nbsp;per farle visualizzare, ma il carosello funziona fina da subito!
+Logicamente dobbiamo** inserire un “src” alle immagini** per farle visualizzare, ma il carosello funziona fina da subito!
 
 ### Form
 
-Anche creare&nbsp;**form graficamente accettabili**&nbsp;è velocissimo! Bootstrap consente di creare degli input carini e ben stilizzati senza perdere il minimo tempo!
+Anche creare **form graficamente accettabili** è velocissimo! Bootstrap consente di creare degli input carini e ben stilizzati senza perdere il minimo tempo!
 
-Ecco un&nbsp;**esempio**:
+Ecco un **esempio**:
 
 <pre class="wp-block-code"><code>&lt;form&gt;
   &lt;div class="form-group"&gt;
@@ -477,19 +440,15 @@ Ecco un&nbsp;**esempio**:
   &lt;button type="submit" class="btn btn-primary"&gt;Submit&lt;/button&gt;
 &lt;/form&gt;</code></pre>
 
-<div class="wp-block-image">
-  <figure class="aligncenter size-large"><img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/image-26-1024x254.png" alt="" class="wp-image-207" /></figure>
-</div>
-
-Questi sono solo&nbsp;**alcuni&nbsp;**dei&nbsp;**componenti&nbsp;**disponibili! Naviga un po’ fra la lista dei componenti e&nbsp;**prova ad inserirli per vedere come funzionano!**
+Questi sono solo **alcuni **dei **componenti **disponibili! Naviga un po’ fra la lista dei componenti e **prova ad inserirli per vedere come funzionano!**
 
 Una volta che ti sarai impadronito della griglia potrai cerare siti web responsive in maniera rapida e veloce!
 
-E non dimenticare che**&nbsp;Bootstrap è cross-browser**, cioè funziona sempre e ovunque senza problemi!
+E non dimenticare che** Bootstrap è cross-browser**, cioè funziona sempre e ovunque senza problemi!
 
 ## Modificare Bootstrap
 
-Puoi anche&nbsp;**aggiungere un tuo file css**&nbsp;personale per andare a sovrascrivere alcune classi di bootstrap e personalizzarle come vuoi!
+Puoi anche **aggiungere un tuo file css** personale per andare a sovrascrivere alcune classi di bootstrap e personalizzarle come vuoi!
 
 Se per esempio vogliamo che il btn-primary sia arancione, possiamo creare un nostro file css con questo al suo interno:
 
@@ -497,13 +456,13 @@ Se per esempio vogliamo che il btn-primary sia arancione, possiamo creare un nos
    background-color:orange !important;
 }</code></pre>
 
-Ricordati solamente di&nbsp;**inserire questo css dopo bootstrap**, in modo che vada a sovrascriverlo!
+Ricordati solamente di **inserire questo css dopo bootstrap**, in modo che vada a sovrascriverlo!
 
-Così tutti i btn-primary saranno&nbsp;**arancione&nbsp;**anziché blu!
+Così tutti i btn-primary saranno **arancione **anziché blu!
 
 ## Layout di esempio
 
-Creiamo ora una&nbsp;**home page semplice utilizzando solo bootstrap!**
+Creiamo ora una **home page semplice utilizzando solo bootstrap!**
 
 ### **Template di base:**
 
@@ -536,7 +495,7 @@ Creiamo ora una&nbsp;**home page semplice utilizzando solo bootstrap!**
 
 ### Navbar:
 
-Ora inseriamo una**&nbsp;navbar con il menù allineato a destra**, come abbiamo visto prima:
+Ora inseriamo una** navbar con il menù allineato a destra**, come abbiamo visto prima:
 
 <pre class="wp-block-code"><code>    &lt;nav class="navbar navbar-expand-lg navbar-light bg-light"&gt;
         &lt;div class="container"&gt;
@@ -566,7 +525,7 @@ Ora inseriamo una**&nbsp;navbar con il menù allineato a destra**, come abbiamo 
 
 ### Contenuto
 
-Ora creiamo il classico layout con il&nbsp;**contenuto sulla sinistra**&nbsp;e una&nbsp;**sidebar sulla destra**. Da smartphone invece la sidebar sarà sotto il contenuto.
+Ora creiamo il classico layout con il **contenuto sulla sinistra** e una **sidebar sulla destra**. Da smartphone invece la sidebar sarà sotto il contenuto.
 
 <pre class="wp-block-code"><code>    &lt;div class="container mt-5"&gt;
 
@@ -584,7 +543,7 @@ Ora creiamo il classico layout con il&nbsp;**contenuto sulla sinistra**&nbsp;e u
                     &lt;p&gt;
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et justo ultrices, blandit nulla in, convallis metus. Nullam et mollis orci.
                         Nulla magna augue, accumsan in metus ut, pulvinar facilisis libero. Aliquam erat volutpat. Nulla lectus tortor, lacinia id imperdiet ut, sagittis
-                        consectetur magna. Maecenas laoreet sodales tristique. &#91;...]
+                        consectetur magna. Maecenas laoreet sodales tristique. [...]
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;!-- /ARTICOLO --&gt;
@@ -599,7 +558,7 @@ Ora creiamo il classico layout con il&nbsp;**contenuto sulla sinistra**&nbsp;e u
                     &lt;p&gt;
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et justo ultrices, blandit nulla in, convallis metus. Nullam et mollis orci.
                         Nulla magna augue, accumsan in metus ut, pulvinar facilisis libero. Aliquam erat volutpat. Nulla lectus tortor, lacinia id imperdiet ut, sagittis
-                        consectetur magna. Maecenas laoreet sodales tristique. &#91;...]
+                        consectetur magna. Maecenas laoreet sodales tristique. [...]
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;!-- /ARTICOLO --&gt;
@@ -614,7 +573,7 @@ Ora creiamo il classico layout con il&nbsp;**contenuto sulla sinistra**&nbsp;e u
                     &lt;p&gt;
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et justo ultrices, blandit nulla in, convallis metus. Nullam et mollis orci.
                         Nulla magna augue, accumsan in metus ut, pulvinar facilisis libero. Aliquam erat volutpat. Nulla lectus tortor, lacinia id imperdiet ut, sagittis
-                        consectetur magna. Maecenas laoreet sodales tristique. &#91;...]
+                        consectetur magna. Maecenas laoreet sodales tristique. [...]
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;!-- /ARTICOLO --&gt;
@@ -669,8 +628,8 @@ Ora creiamo il classico layout con il&nbsp;**contenuto sulla sinistra**&nbsp;e u
 
 Particolarità:
 
-  * **mt-5&nbsp;**sta per “margin-top:5rem”.
-  * **offset**&nbsp;serve per lasciare colonne vuote prima del contenuto
+  * **mt-5 **sta per “margin-top:5rem”.
+  * **offset** serve per lasciare colonne vuote prima del contenuto
 
 ### Footer
 
@@ -678,31 +637,28 @@ Infine inseriamo il footer:
 
 <pre class="wp-block-code"><code>    &lt;footer&gt;
         &lt;div class="container text-center mb-5"&gt;
-            &lt;p&gt;Sito realizzato da &lt;a href="https://albertoreineri.it"&gt;Specialista WP!&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;Sito realizzato da &lt;a href=""&gt;Specialista WP!&lt;/a&gt;&lt;/p&gt;
         &lt;/div&gt;
     &lt;/footer&gt;</code></pre>
 
-Ed ecco un**&nbsp;layout classico semplice realizzato interamente con Bootstrap!**
+Ed ecco un** layout classico semplice realizzato interamente con Bootstrap!**
 
-<div class="wp-block-image">
-  <figure class="aligncenter size-large"><img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/image-29-1024x834.png" alt="" class="wp-image-208" /></figure>
-</div>
 
-Come vedi&nbsp;**Bootstrap è uno strumento fantastico&nbsp;**per creare layout web in pochissimo tempo!
+Come vedi **Bootstrap è uno strumento fantastico **per creare layout web in pochissimo tempo!
 
-**Prova ad utilizzarlo**&nbsp;modificando la pagina che abbiamo creato per&nbsp;**renderla più tua**, aggiungi un css esterno, cambia i colori,**&nbsp;crea una pagina “chi sono”**&nbsp;da linkare e utilizza lo stesso layout, insomma sbizzarrisciti come meglio credi!
+**Prova ad utilizzarlo** modificando la pagina che abbiamo creato per **renderla più tua**, aggiungi un css esterno, cambia i colori,** crea una pagina “chi sono”** da linkare e utilizza lo stesso layout, insomma sbizzarrisciti come meglio credi!
 
 **Il miglior modo per imparare è provare, provare, provare!**
 
-Come avrai potuto capire&nbsp;**Bootstrap utilizza JQuery**, una libreria Javascript!
+Come avrai potuto capire **Bootstrap utilizza JQuery**, una libreria Javascript!
 
 Vuoi sapere come funziona?
 
-[Vai alla guida Le basi di JQuery >>][1]
+[Vai alla guida Le basi di JQuery &gt;&gt;][1]
 
-Per maggior chiarezza ecco il&nbsp;**codice completo**&nbsp;del layout base con Bootstrap!
+Per maggior chiarezza ecco il **codice completo** del layout base con Bootstrap!
 
-I&nbsp;**commenti&nbsp;**ti aiuteranno a capire le varie sezioni!
+I **commenti **ti aiuteranno a capire le varie sezioni!
 
 <pre class="wp-block-code"><code>&lt;!DOCTYPE html&gt;
 &lt;html lang="it"&gt;
@@ -767,7 +723,7 @@ I&nbsp;**commenti&nbsp;**ti aiuteranno a capire le varie sezioni!
                     &lt;p&gt;
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et justo ultrices, blandit nulla in, convallis metus. Nullam et mollis orci.
                         Nulla magna augue, accumsan in metus ut, pulvinar facilisis libero. Aliquam erat volutpat. Nulla lectus tortor, lacinia id imperdiet ut, sagittis
-                        consectetur magna. Maecenas laoreet sodales tristique. &#91;...]
+                        consectetur magna. Maecenas laoreet sodales tristique. [...]
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;!-- /ARTICOLO --&gt;
@@ -782,7 +738,7 @@ I&nbsp;**commenti&nbsp;**ti aiuteranno a capire le varie sezioni!
                     &lt;p&gt;
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et justo ultrices, blandit nulla in, convallis metus. Nullam et mollis orci.
                         Nulla magna augue, accumsan in metus ut, pulvinar facilisis libero. Aliquam erat volutpat. Nulla lectus tortor, lacinia id imperdiet ut, sagittis
-                        consectetur magna. Maecenas laoreet sodales tristique. &#91;...]
+                        consectetur magna. Maecenas laoreet sodales tristique. [...]
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;!-- /ARTICOLO --&gt;
@@ -797,7 +753,7 @@ I&nbsp;**commenti&nbsp;**ti aiuteranno a capire le varie sezioni!
                     &lt;p&gt;
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et justo ultrices, blandit nulla in, convallis metus. Nullam et mollis orci.
                         Nulla magna augue, accumsan in metus ut, pulvinar facilisis libero. Aliquam erat volutpat. Nulla lectus tortor, lacinia id imperdiet ut, sagittis
-                        consectetur magna. Maecenas laoreet sodales tristique. &#91;...]
+                        consectetur magna. Maecenas laoreet sodales tristique. [...]
                     &lt;/p&gt;
                 &lt;/div&gt;
                 &lt;!-- /ARTICOLO --&gt;
@@ -852,7 +808,7 @@ I&nbsp;**commenti&nbsp;**ti aiuteranno a capire le varie sezioni!
 
     &lt;footer&gt;
         &lt;div class="container text-center mb-5"&gt;
-            &lt;p&gt;Sito realizzato da &lt;a href="https://albertoreineri.it"&gt;Specialista WP!&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;Sito realizzato da &lt;a href=""&gt;Specialista WP!&lt;/a&gt;&lt;/p&gt;
         &lt;/div&gt;
     &lt;/footer&gt;
 
@@ -863,19 +819,17 @@ I&nbsp;**commenti&nbsp;**ti aiuteranno a capire le varie sezioni!
 &lt;/body&gt;
 
 &lt;/html&gt;</code></pre>
-
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex">
-  <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-    <p>
-      <em><a href="https://albertoreineri.it/guide/le-basi-di-javascript/"><< Le basi di Javascript</a></em>
-    </p>
-  </div>
-
-  <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-    <p class="has-text-align-right">
-      <em><a href="https://albertoreineri.it/guide/le-basi-di-jquery/">Le basi di jQuery >></a></em>
-    </p>
-  </div>
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
+<p>
+<em><a href="/le-basi-di-javascript/">&lt;&lt; Le basi di Javascript</a></em>
+</p>
+</div>
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
+<p class="has-text-align-right">
+<em><a href="/le-basi-di-jquery/">Le basi di jQuery &gt;&gt;</a></em>
+</p>
+</div>
 </div>
 
- [1]: https://albertoreineri.it/guide/le-basi-di-jquery/
+ [1]: /le-basi-di-jquery/</h1></head></head>

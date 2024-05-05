@@ -13,13 +13,13 @@ tags:
 ---
 Se hai letto le nostre [guide precedenti][1], ormai saprai bene che **HTML**, **CSS** e **Javascript** sono i tre **linguaggi fondamentali **del web.
 
-Con&nbsp;**l’HTML**&nbsp;strutturiamo i nostri siti, con il&nbsp;**CSS**&nbsp;li modelliamo e li formattiamo e con il&nbsp;**Javascript**&nbsp;aggiungiamo funzionalità interattive e animazioni.
+Con **l’HTML** strutturiamo i nostri siti, con il **CSS** li modelliamo e li formattiamo e con il **Javascript** aggiungiamo funzionalità interattive e animazioni.
 
-**<a href="https://jquery.com/" target="_blank" rel="noreferrer noopener">JQuery</a>**&nbsp;è una libreria Javascript che consente di&nbsp;**ottenere grandi risultati scrivendo meno codice**. In pratica si potrebbe utilizzare il vanilla Javascript (Javascript puro) per fare le stesse cose che si fanno con JQuery, però con questa libreria è più&nbsp;**semplice**&nbsp;e&nbsp;**veloce**!
+**<a href="https://jquery.com/" rel="noreferrer noopener" target="_blank">JQuery</a>** è una libreria Javascript che consente di **ottenere grandi risultati scrivendo meno codice**. In pratica si potrebbe utilizzare il vanilla Javascript (Javascript puro) per fare le stesse cose che si fanno con JQuery, però con questa libreria è più **semplice** e **veloce**!
 
-Inoltre JQuery&nbsp;**è compatibile con la maggior parte dei browser,**&nbsp;il che significa che non dobbiamo preoccuparci di testare gli effettu su tutti i browser presenti, ma possiamo stare tranquilli che tutto funzionerà ovunque!
+Inoltre JQuery **è compatibile con la maggior parte dei browser,** il che significa che non dobbiamo preoccuparci di testare gli effettu su tutti i browser presenti, ma possiamo stare tranquilli che tutto funzionerà ovunque!
 
-Vuoi&nbsp;**vedere**&nbsp;come**&nbsp;JQuery è più semplice**&nbsp;rispetto a Javascript?
+Vuoi **vedere** come** JQuery è più semplice** rispetto a Javascript?
 
 **Ecco un esempio!**
 
@@ -33,29 +33,29 @@ In questo esempio andremo ad inserire la stringa “**Ciao mondo!**” in un div
 
 <pre class="wp-block-code"><code>$('#ciao').html('Ciao mondo!')</code></pre>
 
-**Visto?**&nbsp;Già da una cosa semplicissima come questa si può vedere che il codice è molto più semplice con JQuery!
+**Visto?** Già da una cosa semplicissima come questa si può vedere che il codice è molto più semplice con JQuery!
 
-**Ti sei convinto&nbsp;**che può valere la pena imparare ad utilizzare questa libreria? Molto bene!
+**Ti sei convinto **che può valere la pena imparare ad utilizzare questa libreria? Molto bene!
 
 **Iniziamo!**
 
 ## Installazione di JQuery
 
-**JQuery**&nbsp;è semplicemente un&nbsp;**file Javascript&nbsp;**da inserire nel nostro HTML.
+**JQuery** è semplicemente un **file Javascript **da inserire nel nostro HTML.
 
-Questo inserimento può essere fatto in&nbsp;**due modi:**&nbsp;tramite&nbsp;**CDN**&nbsp;oppure&nbsp;**scaricando**&nbsp;i file in locale.
+Questo inserimento può essere fatto in **due modi:** tramite **CDN** oppure **scaricando** i file in locale.
 
-Puoi&nbsp;**scaricare**&nbsp;i file di JQuery dal sito ufficiale a questo link:
+Puoi **scaricare** i file di JQuery dal sito ufficiale a questo link:
 
-<https://jquery.com/download/>
+<https: download="" jquery.com=""></https:>
 
-Oppure puoi utilizzare una&nbsp;**CDN**, come faremo in questa guida. Utilizzeremo infatti una CDN di google:
+Oppure puoi utilizzare una **CDN**, come faremo in questa guida. Utilizzeremo infatti una CDN di google:
 
-<https://developers.google.com/speed/libraries/>
+<https: developers.google.com="" libraries="" speed=""></https:>
 
 ### Template HTML
 
-Iniziamo con il creare un file&nbsp;**HTML**&nbsp;di base in cui installare JQuery. Ecco il nostro&nbsp;**scheletro**&nbsp;HTML:
+Iniziamo con il creare un file **HTML** di base in cui installare JQuery. Ecco il nostro **scheletro** HTML:
 
 <pre class="wp-block-code"><code>&lt;!DOCTYPE html&gt;
 &lt;html lang="it"&gt;
@@ -79,70 +79,70 @@ Ecco il nostro scheletro. Insieme al file html creiamo anche una cartella “**c
   Ricordati di inserire il file “scripts.js” sotto a JQuery, altrimenti non funzionerà!
 </p>
 
-Molto bene, abbiamo un progetto web configurato per poter utilizzare&nbsp;**JQuery**, vediamo ora come usare questa libreria!
+Molto bene, abbiamo un progetto web configurato per poter utilizzare **JQuery**, vediamo ora come usare questa libreria!
 
 ## Le basi
 
-**JQuery**&nbsp;è utilizzato per&nbsp;**connettersi con gli elementi HTML**&nbsp;nel browser tramite&nbsp;**DOM**.
+**JQuery** è utilizzato per **connettersi con gli elementi HTML** nel browser tramite **DOM**.
 
-Il&nbsp;**DOM**&nbsp;(Document Object Model) è il metodo con cui&nbsp;**Javascript**&nbsp;(e quindi anche JQuery)&nbsp;**interagisce con l’HTML**&nbsp;nel browser.
+Il **DOM** (Document Object Model) è il metodo con cui **Javascript** (e quindi anche JQuery) **interagisce con l’HTML** nel browser.
 
-Per visualizzare esattamente qual è il DOM, facciamo clic con il tasto destro sulla pagina nel browser e selezioniamo&nbsp;**Ispeziona**.&nbsp;Il codice HTML che vediamo nel riquadro di ispezione è il DOM.&nbsp;Ogni elemento HTML è considerato un oggetto che JavaScript può utilizzare.&nbsp;JavaScript può aggiungere, rimuovere e modificare ognuno di questi elementi.
+Per visualizzare esattamente qual è il DOM, facciamo clic con il tasto destro sulla pagina nel browser e selezioniamo **Ispeziona**. Il codice HTML che vediamo nel riquadro di ispezione è il DOM. Ogni elemento HTML è considerato un oggetto che JavaScript può utilizzare. JavaScript può aggiungere, rimuovere e modificare ognuno di questi elementi.
 
-Il livello più esterno del DOM è l’oggetto&nbsp;**document**.&nbsp;Per iniziare a manipolare la pagina con jQuery, dobbiamo prima assicurarci che il document sia pronto, “_ready_“.
+Il livello più esterno del DOM è l’oggetto **document**. Per iniziare a manipolare la pagina con jQuery, dobbiamo prima assicurarci che il document sia pronto, “_ready_“.
 
-Apriamo quindi il nostro file&nbsp;_scripts.js&nbsp;_e inseriamo questo codice:
+Apriamo quindi il nostro file _scripts.js _e inseriamo questo codice:
 
 <pre class="wp-block-code"><code>$(document).ready(function() {
   // Tutte le funzioni di JQuery vanno inserite qui!
 })</code></pre>
 
-Qualsiasi jQuery personalizzato che scriveremo sarà contenuto all’interno di questa&nbsp;**funzione**.&nbsp;
+Qualsiasi jQuery personalizzato che scriveremo sarà contenuto all’interno di questa **funzione**. 
 
-Nell’introduzione di questo articolo, abbiamo visto un semplice script “**Ciao mondo!**“.&nbsp;Per avviare questo script e stampare il testo sul browser con jQuery, per prima cosa creiamo un elemento vuoto a cui applichiamo un id “ciao”.
+Nell’introduzione di questo articolo, abbiamo visto un semplice script “**Ciao mondo!**“. Per avviare questo script e stampare il testo sul browser con jQuery, per prima cosa creiamo un elemento vuoto a cui applichiamo un id “ciao”.
 
-Torniamo quindi nel nostro_&nbsp;index.html&nbsp;_e inseriamo questo nel&nbsp;_<body>:_
+Torniamo quindi nel nostro_ index.html _e inseriamo questo nel _<body>:_
 
 <pre class="wp-block-code"><code>&lt;p id="ciao"&gt;&lt;/p&gt;</code></pre>
 
-**jQuery**&nbsp;viene chiamato con e rappresentato dal&nbsp;**simbolo del dollaro&nbsp;**(&nbsp;`$`).&nbsp;Accediamo al DOM con jQuery utilizzando principalmente la&nbsp;**sintassi CSS&nbsp;**e applichiamo un’azione con un metodo.&nbsp;Un esempio di base di jQuery segue questo formato:
+**jQuery** viene chiamato con e rappresentato dal **simbolo del dollaro **( `$`). Accediamo al DOM con jQuery utilizzando principalmente la **sintassi CSS **e applichiamo un’azione con un metodo. Un esempio di base di jQuery segue questo formato:
 
 <pre class="wp-block-code"><code>$('selector').method()</code></pre>
 
-Poiché un ID è rappresentato da un simbolo hash (#) nei CSS, accederemo all’ID ciao con il selettore_&nbsp;#ciao_&nbsp;_#ciao_.&nbsp;_html()_&nbsp;è un metodo che modifica l’HTML all’interno di un elemento.
+Poiché un ID è rappresentato da un simbolo hash (#) nei CSS, accederemo all’ID ciao con il selettore_ #ciao_ _#ciao_. _html()_ è un metodo che modifica l’HTML all’interno di un elemento.
 
 <pre class="wp-block-code"><code>$('#ciao').html('Ciao mondo!')</code></pre>
 
-Il codice viene eseguito non&nbsp;**appena il documento è pronto.&nbsp;**
+Il codice viene eseguito non **appena il documento è pronto. **
 
-**Salviamo**&nbsp;tutto e apriamo index.html nel browser,&nbsp;**vedremo apparire l**a scritta “Ciao mondo”. Questa scritta è stata inserita da JQuery!
+**Salviamo** tutto e apriamo index.html nel browser, **vedremo apparire l**a scritta “Ciao mondo”. Questa scritta è stata inserita da JQuery!
 
 ## I selettori
 
-La maggior parte dei **selettori jQuery s**ono gli stessi di quelli che utilizziamo nei [CSS][2], con alcune aggiunte specifiche di jQuery. L’elenco completo dei selettori jQuery <a href="https://api.jquery.com/category/selectors/" target="_blank" rel="noreferrer noopener">è disponibile qui</a> .
+La maggior parte dei **selettori jQuery s**ono gli stessi di quelli che utilizziamo nei [CSS][2], con alcune aggiunte specifiche di jQuery. L’elenco completo dei selettori jQuery <a href="https://api.jquery.com/category/selectors/" rel="noreferrer noopener" target="_blank">è disponibile qui</a> .
 
 Di seguito una breve panoramica di alcuni dei selettori più comunemente usati.
 
-  * _$(“*”)_–&nbsp;**Carattere jolly:**&nbsp;seleziona ogni elemento.
-  * _$(this)_–&nbsp;**Corrente:**&nbsp;seleziona l’elemento corrente su cui operare all’interno di una funzione.
-  * _$(“p”)_–&nbsp;**Elemento:**&nbsp;seleziona ogni istanza del&nbsp;_<p>_tag.
-  * _$(“.esempio”)_–&nbsp;**Classe:**&nbsp;seleziona ogni elemento a cui è&nbsp;applicata&nbsp;la&nbsp;classe “esempio”.
-  * _$(“#esempio”)_–&nbsp;**Id:**&nbsp;seleziona una singola istanza&nbsp;dell’ID&nbsp;univoco&nbsp;“esempio”.
-  * _$(“[type=’text’]”)_–&nbsp;**Attributo:**&nbsp;seleziona qualsiasi elemento con&nbsp;_text_applicato&nbsp;_type_all’attributo.
-  * _$(“p:first-of-type”)_–&nbsp;**Pseudo Element:**&nbsp;seleziona il primo&nbsp;_<p>_.
+  * _$(“*”)_– **Carattere jolly:** seleziona ogni elemento.
+  * _$(this)_– **Corrente:** seleziona l’elemento corrente su cui operare all’interno di una funzione.
+  * _$(“p”)_– **Elemento:** seleziona ogni istanza del _<p>_tag.
+  * _$(“.esempio”)_– **Classe:** seleziona ogni elemento a cui è applicata la classe “esempio”.
+  * _$(“#esempio”)_– **Id:** seleziona una singola istanza dell’ID univoco “esempio”.
+  * _$(“[type=’text’]”)_– **Attributo:** seleziona qualsiasi elemento con _text_applicato _type_all’attributo.
+  * _$(“p:first-of-type”)_– **Pseudo Element:** seleziona il primo _<p>_.
 
-Generalmente, le&nbsp;**classi**&nbsp;e gli&nbsp;**ID&nbsp;**sono ciò che verrà utilizzato maggiormente: le classi quando si vogliono selezionare più elementi e gli id â€‹â€‹quando si vuole selezionarne solo uno.
+Generalmente, le **classi** e gli **ID **sono ciò che verrà utilizzato maggiormente: le classi quando si vogliono selezionare più elementi e gli id â€‹â€‹quando si vuole selezionarne solo uno.
 
 ## Eventi jQuery
 
-Nell’esempio “Ciao mondo!”, il codice è stato eseguito non appena la pagina è stata caricata e il documento era pronto, e quindi non richiedeva l’interazione dell’utente.&nbsp;Chiaramente in questo caso, avremmo potuto facilmente scrivere il testo direttamente nell’HTML senza preoccuparci di jQuery.
+Nell’esempio “Ciao mondo!”, il codice è stato eseguito non appena la pagina è stata caricata e il documento era pronto, e quindi non richiedeva l’interazione dell’utente. Chiaramente in questo caso, avremmo potuto facilmente scrivere il testo direttamente nell’HTML senza preoccuparci di jQuery.
 
-Tuttavia, dovremo utilizzare jQuery se vogliamo&nbsp;**far apparire il testo sulla pagina con il clic di un pulsante**.&nbsp;Possiamo aggiungere un pulsante al nostro HTML per attivare l’evento.
+Tuttavia, dovremo utilizzare jQuery se vogliamo **far apparire il testo sulla pagina con il clic di un pulsante**. Possiamo aggiungere un pulsante al nostro HTML per attivare l’evento.
 
 <pre class="wp-block-code"><code>&lt;button id="trigger"&gt;Cliccami!&lt;/button&gt;
 &lt;p id="ciao"&gt;&lt;/p&gt;</code></pre>
 
-Ora possiamo usare il&nbsp;metodo&nbsp;_click()&nbsp;_per inserire il nostro testo “Ciao mondo!”:
+Ora possiamo usare il metodo _click() _per inserire il nostro testo “Ciao mondo!”:
 
 <pre class="wp-block-code"><code>$('#trigger').click(function() {
   $('#ciao').html('Ciao mondo!')
@@ -150,20 +150,20 @@ Ora possiamo usare il&nbsp;metodo&nbsp;_click()&nbsp;_per inserire il nostro tes
 
 Salva e aggiorna e se tutto è andato liscio, facendo clic sul pulsante vedrai apparire il testo.
 
-Un elenco completo dei metodi degli eventi jQuery&nbsp;<a href="https://api.jquery.com/category/events/" target="_blank" rel="noreferrer noopener">è disponibile qui</a>&nbsp;.&nbsp;Un&nbsp;**evento**&nbsp;avviene ogni volta che l’utente interagisce con il browser.&nbsp;Abbiamo appena appreso&nbsp;[click ()][3]&nbsp;, che viene eseguito con un solo clic del mouse.
+Un elenco completo dei metodi degli eventi jQuery <a href="https://api.jquery.com/category/events/" rel="noreferrer noopener" target="_blank">è disponibile qui</a> . Un **evento** avviene ogni volta che l’utente interagisce con il browser. Abbiamo appena appreso [click ()][3] , che viene eseguito con un solo clic del mouse.
 
 Di seguito ti lascio una breve panoramica di alcuni dei metodi di eventi più comunemente utilizzati.
 
-  * [hover ()][4]&nbsp;–&nbsp;**Hover**&nbsp;viene eseguito quando il mouse viene spostato su un elemento.&nbsp;[mouseenter ()][5]&nbsp;e&nbsp;[mouseleave () si][6]&nbsp;applicano solo al mouse che entra o esce da un elemento, rispettivamente.
-  * [submit ()][7]&nbsp;–&nbsp;**Submit**&nbsp;viene eseguito quando viene inviato un modulo.
-  * [scroll ()][8]&nbsp;– Lo&nbsp;**scorrimento**&nbsp;viene eseguito quando si&nbsp;[scorre][8]&nbsp;lo schermo.
-  * [keydown ()][9]&nbsp;–&nbsp;**Keydown**&nbsp;viene eseguito quando si preme un tasto sulla tastiera.
+  * [hover ()][4] – **Hover** viene eseguito quando il mouse viene spostato su un elemento. [mouseenter ()][5] e [mouseleave () si][6] applicano solo al mouse che entra o esce da un elemento, rispettivamente.
+  * [submit ()][7] – **Submit** viene eseguito quando viene inviato un modulo.
+  * [scroll ()][8] – Lo **scorrimento** viene eseguito quando si [scorre][8] lo schermo.
+  * [keydown ()][9] – **Keydown** viene eseguito quando si preme un tasto sulla tastiera.
 
 ## Effetti jQuery
 
-<a href="https://api.jquery.com/category/effects/" target="_blank" rel="noreferrer noopener">Gli effetti jQuery</a>&nbsp;lavorano di pari passo con gli eventi consentendo di aggiungere facilmente animazioni e manipolare in altro modo gli elementi della pagina.
+<a href="https://api.jquery.com/category/effects/" rel="noreferrer noopener" target="_blank">Gli effetti jQuery</a> lavorano di pari passo con gli eventi consentendo di aggiungere facilmente animazioni e manipolare in altro modo gli elementi della pagina.
 
-Faremo un esempio in cui&nbsp;**apriamo e chiudiamo un overlay / popup modale.**&nbsp;Mentre potremmo usare&nbsp;**due id**: uno per aprire la modal e un altro per chiuderla. Utilizzeremo una classe per aprire e chiudere facilmente la modal con la stessa funzione.
+Faremo un esempio in cui **apriamo e chiudiamo un overlay / popup modale.** Mentre potremmo usare **due id**: uno per aprire la modal e un altro per chiuderla. Utilizzeremo una classe per aprire e chiudere facilmente la modal con la stessa funzione.
 
 **index.html**
 
@@ -173,7 +173,7 @@ Faremo un esempio in cui&nbsp;**apriamo e chiudiamo un overlay / popup modale.**
   &lt;button class="trigger"&gt;Chiudi&lt;/button&gt;
 &lt;/section&gt;</code></pre>
 
-Useremo una minima quantità di CSS per nascondere il&nbsp;_overlay_&nbsp;con&nbsp;_display: none_&nbsp;e centrarlo sullo schermo.
+Useremo una minima quantità di CSS per nascondere il _overlay_ con _display: none_ e centrarlo sullo schermo.
 
 **style.css**
 
@@ -188,49 +188,48 @@ Useremo una minima quantità di CSS per nascondere il&nbsp;_overlay_&nbsp;con&nb
   background: gray;
 }</code></pre>
 
-Infine, useremo il metodo&nbsp;_toggle()_, che commuterà la&nbsp;proprietà&nbsp;&nbsp;_display_&nbsp;CSS&nbsp;tra&nbsp;_none_&nbsp;e&nbsp;_block_, nascondendo e mostrando l’overlay quando si fa clic.
+Infine, useremo il metodo _toggle()_, che commuterà la proprietà  _display_ CSS tra _none_ e _block_, nascondendo e mostrando l’overlay quando si fa clic.
 
 <pre class="wp-block-code"><code>$('.trigger').click(function() {
   $('.overlay').toggle()
 })</code></pre>
 
-Ora potrai&nbsp;**attivare / disattivare la visibilità del modale facendo clic sui pulsanti.&nbsp;**
+Ora potrai **attivare / disattivare la visibilità del modale facendo clic sui pulsanti. **
 
-Puoi anche provare a modificare&nbsp;_toggle()_&nbsp;per&nbsp;_fadeToggle()_&nbsp;o&nbsp;_slideToggle()_&nbsp;per vedere un paio di altri effetti incorporati jQuery.
+Puoi anche provare a modificare _toggle()_ per _fadeToggle()_ o _slideToggle()_ per vedere un paio di altri effetti incorporati jQuery.
 
 Di seguito una breve panoramica di alcuni dei metodi di effetto più comunemente usati.
 
-  * [toggle ()][10]&nbsp;–&nbsp;**Attiva**&nbsp;/&nbsp;**disattiva**&nbsp;la visibilità di uno o più elementi.&nbsp;[show ()][11]&nbsp;e&nbsp;[hide ()][12]&nbsp;sono gli effetti unidirezionali correlati.
-  * [fadeToggle ()][13]&nbsp;–&nbsp;**Fade Toggle**&nbsp;attiva /&nbsp;**disattiva**&nbsp;la visibilità e anima l’opacità di uno o più elementi.&nbsp;[fadeIn ()][14]&nbsp;e&nbsp;[fadeOut ()][15]&nbsp;sono i relativi effetti unidirezionali.
-  * [slideToggle ()][16]&nbsp;–&nbsp;**Slide Toggle**&nbsp;attiva o&nbsp;**disattiva**&nbsp;la visibilità di uno o più elementi con un effetto scorrevole.&nbsp;[slideDown ()][17]&nbsp;e&nbsp;[slideup ()][18]&nbsp;sono i relativi effetti unidirezionali.
-  * [animate ()][19]&nbsp;–&nbsp;**Animate**&nbsp;esegue effetti di animazione personalizzati sulla proprietà CSS di un elemento.
+  * [toggle ()][10] – **Attiva** / **disattiva** la visibilità di uno o più elementi. [show ()][11] e [hide ()][12] sono gli effetti unidirezionali correlati.
+  * [fadeToggle ()][13] – **Fade Toggle** attiva / **disattiva** la visibilità e anima l’opacità di uno o più elementi. [fadeIn ()][14] e [fadeOut ()][15] sono i relativi effetti unidirezionali.
+  * [slideToggle ()][16] – **Slide Toggle** attiva o **disattiva** la visibilità di uno o più elementi con un effetto scorrevole. [slideDown ()][17] e [slideup ()][18] sono i relativi effetti unidirezionali.
+  * [animate ()][19] – **Animate** esegue effetti di animazione personalizzati sulla proprietà CSS di un elemento.
 
 ## Conclusione
 
-Ora che hai imparato le basi di JQuery puoi&nbsp;**sbizzarrirti**&nbsp;e provare a realizzare gli effetti che vuoi!
+Ora che hai imparato le basi di JQuery puoi **sbizzarrirti** e provare a realizzare gli effetti che vuoi!
 
-Prova quindi a&nbsp;**creare qualche effetto&nbsp;**all’hover del mouse, al click, allo scroll, andando a modificare le&nbsp;**classi CSS&nbsp;**come il colore, lo sfondo o anche l’immagine!
+Prova quindi a **creare qualche effetto **all’hover del mouse, al click, allo scroll, andando a modificare le **classi CSS **come il colore, lo sfondo o anche l’immagine!
 
 **Con JQuery si può fare veramente di tutto**, basta mettersi sotto e studiare un pochino!
 
-Ora che hai capito le basi dei linguaggi&nbsp;**front-end&nbsp;**è ora di dedicare un po’ di tempo anche al&nbsp;**linguaggio principale di WordPress:&nbsp;**
+Ora che hai capito le basi dei linguaggi **front-end **è ora di dedicare un po’ di tempo anche al **linguaggio principale di WordPress: **
 
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
-  <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-    <p>
-      <em><a href="https://albertoreineri.it/guide/le-basi-di-bootstrap/"><< Le basi di Bootstrap</a></em>
-    </p>
-  </div>
-
-  <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-    <p class="has-text-align-right">
-      <em><a href="https://albertoreineri.it/guide/le-basi-di-php/">Le basi di PHP >></a></em>
-    </p>
-  </div>
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
+<p>
+<em><a href="/le-basi-di-bootstrap/">&lt;&lt; Le basi di Bootstrap</a></em>
+</p>
+</div>
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
+<p class="has-text-align-right">
+<em><a href="/le-basi-di-php/">Le basi di PHP &gt;&gt;</a></em>
+</p>
+</div>
 </div>
 
- [1]: /guide
- [2]: https://albertoreineri.it/guide/le-basi-del-css/
+ [1]:
+ [2]: /le-basi-del-css/
  [3]: https://api.jquery.com/click/
  [4]: https://api.jquery.com/hover/
  [5]: https://api.jquery.com/mouseenter/
@@ -247,4 +246,4 @@ Ora che hai capito le basi dei linguaggi&nbsp;**front-end&nbsp;**è ora di dedic
  [16]: https://api.jquery.com/slidetoggle/
  [17]: https://api.jquery.com/slidedown/
  [18]: https://api.jquery.com/slideup
- [19]: https://api.jquery.com/animate/
+ [19]: https://api.jquery.com/animate/</p></p></body>

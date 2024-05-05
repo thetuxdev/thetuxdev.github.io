@@ -11,7 +11,7 @@ tags:
   - Linux
 
 ---
-<hr class="wp-block-separator has-alpha-channel-opacity" />
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
 
 Nel vasto panorama dell’informatica, la sicurezza e l’accessibilità sono due pilastri fondamentali su cui si basa qualsiasi sistema informatico. Quando si tratta di gestire server remoti o accedere a risorse in rete da posizioni distanti, la necessità di garantire una comunicazione sicura e affidabile diventa cruciale. È qui che entra in gioco SSH.
 
@@ -73,7 +73,7 @@ Una volta aperto il terminale o il prompt dei comandi, è possibile connettersi 
 <pre class="wp-block-code"><code>ssh nomeutente@indirizzoIP
 </code></pre>
 
-Se il server remoto utilizza una porta diversa dalla porta SSH predefinita (22), è possibile specificarla utilizzando l’opzione&nbsp;`-p`, ad esempio:
+Se il server remoto utilizza una porta diversa dalla porta SSH predefinita (22), è possibile specificarla utilizzando l’opzione `-p`, ad esempio:
 
 <pre class="wp-block-code"><code>ssh nomeutente@indirizzoIP -p numeroporta
 </code></pre>
@@ -88,7 +88,7 @@ Una volta autenticati, è possibile interagire con il server remoto tramite il t
 
 ### Chiusura della Connessione[][9] {#chiusura-della-connessione.wp-block-heading}
 
-Per chiudere la connessione SSH e tornare al prompt dei comandi locale, è sufficiente digitare il comando&nbsp;`exit`&nbsp;e premere Invio.
+Per chiudere la connessione SSH e tornare al prompt dei comandi locale, è sufficiente digitare il comando `exit` e premere Invio.
 
 Utilizzando questi passaggi, è possibile utilizzare SSH per accedere e gestire server remoti in modo sicuro e affidabile da qualsiasi luogo connesso a Internet. Inoltre, è possibile automatizzare le operazioni di accesso remoto utilizzando script e programmi che utilizzano SSH, offrendo un maggior controllo e flessibilità nella gestione dei server.
 
@@ -98,7 +98,7 @@ Oltre all’utilizzo di base, SSH offre una serie di opzioni di configurazione a
 
 ### File di Configurazione[][11] {#file-di-configurazione.wp-block-heading}
 
-SSH utilizza un file di configurazione (`ssh_config`&nbsp;per il client SSH e&nbsp;`sshd_config`&nbsp;per il server SSH) che consente agli utenti di specificare opzioni di configurazione personalizzate. Questo file può essere trovato generalmente nella directory&nbsp;`/etc/ssh/`&nbsp;su sistemi Linux e macOS.
+SSH utilizza un file di configurazione (`ssh_config` per il client SSH e `sshd_config` per il server SSH) che consente agli utenti di specificare opzioni di configurazione personalizzate. Questo file può essere trovato generalmente nella directory `/etc/ssh/` su sistemi Linux e macOS.
 
 ### Chiavi SSH[][12] {#chiavi-ssh.wp-block-heading}
 
@@ -146,21 +146,21 @@ Durante questa introduzione a SSH, abbiamo esaminato cos’è SSH, come funziona
 
 Con la sua ampia adozione e le sue potenti funzionalità, SSH rimane uno strumento essenziale per gli amministratori di sistema, gli sviluppatori e gli utenti che operano in ambienti di rete critici. Utilizzando SSH in modo responsabile e seguendo le best practice di sicurezza consigliate, è possibile garantire un accesso remoto sicuro e affidabile e una gestione efficace dei server.
 
- [1]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#cos%C3%A8-ssh
- [2]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#come-funziona-ssh
- [3]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#scenari-duso-di-ssh
- [4]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#come-utilizzare-ssh
- [5]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#apertura-del-terminale-o-del-prompt-dei-comandi
- [6]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#connessione-al-server-remoto
- [7]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#autenticazione
- [8]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#interazione-con-il-server-remoto
- [9]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#chiusura-della-connessione
- [10]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#configurazione-avanzata-di-ssh
- [11]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#file-di-configurazione
- [12]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#chiavi-ssh
- [13]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#port-forwarding
- [14]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#agenti-di-autenticazione-ssh
- [15]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#gestione-delle-sessioni
- [16]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#limitazioni-di-accesso
- [17]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#sicurezza-e-best-practice-di-ssh
- [18]: https://albertoreineri.it/blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#conclusioni
+ [1]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#cos%C3%A8-ssh
+ [2]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#come-funziona-ssh
+ [3]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#scenari-duso-di-ssh
+ [4]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#come-utilizzare-ssh
+ [5]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#apertura-del-terminale-o-del-prompt-dei-comandi
+ [6]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#connessione-al-server-remoto
+ [7]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#autenticazione
+ [8]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#interazione-con-il-server-remoto
+ [9]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#chiusura-della-connessione
+ [10]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#configurazione-avanzata-di-ssh
+ [11]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#file-di-configurazione
+ [12]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#chiavi-ssh
+ [13]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#port-forwarding
+ [14]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#agenti-di-autenticazione-ssh
+ [15]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#gestione-delle-sessioni
+ [16]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#limitazioni-di-accesso
+ [17]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#sicurezza-e-best-practice-di-ssh
+ [18]: /blog/introduzione-a-ssh-cos%C3%A8-e-come-funziona/#conclusioni

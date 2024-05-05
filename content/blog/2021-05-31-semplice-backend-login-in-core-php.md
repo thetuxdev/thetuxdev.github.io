@@ -12,36 +12,35 @@ tags:
 
 ---
 <p class="has-vivid-red-color has-text-color">
-  <em>Ho effettuato un nuovo commit a questo progetto, aggiornandolo a PDO, inserendo i bindparam per aumentare la sicurezza e variando leggermente l’architettura software. Il codice aggiornato è nella repository github indicata nell’articolo.</em>
+<em>Ho effettuato un nuovo commit a questo progetto, aggiornandolo a PDO, inserendo i bindparam per aumentare la sicurezza e variando leggermente l’architettura software. Il codice aggiornato è nella repository github indicata nell’articolo.</em>
 </p>
 
-È vero, oggi esistono una&nbsp;**miriade di CMS e framework**&nbsp;in giro già belli che pronti, basta installarli e voilà! Il gioco è fatto!
+È vero, oggi esistono una **miriade di CMS e framework** in giro già belli che pronti, basta installarli e voilà! Il gioco è fatto!
 
 Tutti hanno un sistema di login per poter accedere ad un’area riservata!
 
-Però io sono sempre stato uno di quelli che non si accontentano della&nbsp;_pappa pronta_&nbsp;ma vogliono&nbsp;_**imparare**&nbsp;a cucinare_.
+Però io sono sempre stato uno di quelli che non si accontentano della _pappa pronta_ ma vogliono _**imparare** a cucinare_.
 
-Per questo ho deciso di&nbsp;**creare un CMS tutto mio**, partendo da zero e utilizzando solamente HTML, CSS, JS e PHP.
+Per questo ho deciso di **creare un CMS tutto mio**, partendo da zero e utilizzando solamente HTML, CSS, JS e PHP.
 
-Una delle prime cose che ho dovuto realizzare con il mio CMS è stato proprio un&nbsp;**sistema di login**&nbsp;per accedere all’area riservata.
+Una delle prime cose che ho dovuto realizzare con il mio CMS è stato proprio un **sistema di login** per accedere all’area riservata.
 
 ## Sistema di login in core PHP
 
-Ho deciso ora di rendere&nbsp;**open source&nbsp;**un piccolo sistema di accesso ad un’area riservata.
+Ho deciso ora di rendere **open source **un piccolo sistema di accesso ad un’area riservata.
 
-Puoi trovare il codice sorgente di questo progettino sul&nbsp;<a href="https://github.com/alby-dev" target="_blank" rel="noreferrer noopener">mio profilo github&nbsp;</a>a questo indirizzo:&nbsp;[ht][1]<a href="https://github.com/alby-dev/Simple-login-and-registration-in-php" target="_blank" rel="noreferrer noopener">tps://github.com/alby-dev/Simple-login-and-registration-in-php</a>
+Puoi trovare il codice sorgente di questo progettino sul <a href="https://github.com/alby-dev" rel="noreferrer noopener" target="_blank">mio profilo github </a>a questo indirizzo: [ht][1]<a href="https://github.com/alby-dev/Simple-login-and-registration-in-php" rel="noreferrer noopener" target="_blank">tps://github.com/alby-dev/Simple-login-and-registration-in-php</a>
 
-Tralasciamo sistemi di routing e architettura software e&nbsp;**facciamola semplice,**&nbsp;parliamo solo del login nudo e crudo.
+Tralasciamo sistemi di routing e architettura software e **facciamola semplice,** parliamo solo del login nudo e crudo.
 
 ### Area riservata
 
 Innanzitutto ho creato una cartella “**login**“, dentro la quale ci saranno i file dell’area riservata.
 
-Se non ho ancora effettuato l’accesso allora vedrò il&nbsp;**form di login.**<figure class="wp-block-image">
+Se non ho ancora effettuato l’accesso allora vedrò il **form di login.**<figure class="wp-block-image">
+<img alt="" decoding="async" src="/assets/img/uploads/2020/04/image.png"/> </figure>
 
-<img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2020/04/image.png" alt="" /> </figure>
-
-Nella&nbsp;**index.php**&nbsp;nella cartella login ho quindi inserito il&nbsp;**form**&nbsp;per effettuale l’accesso all’area riservata, con il form che rimanda al file&nbsp;**access.php,**&nbsp;contenente le funzioni di controllo dei dati di accesso.
+Nella **index.php** nella cartella login ho quindi inserito il **form** per effettuale l’accesso all’area riservata, con il form che rimanda al file **access.php,** contenente le funzioni di controllo dei dati di accesso.
 
 <pre class="wp-block-code"><code>      &lt;!-- Login form --&gt;
       &lt;form class="" action="access.php" method="POST"&gt;
@@ -58,15 +57,14 @@ Nella&nbsp;**index.php**&nbsp;nella cartella login ho quindi inserito il&nbsp;**
       &lt;/form&gt;
       &lt;!-- /Login form --&gt;</code></pre>
 
-**Access.php**&nbsp;si occupa sia del&nbsp;**login**&nbsp;che della&nbsp;**registrazione**&nbsp;dei nuovi utenti. È un file che continene solo PHP, esegue i controlli e poi rimanda alla pagina corretta, in base al tipo di richiesta.
+**Access.php** si occupa sia del **login** che della **registrazione** dei nuovi utenti. È un file che continene solo PHP, esegue i controlli e poi rimanda alla pagina corretta, in base al tipo di richiesta.
 
-Se ho inserito i dati corretti allora rimanda nel&nbsp;**backend**.
+Se ho inserito i dati corretti allora rimanda nel **backend**.
 
-Invece se ho inserito i dati sbagliati mi rimanda al form di login con messaggio di&nbsp;**errore**.
+Invece se ho inserito i dati sbagliati mi rimanda al form di login con messaggio di **errore**.
 
-Se sto&nbsp;**creando un nuovo utente segue la prassi della registrazione**, inviando un’email di conferma con un link cliccando sul quale si confermerà il proprio account.<figure class="wp-block-image">
-
-<img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2020/04/image-1.png" alt="" /> </figure>
+Se sto **creando un nuovo utente segue la prassi della registrazione**, inviando un’email di conferma con un link cliccando sul quale si confermerà il proprio account.<figure class="wp-block-image">
+<img alt="" decoding="async" src="/assets/img/uploads/2020/04/image-1.png"/> </figure>
 
 **access.php**
 
@@ -75,13 +73,13 @@ Se sto&nbsp;**creando un nuovo utente segue la prassi della registrazione**, inv
 include("config.php");
 
 //Control Action
-if ($_POST&#91;'action'] == "login") {
+if ($_POST['action'] == "login") {
     /*------------------------------------------------------
                         LOGIN
     -------------------------------------------------------*/
     ///$_Post variables
-    $email = $_POST&#91;'email'];
-    $password = $_POST&#91;'password'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
 
 
     //Query
@@ -91,7 +89,7 @@ if ($_POST&#91;'action'] == "login") {
         while ($row = $result-&gt;fetch_assoc()) {
 
             //Password control
-            if (!(password_verify($password, $row&#91;"password"]))) {
+            if (!(password_verify($password, $row["password"]))) {
                 header("location: error.php?error=Wrong Password");
                 die();
             }
@@ -100,7 +98,7 @@ if ($_POST&#91;'action'] == "login") {
             session_start();
 
             //Save user id in session
-            $_SESSION&#91;'id'] = $row&#91;"id"];
+            $_SESSION['id'] = $row["id"];
 
             //Redirect to backend homepage
             header("location: welcome.php");
@@ -110,13 +108,13 @@ if ($_POST&#91;'action'] == "login") {
         header("location: error.php?error=Wrong Email or Username");
         die();
     }
-} elseif ($_POST&#91;'action'] == "register") {
+} elseif ($_POST['action'] == "register") {
      /*------------------------------------------------------
                         REGISTER
     -------------------------------------------------------*/
-    $email = $_POST&#91;'email'];
-    $username = $_POST&#91;'username'];
-    $password = $_POST&#91;'password'];
+    $email = $_POST['email'];
+    $username = $_POST['username'];
+    $password = $_POST['password'];
 
     //Control if the user or email are already in the database
     $sql = "SELECT * FROM users WHERE email = '" . $email . "' OR username = '" . $username . "'";
@@ -146,13 +144,13 @@ $conn-&gt;close();</code></pre>
 
 ### Database
 
-Il database è un MySQL molto semplice, con una tabella “**users**” contenente i dati dell’utente e la&nbsp;**password criptata.**
+Il database è un MySQL molto semplice, con una tabella “**users**” contenente i dati dell’utente e la **password criptata.**
 
-Per&nbsp;**bloccare gli utenti non loggati&nbsp;**e consentire l’accesso solamente ai loggati è possibile utilizzare le variabili&nbsp;**session**, da includere in ogni file del backend. In questo modo l’accesso viene consentito solamente a chi è passato tramite il form di login. Questo passaggio non è presente su github ma è molto semplice da integrare, forse lo aggiungerò quando avrò tempo!
+Per **bloccare gli utenti non loggati **e consentire l’accesso solamente ai loggati è possibile utilizzare le variabili **session**, da includere in ogni file del backend. In questo modo l’accesso viene consentito solamente a chi è passato tramite il form di login. Questo passaggio non è presente su github ma è molto semplice da integrare, forse lo aggiungerò quando avrò tempo!
 
-Spero possa essere stato&nbsp;**utile**&nbsp;e&nbsp;**interessante**.
+Spero possa essere stato **utile** e **interessante**.
 
-Se vuoi&nbsp;**utilizzare**&nbsp;questo form o provarelo e&nbsp;**migliorarlo**&nbsp;segui le&nbsp;**istruzioni**&nbsp;nel file readme.txt presente su github.
+Se vuoi **utilizzare** questo form o provarelo e **migliorarlo** segui le **istruzioni** nel file readme.txt presente su github.
 
 _Buon codice!_
 

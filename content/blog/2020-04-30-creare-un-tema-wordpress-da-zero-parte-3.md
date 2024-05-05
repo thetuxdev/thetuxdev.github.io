@@ -16,26 +16,26 @@ Negli [ultimi tutorial][1] abbiamo iniziato a **creare un tema WordPress da zero
 Ci mancano però ancora un paio di cosette per rendere accettabile il nostro lavoro. **Vediamo di andare avanti!**
 
 <p class="has-text-align-center has-vivid-red-color has-text-color">
-  <em>Ti ricordo che sul fondo di questo articolo potrai trovare un link al tema completo. Potrai scaricarlo per cercare eventuali errori ed utilizzarlo come vorrai! Consideralo un regalo!</em>
+<em>Ti ricordo che sul fondo di questo articolo potrai trovare un link al tema completo. Potrai scaricarlo per cercare eventuali errori ed utilizzarlo come vorrai! Consideralo un regalo!</em>
 </p>
 
 Ma riprendiamo il **tutorial**!
 
 ## Inserire immagini
 
-Con WordPress è semplicissimo inserire immagini all&#8217;interno degli articoli, delle pagine o dei widget, ma se volessimo inserire per esempio un logo? Oppure un&#8217;immagine in un punto specifico del sito?
+Con WordPress è semplicissimo inserire immagini all’interno degli articoli, delle pagine o dei widget, ma se volessimo inserire per esempio un logo? Oppure un’immagine in un punto specifico del sito?
 
 Per fare questo dobbiamo utilizzare la funzione _get\_template\_directory_uri_, che ci permette di **collegarci alla cartella del nostro tema**. Vediamo come fare.
 
 ### Inseriamo un logo nella navbar
 
-Per prima cosa rechiamoci nella cartella del nostro tema e creiamo un&#8217;altra cartella chiamata &#8220;**img**&#8220;. Qua dentro ora possiamo inserire le immagini che vogliamo inserire nel tema. Inseriamo un logo. Io lo chiamerò &#8220;**logo.png**&#8220;.
+Per prima cosa rechiamoci nella cartella del nostro tema e creiamo un’altra cartella chiamata “**img**“. Qua dentro ora possiamo inserire le immagini che vogliamo inserire nel tema. Inseriamo un logo. Io lo chiamerò “**logo.png**“.
 
 Ora andiamo nel nostro _header.php_ e inseriamo il logo prima del titolo del nostro sito, in questo modo:
 
 <pre class="wp-block-code"><code>&lt;img src="&lt;?php echo get_template_directory_uri(); ?&gt;/img/logo.png" alt="" height="50"&gt;</code></pre>
 
-La funzione _get\_template\_directory_uri_ inserirà il percorso della cartella del nostro sito, a cui noi aggiungiamo il percorso per raggiungere l&#8217;immagine.
+La funzione _get\_template\_directory_uri_ inserirà il percorso della cartella del nostro sito, a cui noi aggiungiamo il percorso per raggiungere l’immagine.
 
 Prova a salvare e aggiornare il sito, dovresti vedere **il logo comparire** prima del nome del sito!
 
@@ -65,7 +65,7 @@ In questo modo il tag del titolo verrà **gestito da WordPress** nel migliore de
 
 ### wp_head
 
-Sempre nel nostro header dobbiamo aggiungere l&#8217;hook _wp_head_. Questo ci permette di inserire i nostri CSS e JS nell'<head> della pagina, come vedremo fra poco.
+Sempre nel nostro header dobbiamo aggiungere l’hook _wp_head_. Questo ci permette di inserire i nostri CSS e JS nell'<head> della pagina, come vedremo fra poco.
 
 Aggiungiamo quindi questo codice giusto prima del _</head>_:
 
@@ -81,17 +81,16 @@ Così WordPress **gestirà al meglio il body** del nostro tema.
 
 ### wp_footer
 
-L&#8217;ultimo hook che andremo ad aggiungere è il _wp_footer_, che permette di inserire i contenuti prima del _</body>_, come i file javascript.
+L’ultimo hook che andremo ad aggiungere è il _wp_footer_, che permette di inserire i contenuti prima del _</body>_, come i file javascript.
 
-Andiamo quindi nel _footer.php_ e inseriamo questo giusto prima del </body>
-
+Andiamo quindi nel _footer.php_ e inseriamo questo giusto prima del
 <pre class="wp-block-code"><code>&lt;?php wp_footer(); ?&gt;</code></pre>
 
 ## Inserire CSS e JS in un tema WordPress
 
-Il **metodo corretto** per inserire dei file CSS e JS all&#8217;interno di un tema WordPress è un po&#8217; particolare.
+Il **metodo corretto** per inserire dei file CSS e JS all’interno di un tema WordPress è un po’ particolare.
 
-Sebbene funzioni anche in metodo classico di inserimento nell'<head> e prima del </body> (metodo che abbiamo utilizzato nella parte 1 di questa serie di tutorial), un tema WordPress ben fatto deve inserire i file CSS e JS attraverso il file **_functions.php._**
+Sebbene funzioni anche in metodo classico di inserimento nell'<head> e prima del  (metodo che abbiamo utilizzato nella parte 1 di questa serie di tutorial), un tema WordPress ben fatto deve inserire i file CSS e JS attraverso il file **_functions.php._**
 
 ### CSS
 
@@ -109,9 +108,9 @@ Ora inseriamo il CSS di **[Bootstrap][2]** in maniera corretta. Lo aggiungiamo a
 
 <pre class="wp-block-code"><code>wp_enqueue_style( 'bootstrap','http://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css','','','all');</code></pre>
 
-Ricorda di inserire **Bootstrap** come **primo file**, prima di &#8220;style&#8221;, per un corretto funzionamento.
+Ricorda di inserire **Bootstrap** come **primo file**, prima di “style”, per un corretto funzionamento.
 
-Ora andiamo nell&#8217;header.php e rimuoviavo il CSS di bootstrap, che ora verrà inserito nella maniera corretta tramite functions.php
+Ora andiamo nell’header.php e rimuoviavo il CSS di bootstrap, che ora verrà inserito nella maniera corretta tramite functions.php
 
 ### JS
 
@@ -149,11 +148,9 @@ Se il nostro tema inizierà ad avere molti articoli, allora la pagina archivio d
 
 Fortunatamente WordPress fornisce una funzione per facilitare moltissimo la **paginazione**.
 
-Puoi decidere quanti articoli far visualizzare nelle pagine archivio tramite la sezione &#8220;**Impostazioni &#8211; Lettura**&#8220;.
+Puoi decidere quanti articoli far visualizzare nelle pagine archivio tramite la sezione “**Impostazioni – Lettura**“.
 
-<div class="wp-block-image">
-  <figure class="aligncenter size-full"><img decoding="async" src="https://albertoreineri.it/wp-content/uploads/2022/03/image-38-1.png" alt="" class="wp-image-328" /></figure>
-</div>
+{{< image src="/assets/img/uploads/2022/03/image-38-1.png" >}}
 
 Per inserire la paginazione nel frontend andiamo nel nostro _**archive.php**_ e inseriamo questa funzione **dopo il** **loop**:
 
@@ -161,7 +158,7 @@ Per inserire la paginazione nel frontend andiamo nel nostro _**archive.php**_ e 
 
 In questo modo **i link di paginazione saranno gestiti interamente da WordPress!**
 
-Fantastico vero? Nulla di più semplice! Non ti resta che rendere questi link un po&#8217; più carini, tramite **CSS**.
+Fantastico vero? Nulla di più semplice! Non ti resta che rendere questi link un po’ più carini, tramite **CSS**.
 
 ### Commenti
 
@@ -194,16 +191,16 @@ Iniziamo creando un file **_comments.php_** nella cartella del nostro tema.
 
         &lt;?php
             // Ci sono più commenti?
-            if ( get_comment_pages_count() &gt; 1 && get_option( 'page_comments' ) ) :
+            if ( get_comment_pages_count() &gt; 1 &amp;&amp; get_option( 'page_comments' ) ) :
         ?&gt;
         &lt;nav class="navigation comment-navigation" role="navigation"&gt;
             &lt;h1 class="screen-reader-text section-heading"&gt;&lt;?php _e( 'Comment navigation', 'beauty-mountain' ); ?&gt;&lt;/h1&gt;
-            &lt;div class="nav-previous"&gt;&lt;?php previous_comments_link( __( '&larr; Older Comments', 'beauty-mountain' ) ); ?&gt;&lt;/div&gt;
-            &lt;div class="nav-next"&gt;&lt;?php next_comments_link( __( 'Newer Comments &rarr;', 'beauty-mountain' ) ); ?&gt;&lt;/div&gt;
+            &lt;div class="nav-previous"&gt;&lt;?php previous_comments_link( __( '← Older Comments', 'beauty-mountain' ) ); ?&gt;&lt;/div&gt;
+            &lt;div class="nav-next"&gt;&lt;?php next_comments_link( __( 'Newer Comments →', 'beauty-mountain' ) ); ?&gt;&lt;/div&gt;
         &lt;/nav&gt;&lt;!-- .comment-navigation --&gt;
         &lt;?php endif; ?&gt;
 
-        &lt;?php if ( ! comments_open() && get_comments_number() ) : ?&gt;
+        &lt;?php if ( ! comments_open() &amp;&amp; get_comments_number() ) : ?&gt;
         &lt;p class="no-comments"&gt;&lt;?php _e( 'Comments are closed.' , 'beauty-mountain' ); ?&gt;&lt;/p&gt;
         &lt;?php endif; ?&gt;
 
@@ -220,14 +217,14 @@ Questo codice ti pemetterà di inserire i commenti, ora andiamo nel file **_sing
 
 In questo modo potrai **vedere i commenti sui tuoi articoli!**
 
-<div style="height:50px" aria-hidden="true" class="wp-block-spacer">
+<div aria-hidden="true" class="wp-block-spacer" style="height:50px">
 </div>
 
 **Perfetto!** Direi che per iniziare abbiamo già creato qualcosa di carino!
 
-Prima di lasciarti andare via ti condivido ancora **un po&#8217; di CSS** per rendere il nostro lavoro un po&#8217; più carino.
+Prima di lasciarti andare via ti condivido ancora **un po’ di CSS** per rendere il nostro lavoro un po’ più carino.
 
-Ricorda che puoi **scaricare l&#8217;intero tema**, per controllare errori e verificare di aver capito tutto al meglio! Clicca **sul bottone sul fondo** dell&#8217;articolo per scaricare il tema!
+Ricorda che puoi **scaricare l’intero tema**, per controllare errori e verificare di aver capito tutto al meglio! Clicca **sul bottone sul fondo** dell’articolo per scaricare il tema!
 
 Non è un tema perfetto ma può essere un buon **starter theme** per i tuoi progetti futuri!
 
@@ -263,26 +260,22 @@ footer{
 }
 
 </code></pre>
-
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-5 wp-block-columns-is-layout-flex">
-  <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-    <p>
-      <em><a href="https://albertoreineri.it/guide/le-basi-dellhtml/"><< Parte 2</a></em>
-    </p>
-  </div>
-
-  <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-    <p class="has-text-align-right">
-      <em><a href="https://albertoreineri.it/guide/creare-un-plugin-wordpress/">Creare Plugin >></a></em>
-    </p>
-  </div>
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
+<p>
+<em><a href="/le-basi-dellhtml/">&lt;&lt; Parte 2</a></em>
+</p>
 </div>
-
-<div style="height:50px" aria-hidden="true" class="wp-block-spacer">
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
+<p class="has-text-align-right">
+<em><a href="/creare-un-plugin-wordpress/">Creare Plugin &gt;&gt;</a></em>
+</p>
 </div>
-
-<div style="height:50px" aria-hidden="true" class="wp-block-spacer">
+</div>
+<div aria-hidden="true" class="wp-block-spacer" style="height:50px">
+</div>
+<div aria-hidden="true" class="wp-block-spacer" style="height:50px">
 </div>
 
  [1]: /argomento/wordpress-dev/
- [2]: https://albertoreineri.it/guide/le-basi-di-bootstrap/
+ [2]: /le-basi-di-bootstrap/</head></title></head></title>

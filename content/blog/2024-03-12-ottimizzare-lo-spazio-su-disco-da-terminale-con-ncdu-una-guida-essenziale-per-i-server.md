@@ -34,14 +34,14 @@ L’installazione di NCDU è un processo semplice e diretto, che richiede solo p
 ### Linux (Debian/Ubuntu):[][3] {#linux-debianubuntu.wp-block-heading}
 
   1. Apri il terminale.
-  2. Assicurati di avere i privilegi di amministratore (puoi utilizzare il comando&nbsp;`sudo`).
+  2. Assicurati di avere i privilegi di amministratore (puoi utilizzare il comando `sudo`).
   3. Esegui il seguente comando per installare NCDU:`sudo apt-get install ncdu`
   4. Segui le istruzioni sullo schermo e attendi il completamento del processo di installazione.
 
 ### Linux (CentOS/RHEL):[][4] {#linux-centosrhel.wp-block-heading}
 
   1. Apri il terminale.
-  2. Assicurati di avere i privilegi di amministratore (puoi utilizzare il comando&nbsp;`sudo`).
+  2. Assicurati di avere i privilegi di amministratore (puoi utilizzare il comando `sudo`).
   3. Esegui il seguente comando per installare NCDU utilizzando il gestore dei pacchetti YUM:`sudo yum install ncdu`
   4. Segui le istruzioni sullo schermo e attendi il completamento del processo di installazione.
 
@@ -52,7 +52,7 @@ L’installazione di NCDU è un processo semplice e diretto, che richiede solo p
   3. Esegui il seguente comando per installare NCDU utilizzando Homebrew:`brew install ncdu`
   4. Segui le istruzioni sullo schermo e attendi il completamento del processo di installazione.
 
-Una volta completata l’installazione, puoi verificare se NCDU è stato installato correttamente digitando&nbsp;`ncdu`&nbsp;nel terminale e premendo Invio. Se tutto è andato a buon fine, verrà visualizzata l’interfaccia utente di NCDU, pronta per essere utilizzata per analizzare e gestire lo spazio su disco del tuo sistema.
+Una volta completata l’installazione, puoi verificare se NCDU è stato installato correttamente digitando `ncdu` nel terminale e premendo Invio. Se tutto è andato a buon fine, verrà visualizzata l’interfaccia utente di NCDU, pronta per essere utilizzata per analizzare e gestire lo spazio su disco del tuo sistema.
 
 ## UTILIZZO DI BASE DI NCDU[][6] {#utilizzo-di-base-di-ncdu.wp-block-heading}
 
@@ -61,7 +61,7 @@ Dopo aver installato NCDU, puoi utilizzarlo per esplorare e gestire lo spazio su
 ### 1. Avviare NCDU:[][7] {#1-avviare-ncdu.wp-block-heading}
 
   * Apri il terminale.
-  * Digita&nbsp;`ncdu`&nbsp;e premi Invio.
+  * Digita `ncdu` e premi Invio.
   * NCDU avvierà l’analisi dello spazio su disco e visualizzerà l’interfaccia utente.
 
 ### 2. Navigare nell’interfaccia utente:[][8] {#2-navigare-nellinterfaccia-utente.wp-block-heading}
@@ -78,19 +78,19 @@ Dopo aver installato NCDU, puoi utilizzarlo per esplorare e gestire lo spazio su
 
 ### 4. Comandi principali:[][10] {#4-comandi-principali.wp-block-heading}
 
-  * Premi&nbsp;`d`&nbsp;per eliminare il file o la directory selezionata.
-  * Premi&nbsp;`r`&nbsp;per aggiornare l’elenco delle directory.
-  * Premi&nbsp;`q`&nbsp;per uscire dall’applicazione.
+  * Premi `d` per eliminare il file o la directory selezionata.
+  * Premi `r` per aggiornare l’elenco delle directory.
+  * Premi `q` per uscire dall’applicazione.
 
 ### 5. Navigazione tra le directory:[][11] {#5-navigazione-tra-le-directory.wp-block-heading}
 
   * Utilizza i tasti freccia su e giù per spostarti attraverso le directory.
-  * Premi&nbsp;`u`&nbsp;per tornare alla directory precedente.
-  * Premi&nbsp;`Tab`&nbsp;per passare tra la visualizzazione della dimensione della directory e la visualizzazione dell’ultima data di modifica.
+  * Premi `u` per tornare alla directory precedente.
+  * Premi `Tab` per passare tra la visualizzazione della dimensione della directory e la visualizzazione dell’ultima data di modifica.
 
 ### 6. Uscire da NCDU:[][12] {#6-uscire-da-ncdu.wp-block-heading}
 
-  * Quando hai finito di utilizzare NCDU, premi&nbsp;`q`&nbsp;per uscire dall’applicazione.
+  * Quando hai finito di utilizzare NCDU, premi `q` per uscire dall’applicazione.
 
 Seguendo questi passaggi, sarai in grado di utilizzare NCDU per esplorare e analizzare efficacemente lo spazio su disco del tuo sistema, identificando i file e le directory che occupano più spazio e liberando risorse secondo necessità.
 
@@ -104,7 +104,7 @@ Utilizza NCDU per individuare le directory e i file che occupano più spazio sul
 
 ### 2. Eliminare file e directory non necessari:[][15] {#2-eliminare-file-e-directory-non-necessari.wp-block-heading}
 
-Utilizza il comando&nbsp;`d`&nbsp;in NCDU per eliminare i file e le directory non necessari o obsolete. Assicurati di eseguire una verifica attenta prima di eliminare qualsiasi elemento per evitare la perdita accidentale di dati importanti.
+Utilizza il comando `d` in NCDU per eliminare i file e le directory non necessari o obsolete. Assicurati di eseguire una verifica attenta prima di eliminare qualsiasi elemento per evitare la perdita accidentale di dati importanti.
 
 ### 3. Comprimere o archiviare dati meno utilizzati:[][16] {#3-comprimere-o-archiviare-dati-meno-utilizzati.wp-block-heading}
 
@@ -136,23 +136,23 @@ Con NCDU nel tuo arsenale di strumenti di gestione del sistema, sei ben equipagg
 
 Se hai domande, suggerimenti o esperienze da condividere su NCDU o sulla gestione dello spazio su disco, non esitare a farlo nei commenti o a contattarmi direttamente. Grazie per aver letto questo articolo e spero che ti sia stato utile nella tua esperienza di gestione dei server.
 
- [1]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#cos%C3%A8-ncdu
- [2]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#installazione-di-ncdu
- [3]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#linux-debianubuntu
- [4]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#linux-centosrhel
- [5]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#macos-utilizzando-homebrew
- [6]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#utilizzo-di-base-di-ncdu
- [7]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#1-avviare-ncdu
- [8]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#2-navigare-nellinterfaccia-utente
- [9]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#3-interpretare-i-dati-visualizzati
- [10]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#4-comandi-principali
- [11]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#5-navigazione-tra-le-directory
- [12]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#6-uscire-da-ncdu
- [13]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#strategie-per-ottimizzare-lo-spazio-su-disco
- [14]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#1-identificare-i-principali-consumatori-di-spazio
- [15]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#2-eliminare-file-e-directory-non-necessari
- [16]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#3-comprimere-o-archiviare-dati-meno-utilizzati
- [17]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#4-monitorare-e-limitare-la-crescita-dei-log
- [18]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#5-ottimizzare-la-gestione-delle-immagini-e-dei-media
- [19]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#6-programmare-operazioni-di-manutenzione-regolari
- [20]: https://albertoreineri.it/blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#conclusioni
+ [1]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#cos%C3%A8-ncdu
+ [2]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#installazione-di-ncdu
+ [3]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#linux-debianubuntu
+ [4]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#linux-centosrhel
+ [5]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#macos-utilizzando-homebrew
+ [6]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#utilizzo-di-base-di-ncdu
+ [7]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#1-avviare-ncdu
+ [8]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#2-navigare-nellinterfaccia-utente
+ [9]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#3-interpretare-i-dati-visualizzati
+ [10]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#4-comandi-principali
+ [11]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#5-navigazione-tra-le-directory
+ [12]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#6-uscire-da-ncdu
+ [13]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#strategie-per-ottimizzare-lo-spazio-su-disco
+ [14]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#1-identificare-i-principali-consumatori-di-spazio
+ [15]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#2-eliminare-file-e-directory-non-necessari
+ [16]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#3-comprimere-o-archiviare-dati-meno-utilizzati
+ [17]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#4-monitorare-e-limitare-la-crescita-dei-log
+ [18]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#5-ottimizzare-la-gestione-delle-immagini-e-dei-media
+ [19]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#6-programmare-operazioni-di-manutenzione-regolari
+ [20]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#conclusioni
