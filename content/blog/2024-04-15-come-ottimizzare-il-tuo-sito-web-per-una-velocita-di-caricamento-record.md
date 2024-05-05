@@ -6,8 +6,6 @@ date: 2024-04-15T08:30:02+00:00
 url: /come-ottimizzare-il-tuo-sito-web-per-una-velocita-di-caricamento-record/
 nectar_blog_post_view_count:
   - 155
-litespeed_vpi_list:
-  - 'a:2:{i:0;s:20:"Alberto-ReineriY.svg";i:1;s:10:"memoji.png";}'
 tags:
   - Web Design
 

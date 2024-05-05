@@ -6,8 +6,6 @@ date: 2024-02-12T10:59:17+00:00
 url: /web-design-e-branding-creare-un-sito-web-che-rifletta-la-tua-identita/
 nectar_blog_post_view_count:
   - 163
-litespeed_vpi_list:
-  - 'a:2:{i:0;s:20:"Alberto-ReineriY.svg";i:1;s:10:"memoji.png";}'
 tags:
   - Web Design
 

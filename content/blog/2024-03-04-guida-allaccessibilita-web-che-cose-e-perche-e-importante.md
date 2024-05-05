@@ -6,8 +6,6 @@ date: 2024-03-04T13:44:24+00:00
 url: /guida-allaccessibilita-web-che-cose-e-perche-e-importante/
 nectar_blog_post_view_count:
   - 101
-litespeed_vpi_list:
-  - 'a:2:{i:0;s:20:"Alberto-ReineriY.svg";i:1;s:10:"memoji.png";}'
 tags:
   - Web Design
 

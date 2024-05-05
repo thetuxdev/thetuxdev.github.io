@@ -84,11 +84,3 @@ Se nell’URL vedi codici e simboli matematici,** la sicurezza del sito può es
 Un’altra caratteristica dei sistemi sviluppati da zero è che spesso non hanno una **gestione per gli errori,** per esempio il classico 404 Page Not Found. Per scoprirlo è semplice, basta andare su un sito e inserire del testo a caso dopo il dominio, per esempio “http://nomesito.it/ciaociao”. Se c’è una pagina 404 inserita nel sito bene, se si veder l’errore del server, su una pagina bianca e brutta, allora non è il massimo.
 
 Tutte queste piccole cose possono** far fallire i tuoi sforzi per creare un sito web funzionante**, incidendo sull’**indicizzazione di Google**, sulle **performance** e sulla **sicurezza**.
-
-## Orange CMS
-
-Un esempio di CMS proprietario è **<a href="http://orange.albertoreineri.it/" rel="noreferrer noopener" target="_blank">Orange CMS</a>**, la mia soluzione sviluppata completamente da zero.
-
-Se vuoi **<a href="http://orange.albertoreineri.it/" rel="noreferrer noopener" target="_blank">puoi darci un’occhiata</a>**, entrare nel backend e **creare e visualizzare articoli e pagine**. L’ho già utilizzato per molti siti e i risultati sono stati sempre molto buoni, superiori a WordPress come **performance**, ma tutto dipende dalle funzionalità che si vogliono avere.
-
-Spero che questo articolo ti sia stato d’aiuto per **capire come approcciarti alla creazione del tuo nuovo sito**. Ricorda che la scelta della tecnologia è fondamentale e** ce la si porterà dietro per molto tempo**, quindi occorre farla con metodo e professionalità.

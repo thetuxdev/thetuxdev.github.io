@@ -26,8 +26,7 @@ L’obiettivo principale del gioco è semplice: scendere sempre più in profondi
 
 Ciò che rende Nethack così coinvolgente è la sua imprevedibilità e la sua infinita varietà. Ogni partita è un’avventura unica, con nuove sfide da affrontare e nuove scoperte da fare ad ogni turno. Inoltre, il gioco è noto per il suo alto livello di difficoltà, che offre una sfida stimolante anche per i giocatori più esperti.
 
-Se sei un appassionato di giochi di ruolo e ami l’idea di esplorare mondi fantastici pieni di pericoli e misteri, allora Nethack è sicuramente il gioco da terminale che fa per te. Preparati a immergerti in un’avventura epica, dove ogni decisione conta e dove solo i più coraggiosi sopravvivranno alle profondità insondabili del labirinto di Nethack.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-7496" decoding="async" height="452" loading="lazy" sizes="(max-width: 800px) 100vw, 800px" src="http://albertoreineri.it/wp-content/uploads/2024/04/13863751533_035ef21704_c-e1712682636414.jpg" srcset="/assets/img/uploads/2024/04/13863751533_035ef21704_c-e1712682636414.jpg 800w, /assets/img/uploads/2024/04/13863751533_035ef21704_c-e1712682636414-300x170.jpg 300w, /assets/img/uploads/2024/04/13863751533_035ef21704_c-e1712682636414-768x434.jpg 768w" width="800"/> </figure>
+Se sei un appassionato di giochi di ruolo e ami l’idea di esplorare mondi fantastici pieni di pericoli e misteri, allora Nethack è sicuramente il gioco da terminale che fa per te. Preparati a immergerti in un’avventura epica, dove ogni decisione conta e dove solo i più coraggiosi sopravvivranno alle profondità insondabili del labirinto di Nethack.
 
 ### Installazione
 
@@ -50,8 +49,7 @@ Se sei un appassionato di giochi di ruolo e ami l’idea di esplorare mondi fant
 
 Una volta completata l’installazione, puoi avviare Nethack dal terminale digitando il comando `nethack`. Assicurati di controllare la documentazione inclusa con Nethack per ulteriori istruzioni su come giocare e goderti questa avventura epica direttamente dal tuo terminale!
 
-## **2. Bastet: Una Versione Tattica di Tetris**<figure class="wp-block-image size-large">
-<img alt="" class="wp-image-7495" decoding="async" height="819" loading="lazy" src="http://albertoreineri.it/wp-content/uploads/2024/04/bastet.svg" width="1340"/> </figure>
+## **2. Bastet: Una Versione Tattica di Tetris**
 
 Bastet è una variante insolita e affascinante del classico gioco Tetris. Ciò che rende Bastet unico è l’algoritmo “malvagio” che si occupa della generazione dei blocchi. In Tetris tradizionale, i blocchi vengono generati casualmente, ma in Bastet l’algoritmo cerca di scegliere il blocco che causerebbe il maggior danno al giocatore, rendendo il gioco molto più impegnativo e tattico.
 

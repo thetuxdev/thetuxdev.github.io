@@ -1,5 +1,5 @@
 ---
-title: 4. Installare WordPress in locale￼
+title: 4. Installare WordPress in locale
 author: Alberto
 type: post
 date: 2020-03-20T21:29:52+00:00

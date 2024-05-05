@@ -36,9 +36,9 @@ Se hai seguito la lezione precedente dovrai digitare: <http: localhost="" wp-te
 
 Dovresti vedere la **home page** del sito standard di **WordPress**.
 
-Ora per entrare nel backend andiamo nella barra dell’**URL** e **aggiungiamo **“wp-admin”.
+Ora per entrare nel backend andiamo nella barra dell’**URL** e **aggiungiamo** “wp-admin”.
 
-**L’URL finale** sarà quindi questo: [http://localhostal/][6][wp-test][7][/wp-admin/][8]
+**L’URL finale** sarà quindi questo: [http://localhost/wp-admin/][6]
 
 A questo punto ci troviamo la schermata di **login **di WordPress.
 
@@ -135,6 +135,6 @@ Ti consiglio di provare a **dedicare un po’ di tempo** a creare articoli e p
  [3]: /installare-wordpress-in-locale%ef%bf%bc/
  [4]: .local/risorse-gratuite//
  [5]: /come-funziona-xampp/
- [6]: http://localhostalbertoreineri.it.local-test/wp-admin/
+ [6]: http://localhost/wp-admin/
  [7]: http://localhost/wp-test/
  [8]: http://localhostal/wp-test/wp-admin/

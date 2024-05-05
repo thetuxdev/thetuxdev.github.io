@@ -47,7 +47,7 @@
                                         {{ $len := len $list }}
                                         {{ range $index, $tag := $list }}
 
-                                        <a href="{{ " /tags/" | relLangURL }}{{ $tag | urlize }}"
+                                        <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}"
                                             class="text-decoration-none link-primary tag-link">
                                             {{ $tag }}
                                         </a>

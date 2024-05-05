@@ -6,8 +6,6 @@ date: 2024-02-19T11:02:10+00:00
 url: /mobile-first-lapproccio-essenziale-per-il-web-design-moderno/
 nectar_blog_post_view_count:
   - 132
-litespeed_vpi_list:
-  - 'a:2:{i:0;s:20:"Alberto-ReineriY.svg";i:1;s:10:"memoji.png";}'
 tags:
   - Web Design
 

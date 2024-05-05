@@ -6,8 +6,6 @@ date: 2024-03-11T13:59:25+00:00
 url: /seo-best-practice-per-posizionarsi-sui-motori-di-ricerca-2/
 nectar_blog_post_view_count:
   - 114
-litespeed_vpi_list:
-  - 'a:2:{i:0;s:20:"Alberto-ReineriY.svg";i:1;s:10:"memoji.png";}'
 tags:
   - Web Design
 

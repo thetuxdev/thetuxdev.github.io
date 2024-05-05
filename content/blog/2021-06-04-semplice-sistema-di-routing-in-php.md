@@ -104,8 +104,6 @@ Potete creare semplicemente i seguenti file con il seguente codice in ognuno di 
 
 E voilà! Avrete un sistema di routing in PHP semplice da gestire ma funzionale.
 
-Questo sistema è alla base di <a href="https://orange.albertoreineri.it/" rel="noreferrer noopener" target="_blank">Orange CMS</a>, il mio CMS realizzato in php. Ampliandolo a dovere è possibile raggiungere risultati molto soddisfacenti.
-
 Spero possa esservi di aiuto.
 
 _Buon codice!_

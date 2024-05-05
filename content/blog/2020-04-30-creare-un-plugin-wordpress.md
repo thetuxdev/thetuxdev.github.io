@@ -38,8 +38,8 @@ Creiamo adesso un **file **in questa cartella chiamato “_**back-on-top.php**
  * Plugin URI: /
  * Description: Un semplice link al top della pagina
  * Version: 1
- * Author: Alberto Reineri
- * Author URI: http://albertoreineri.it
+ * Author: The TUX Dev
+ * Author URI: https://thetuxdev.github.io/
  * Text Domain: back-on-top
  */</code></pre>
 
@@ -138,8 +138,8 @@ Per rendere le cose minimali inseriamo del **vanilla Javascript** dopo il div 
  * Plugin URI: /
  * Description: Un semplice link al top della pagina
  * Version: 1
- * Author: Alberto Reineri
- * Author URI: http://albertoreineri.it
+ * Author: The TUX Dev
+ * Author URI: https://thetuxdev.github.io/i
  * Text Domain: back-on-top
  */
 
