@@ -4,18 +4,16 @@ author: Alberto
 type: post
 date: 2020-03-17T21:40:43+00:00
 url: /le-basi-di-javascript/
-nectar_blog_post_view_count:
-  - 34
 tags:
   - Guide
   - Inizia Qui
 
 ---
-**Javascript **è il linguaggio che permette di** creare animazioni **nei contenuti web. Tutte le gallery, gli slider, i pop up, le transizioni di pagina e ogni effetto animato che vedi navigando online è realizzato con **Javascript**.
+**Javascript** è il linguaggio che permette di **creare animazioni **nei contenuti web. Tutte le gallery, gli slider, i pop up, le transizioni di pagina e ogni effetto animato che vedi navigando online è realizzato con **Javascript**.
 
-Questo linguaggio** si è sviluppato moltissimo**, passando dall’essere una cosa in più, un modo per creare effetti divertenti e simpatici, ad essere oggi uno dei più utilizzati al mondo, non solo per animazioni. ma per creare **vere e proprie strutture software** in grado di far funzionare applicativi potentissimi.
+Questo linguaggio **si è sviluppato moltissimo**, passando dall’essere una cosa in più, un modo per creare effetti divertenti e simpatici, ad essere oggi uno dei più utilizzati al mondo, non solo per animazioni. ma per creare **vere e proprie strutture software** in grado di far funzionare applicativi potentissimi.
 
-In questo articolo **tratteremo le basi**, partiremo **da zero **e vedremo come funziona questo linguaggio di programmazione, e creeremo insieme qualcosa di **semplice** ma utile per capire come utilizzare questo linguaggio.
+In questo articolo **tratteremo le basi**, partiremo **da zero** e vedremo come funziona questo linguaggio di programmazione, e creeremo insieme qualcosa di **semplice** ma utile per capire come utilizzare questo linguaggio.
 
 Faremo prima un po’ di teoria e poi passeremo a creare qualcosa di utilizzabile sulla nostra pagina web.
 
@@ -38,7 +36,7 @@ Come per il codice CSS, anche il Javascript può essere inserit in **modi diver
 
 ### Codice Javascript interno
 
-In questo caso il codice Javascript è inserito **direttamente nel file html **prima del fine body (), fra i tag _**<script>**_&nbsp;e&nbsp;**</script>.**
+In questo caso il codice Javascript è inserito **direttamente nel file html **prima del fine body (), fra i tag `<script>` e `</script>.`
 
 **Esempio:**
 
