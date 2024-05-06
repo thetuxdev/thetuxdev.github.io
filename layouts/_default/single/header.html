@@ -12,7 +12,7 @@
     {{- errorf "layout [_default/single/header.html] - Invalid value for param 'metadata': %s" $metadata -}}
 {{- end -}}
 
-{{ with .Title }}<p class="display-4 mt-5">{{ . }}</p>{{ end }}
+{{ with .Title }}<h1 class="display-4 mt-5">{{ . }}</h1>{{ end }}
 {{ if ne $metadata "none" }}
     {{ $lastmodstr := (partial "utilities/date.html" (dict "date" .Lastmod "format" "long")) -}}
     {{ $datestr := (partial "utilities/date.html" (dict "date" .Date "format" "long")) -}}

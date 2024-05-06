@@ -7,7 +7,7 @@
 
 ## About
 
-![Logo](https://thetuxdev.github.io/img/logo_icon.svg)
+![Logo](https://thetuxdev.github.io/img/favicon.png)
 
 **The TUX Dev** è un blog italiano senza fini di lucro che parla di linux e programmazione.
 Ci immergiamo nelle profondità del software libero e open source, credendo fermamente nella sua capacità di promuovere la collaborazione, l'innovazione e la libertà digitale.

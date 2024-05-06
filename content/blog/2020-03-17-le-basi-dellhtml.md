@@ -394,5 +394,5 @@ Per questa guida è tutto. Ti lascio ancora **il codice per intero della nostra
 </div>
 
  [1]: /le-basi-del-css/
- [2]: /corso-intensivo-di-css/side
+ [2]: /le-basi-del-css/
 </span></div></span></span></div></div></title></title></li></ol></ul>

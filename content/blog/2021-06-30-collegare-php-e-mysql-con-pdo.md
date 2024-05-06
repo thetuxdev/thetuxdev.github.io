@@ -56,4 +56,4 @@ E Voilà! Se vi appare l’elenco dei nomi che avete inserito nel DB allora la c
 
 _Buon codice!_
 
- [1]: /argomento/php/
+ [1]: /tags/php/

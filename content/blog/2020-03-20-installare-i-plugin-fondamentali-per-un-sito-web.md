@@ -123,5 +123,5 @@ Molto bene, oggi abbiamo installato alcuni fra i **plugin fondamentali **per u
 
 Il nostro primo **sito web in WordPress ora è pronto per essere pubblicato! **Nella prossima guida andremo a pubblicare online il nostro sito utilizzando risorse completamente **grauite**. Potrai così finalmente rendere pubblico il tuo lavoro, farlo vedere ad amici e parenti e** vantarti un po’!**
 
- [1]: /argomento/inizia-qui/
+ [1]: /tags/inizia-qui/
  [2]: /creiamo-le-pagine-del-nostro-primo-sito-web/

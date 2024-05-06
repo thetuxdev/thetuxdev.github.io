@@ -192,8 +192,7 @@ function back_on_top()
 }
 </code></pre>
 
-_[&lt;&lt; Parte 3][2]_[][3]
+_[&lt;&lt; Parte 3][2]_[]
 
  [1]: /creare-un-tema-wordpress-da-zero-parte-1/
  [2]: /creare-un-tema-wordpress-da-zero-parte-3/
- [3]: .local/assistenza/

@@ -306,4 +306,4 @@ _[&lt;&lt; Le basi di jQuery][3]_
 
  [1]: /come-funziona-xampp/
  [2]: /creare-un-tema-wordpress-da-zero-parte-1/
- [3]: /le-basi-di-jquery/</http:>
+ [3]: /le-basi-di-jquery/

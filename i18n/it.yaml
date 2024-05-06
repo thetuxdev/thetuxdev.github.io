@@ -149,3 +149,6 @@
   translation: "Comment"
 - id: supportedValues
   translation: "Supported values"
+
+- id: ui_search
+  translation: "Cerca nel sito"

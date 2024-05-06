@@ -277,5 +277,5 @@ footer{
 <div aria-hidden="true" class="wp-block-spacer" style="height:50px">
 </div>
 
- [1]: /argomento/wordpress-dev/
- [2]: /le-basi-di-bootstrap/</head></title></head></title>
+ [1]: /tags/wordpress-dev/
+ [2]: /le-basi-di-bootstrap/

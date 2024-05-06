@@ -54,3 +54,9 @@
 
 // Import Bootstrap utilities API (mounted by core Bootstrap module)
 @import "modules/bootstrap/utilities/api";
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}

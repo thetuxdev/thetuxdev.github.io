@@ -136,23 +136,23 @@ Con NCDU nel tuo arsenale di strumenti di gestione del sistema, sei ben equipagg
 
 Se hai domande, suggerimenti o esperienze da condividere su NCDU o sulla gestione dello spazio su disco, non esitare a farlo nei commenti o a contattarmi direttamente. Grazie per aver letto questo articolo e spero che ti sia stato utile nella tua esperienza di gestione dei server.
 
- [1]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#cos%C3%A8-ncdu
- [2]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#installazione-di-ncdu
- [3]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#linux-debianubuntu
- [4]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#linux-centosrhel
- [5]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#macos-utilizzando-homebrew
- [6]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#utilizzo-di-base-di-ncdu
- [7]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#1-avviare-ncdu
- [8]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#2-navigare-nellinterfaccia-utente
- [9]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#3-interpretare-i-dati-visualizzati
- [10]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#4-comandi-principali
- [11]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#5-navigazione-tra-le-directory
- [12]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#6-uscire-da-ncdu
- [13]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#strategie-per-ottimizzare-lo-spazio-su-disco
- [14]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#1-identificare-i-principali-consumatori-di-spazio
- [15]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#2-eliminare-file-e-directory-non-necessari
- [16]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#3-comprimere-o-archiviare-dati-meno-utilizzati
- [17]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#4-monitorare-e-limitare-la-crescita-dei-log
- [18]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#5-ottimizzare-la-gestione-delle-immagini-e-dei-media
- [19]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#6-programmare-operazioni-di-manutenzione-regolari
- [20]: /blog/ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#conclusioni
+ [1]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#cos%C3%A8-ncdu
+ [2]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#installazione-di-ncdu
+ [3]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#linux-debianubuntu
+ [4]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#linux-centosrhel
+ [5]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#macos-utilizzando-homebrew
+ [6]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#utilizzo-di-base-di-ncdu
+ [7]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#1-avviare-ncdu
+ [8]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#2-navigare-nellinterfaccia-utente
+ [9]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#3-interpretare-i-dati-visualizzati
+ [10]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#4-comandi-principali
+ [11]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#5-navigazione-tra-le-directory
+ [12]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#6-uscire-da-ncdu
+ [13]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#strategie-per-ottimizzare-lo-spazio-su-disco
+ [14]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#1-identificare-i-principali-consumatori-di-spazio
+ [15]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#2-eliminare-file-e-directory-non-necessari
+ [16]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#3-comprimere-o-archiviare-dati-meno-utilizzati
+ [17]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#4-monitorare-e-limitare-la-crescita-dei-log
+ [18]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#5-ottimizzare-la-gestione-delle-immagini-e-dei-media
+ [19]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#6-programmare-operazioni-di-manutenzione-regolari
+ [20]: /ottimizzare-lo-spazio-su-disco-da-terminale-con-ncdu-una-guida-essenziale-per-i-server/#conclusioni

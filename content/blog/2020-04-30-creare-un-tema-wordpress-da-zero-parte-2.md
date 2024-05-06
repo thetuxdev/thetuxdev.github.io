@@ -477,4 +477,4 @@ Non è così complicato vero?
 </div>
 </div>
 
- [1]: /creare-un-tema-wordpress-da-zero-parte-1/</h3></ul>
+ [1]: /creare-un-tema-wordpress-da-zero-parte-1/

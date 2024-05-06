@@ -198,5 +198,5 @@ Speriamo che questo articolo ti abbia **aiutato a imparare come creare facilmen
 
 Buono sviluppo!
 
- [1]: http://specialistawp.local/widget-in-wordpress-come-utilizzarli/
- [2]: http://specialistawp.local/installare-wordpress-in-locale/
+ [1]: /widget-in-wordpress-come-utilizzarli/
+ [2]: /installare-wordpress-in-locale/

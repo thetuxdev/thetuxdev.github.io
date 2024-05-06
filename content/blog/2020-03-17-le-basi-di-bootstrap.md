@@ -832,4 +832,4 @@ I **commenti **ti aiuteranno a capire le varie sezioni!
 </div>
 </div>
 
- [1]: /le-basi-di-jquery/</h1></head></head>
+ [1]: /le-basi-di-jquery/

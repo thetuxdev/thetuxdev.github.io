@@ -87,5 +87,5 @@ Se **andiamo a visualizzare** la nostra pagina contatti ora vedremo al suo int
 
 _**Bello vero? Hai appena installato ed utilizzato il tuo primo plugin!**_
 
- [1]: http://specialistawp.local/inizia-qui/inizia-qui-principiante/
- [2]: http://specialistawp.local/creiamo-le-pagine-del-nostro-primo-sito-web/
+ [1]: /tags/inizia-qui
+ [2]: /creiamo-le-pagine-del-nostro-primo-sito-web/

@@ -15,9 +15,7 @@ Hai seguito la guide per [configurare il tuo PC per lo sviluppo web][1], hai ca
 
 Ora **iniziamo a capire come funziona WordPress!**
 
-Spiegare tutto il funzionamento di WordPress in un singolo articolo è impensabile… Sono troppe le possibilità che il CMS offre…<figure class="wp-block-image">
-
-[<img alt="" decoding="async" src="/assets/img/uploads/2020/05/scarica-gratis-desk.jpg"/>][4]</figure>
+Spiegare tutto il funzionamento di WordPress in un singolo articolo è impensabile… Sono troppe le possibilità che il CMS offre…
 
 Ma oggi vedremo** le cose principali**, butteremo le **fondamenta **per creare le nostre skills con WordPress!
 
@@ -57,7 +55,7 @@ Ma **come funziona **questo backend?
 È molto **semplice**. Sulla sinistra troverai tutte le sezioni per configurare il tuo sito, sulla destra invece vedrai ciò che stai attualmente modificando.
 
 Prenditi un po’ di tempo per **scorrere tutti i punti nel menù laterale** del backend, in modo da farti un’idea generale del suo funzionamento.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-223" decoding="async" src="/assets/img/uploads/2022/03/image-22-1.png"/> </figure>
+<img alt="WordPress" class="wp-image-223" decoding="async" src="/assets/img/uploads/2022/03/image-22-1.png"/> </figure>
 
 ## 1. GESTIONE DEI CONTENUTI
 
@@ -69,7 +67,7 @@ Quando andiamo a creare una nuova pagina per il nostro sito possiamo scegliere f
   * **Pagine**
 
 ### ARTICOLI<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-222" decoding="async" src="/assets/img/uploads/2022/03/image-23.png"/> </figure>
+<img alt="WordPress articoli" class="wp-image-222" decoding="async" src="/assets/img/uploads/2022/03/image-23.png"/> </figure>
 
 Gli **Articoli** sono dei contenuti elencati in ordine cronologico inverso (dal più recente al più vecchio). Sono utilizzati per i **blog**, i giornali e tutti i siti che si aggiornano continuamente.
 
@@ -80,14 +78,14 @@ Inoltre invitano alla conversazione grazie alla presenza dei **commenti **in f
 Un **esempio **di Articolo è quello che stai leggendo ora!
 
 ### PAGINE<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-221" decoding="async" src="/assets/img/uploads/2022/03/image-24-1.png"/> </figure>
+<img alt="WordPress pagine" class="wp-image-221" decoding="async" src="/assets/img/uploads/2022/03/image-24-1.png"/> </figure>
 
 Le **Pagine **di WordPress sono contenuti **a sè stanti**, una tantum, senza particolari relazioni con altri contenuti del sito. Un esempio di una **Pagina **è la pagina di contatto del sito oppure la pagina “**chi siamo**“. Questa tipologia di contenuto non ha la sezione commenti solitamente.
 
 Entrambe queste tipologie possono contenere **testi**, immagini, **link **e tutto ciò che puoi desiderare inserire all’interno dei tuoi **contenuti**.
 
 ### MEDIA<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-220" decoding="async" src="/assets/img/uploads/2022/03/image-25.png"/> </figure>
+<img alt="WordPress media" class="wp-image-220" decoding="async" src="/assets/img/uploads/2022/03/image-25.png"/> </figure>
 
 Se hai dato un’occhiata alla barra laterale del backend di WordPress avrai notato che, proprio fra **Articoli **e **Pagine**, c’è la sezione **Media**.
 
@@ -96,7 +94,7 @@ Questa sezione raccoglie **tutte le risorse** che caricherai sul tuo sito, com
 ## 2. GESTIONE DELLA GRAFICA
 
 La parte grafica del tuo sito è gestita tramite la sezione “**Aspetto**“.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-218" decoding="async" src="/assets/img/uploads/2022/03/image-26-1.png"/> </figure>
+<img alt="WordPress grafica" class="wp-image-218" decoding="async" src="/assets/img/uploads/2022/03/image-26-1.png"/> </figure>
 
 All’interno di questa sezione **puoi trovare:**
 
@@ -110,7 +108,7 @@ All’interno di questa sezione **puoi trovare:**
 ## 3. GESTIONE DELLE FUNZIONALITÀ
 
 Tutte le funzionalità che vuoi implementare nel tuo sito le puoi trovare nella sezione “**Plugin**“.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-217" decoding="async" src="/assets/img/uploads/2022/03/image-27.png"/> </figure>
+<img alt="WordPress funzionalità" class="wp-image-217" decoding="async" src="/assets/img/uploads/2022/03/image-27.png"/> </figure>
 
 I plugin sono dei **piccoli software** che consentono al sito di fare una **determinata funzione.**
 
@@ -130,10 +128,10 @@ Ti consiglio di provare a **dedicare un po’ di tempo** a creare articoli e p
 
 **La pratica è il miglior modo per imparare!**
 
- [1]: /configurare-il-pc-per-sviluppare-in-wordpress%ef%bf%bc/
+ [1]: /configurare-il-pc-per-sviluppare-in-wordpress/
  [2]: /perche-installare-wordpress-in-locale/
- [3]: /installare-wordpress-in-locale%ef%bf%bc/
- [4]: .local/risorse-gratuite//
+ [3]: /installare-wordpress-in-locale/
+ [4]: https://github.com/thetuxdev
  [5]: /come-funziona-xampp/
  [6]: http://localhost/wp-admin/
  [7]: http://localhost/wp-test/

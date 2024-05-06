@@ -191,6 +191,6 @@ Hai appena installato** WordPress in locale** sul tuo computer!
 
 Hai fatto il primo passo per iniziare a diventare uno sviluppatore WP. Continua a leggere i nostri articoli per migliorare sempre di più e diventare un vero PRO!
 
- [1]: /configurare-il-pc-per-sviluppare-in-wordpress%ef%bf%bc/
+ [1]: /configurare-il-pc-per-sviluppare-in-wordpress/
  [2]: /perche-installare-wordpress-in-locale/
  [3]: /come-funziona-xampp/

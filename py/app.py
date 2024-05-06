@@ -24,7 +24,7 @@ for filename in os.listdir(directory):
                     print("SRC trovato:", src)
 
                     # Sostituisci l'intero blocco con il tuo codice desiderato
-                    replacement = '{{< image src="' + src + '" >}}'
+                    replacement = '{{< image src="/assets/img/uploads/' + src + '" >}}'
                     wp_block_image.replace_with(replacement)
 
         # Scrivi il contenuto modificato nel file

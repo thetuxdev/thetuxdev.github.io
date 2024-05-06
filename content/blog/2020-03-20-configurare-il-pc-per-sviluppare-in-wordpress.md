@@ -83,4 +83,4 @@ Grazie per aver letto questo articolo
 
 _Buon codice!_
 
- [1]: .local/risorse-gratuite//
+ [1]: https://github.com/thetuxdev

@@ -53,4 +53,4 @@ con
 
 Con questi semplici passaggi puoi installare un certificato SSL e redirigere il traffico da http a https, ottenendo un sito web più sicuro.
 
- [1]: /come-installare-e-personalizzare-un-tema-wordpress-2/
+ [1]: /come-installare-e-personalizzare-un-tema-wordpress/

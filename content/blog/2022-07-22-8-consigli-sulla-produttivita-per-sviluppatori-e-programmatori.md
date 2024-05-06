@@ -74,7 +74,7 @@ Ricorda che la sperimentazione è l’elemento chiave della produttività. Se p
 E, se hai bisogno di altri suggerimenti unici per sviluppatori e programmatori, non perdere il nostro articolo su [come scegliere quale linguaggio di programmazione imparare][17] .
 
  [1]: /5-migliori-editor-di-testo-per-sviluppatori
- [2]: /come-usare-git/
+ [2]: /come-funziona-git/
  [3]: /10-consigli-per-freelance-e-liberi-professionisti/
  [4]: https://www.forbes.com/sites/lisaquast/2017/02/06/want-to-be-more-productive-stop-multi-tasking
  [5]: http://naturalhealthcare.ca/glossaries.phtml?term=sustained+attention#.XgqCCPx7nIU

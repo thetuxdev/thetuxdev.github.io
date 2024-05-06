@@ -63,4 +63,4 @@ Sono sicuro che non riuscirai più a farne a meno!
 
 _Buon codice! Ciau!!!_
 
- [1]: /come-usare-git/
+ [1]: /come-funziona-git/

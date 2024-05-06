@@ -53,5 +53,5 @@ L’uso di un plug-in specifico per il sito è la **soluzione migliore** perch
 
 Speriamo che questo articolo ti abbia aiutato a conoscere tutto sul file Functions.php in WordPress e su come aggiungere frammenti di codice al tuo sito! 
 
- [1]: /categoria_guide/php
+ [1]: /tags/php
  [2]: /creare-un-plugin-wordpress/

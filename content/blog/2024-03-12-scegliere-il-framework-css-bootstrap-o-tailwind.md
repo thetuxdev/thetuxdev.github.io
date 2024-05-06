@@ -210,38 +210,38 @@ In conclusione, non esiste una risposta universale al dilemma Bootstrap vs Tailw
 
 Esplorare ulteriormente queste risorse fornirà agli sviluppatori una panoramica più completa dei due framework, offrendo consigli pratici, soluzioni a problemi comuni e aggiornamenti sulle ultime novità. Sia che tu stia iniziando la tua avventura con uno dei due framework o che stia cercando di perfezionare le tue abilità, queste risorse saranno fondamentali per il tuo successo nello
 
- [1]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#bootstrap-analisi-del-framework
- [2]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#storia-e-background-di-bootstrap
- [3]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#caratteristiche-principali
- [4]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#vantaggi-e-svantaggi-di-bootstrap
- [5]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#esempi-di-progetti-realizzati-con-bootstrap
- [6]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#tailwind-css-una-prospettiva-dettagliata
- [7]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#panoramica-di-tailwind-css
- [8]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#filosofia-e-approccio
- [9]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#componenti-e-stili-in-tailwind
- [10]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#punti-di-forza-e-criticit%C3%A0-di-tailwind
- [11]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#esempi-di-progetti-realizzati-con-tailwind-css
- [12]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#confronto-diretto-bootstrap-vs-tailwind
- [13]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#prestazioni
- [14]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#flessibilit%C3%A0-e-personalizzazione
- [15]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#velocit%C3%A0-di-sviluppo
- [16]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#compatibilit%C3%A0-con-progetti-complessi
- [17]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#comunit%C3%A0-e-supporto
- [18]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#conclusioni
- [19]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#riassunto-dei-punti-chiave
- [20]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#raccomandazioni-basate-sul-contesto-di-sviluppo
- [21]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#risorse-utili
- [22]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#link-a-documentazione-ufficiale
+ [1]: /scegliere-il-framework-css-bootstrap-o-tailwind/#bootstrap-analisi-del-framework
+ [2]: /scegliere-il-framework-css-bootstrap-o-tailwind/#storia-e-background-di-bootstrap
+ [3]: /scegliere-il-framework-css-bootstrap-o-tailwind/#caratteristiche-principali
+ [4]: /scegliere-il-framework-css-bootstrap-o-tailwind/#vantaggi-e-svantaggi-di-bootstrap
+ [5]: /scegliere-il-framework-css-bootstrap-o-tailwind/#esempi-di-progetti-realizzati-con-bootstrap
+ [6]: /scegliere-il-framework-css-bootstrap-o-tailwind/#tailwind-css-una-prospettiva-dettagliata
+ [7]: /scegliere-il-framework-css-bootstrap-o-tailwind/#panoramica-di-tailwind-css
+ [8]: /scegliere-il-framework-css-bootstrap-o-tailwind/#filosofia-e-approccio
+ [9]: /scegliere-il-framework-css-bootstrap-o-tailwind/#componenti-e-stili-in-tailwind
+ [10]: /scegliere-il-framework-css-bootstrap-o-tailwind/#punti-di-forza-e-criticit%C3%A0-di-tailwind
+ [11]: /scegliere-il-framework-css-bootstrap-o-tailwind/#esempi-di-progetti-realizzati-con-tailwind-css
+ [12]: /scegliere-il-framework-css-bootstrap-o-tailwind/#confronto-diretto-bootstrap-vs-tailwind
+ [13]: /scegliere-il-framework-css-bootstrap-o-tailwind/#prestazioni
+ [14]: /scegliere-il-framework-css-bootstrap-o-tailwind/#flessibilit%C3%A0-e-personalizzazione
+ [15]: /scegliere-il-framework-css-bootstrap-o-tailwind/#velocit%C3%A0-di-sviluppo
+ [16]: /scegliere-il-framework-css-bootstrap-o-tailwind/#compatibilit%C3%A0-con-progetti-complessi
+ [17]: /scegliere-il-framework-css-bootstrap-o-tailwind/#comunit%C3%A0-e-supporto
+ [18]: /scegliere-il-framework-css-bootstrap-o-tailwind/#conclusioni
+ [19]: /scegliere-il-framework-css-bootstrap-o-tailwind/#riassunto-dei-punti-chiave
+ [20]: /scegliere-il-framework-css-bootstrap-o-tailwind/#raccomandazioni-basate-sul-contesto-di-sviluppo
+ [21]: /scegliere-il-framework-css-bootstrap-o-tailwind/#risorse-utili
+ [22]: /scegliere-il-framework-css-bootstrap-o-tailwind/#link-a-documentazione-ufficiale
  [23]: https://getbootstrap.com/docs/5.0/
  [24]: https://github.com/twbs/bootstrap
  [25]: https://tailwindcss.com/docs
  [26]: https://github.com/tailwindlabs/tailwindcss
- [27]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#altri-articoli-di-approfondimento
+ [27]: /scegliere-il-framework-css-bootstrap-o-tailwind/#altri-articoli-di-approfondimento
  [28]: https://www.sitepoint.com/twitter-bootstrap-tutorial-handbook/
  [29]: https://scotch.io/bar-talk/bootstrap-4-whats-new
  [30]: https://medium.com/@drewcodes/getting-started-with-tailwind-css-4bed14f3e9b2
- [31]: https://blog.logrocket.com/a-complete-guide-to-tailwind-css/
- [32]: /blog/scegliere-il-framework-css-bootstrap-o-tailwind/#community-e-forum-di-supporto
+ [31]: https:/.logrocket.com/a-complete-guide-to-tailwind-css/
+ [32]: /scegliere-il-framework-css-bootstrap-o-tailwind/#community-e-forum-di-supporto
  [33]: https://stackoverflow.com/questions/tagged/bootstrap
  [34]: https://www.reddit.com/r/bootstrap/
  [35]: https://github.com/tailwindlabs/tailwindcss/discussions

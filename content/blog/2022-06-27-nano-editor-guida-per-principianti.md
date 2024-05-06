@@ -103,4 +103,4 @@ Di seguito ti lascio una serie di comandi spesso utilizzati:
 | CTRL + O | Salva il contenuto senza uscire        |
 |          |                                        |</figure>
 
- [1]: /argomento/linux/
+ [1]: /tags/linux/

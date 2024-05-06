@@ -20,7 +20,7 @@ Non perdiamo altro tempo e** diamoci da fare** con la parte finale di questo c
 [<img alt="" decoding="async" src="/assets/img/uploads/2020/05/scarica-gratis-desk.jpg"/>][1]</figure>
 <hr class="wp-block-separator"/>
 <p class="has-text-align-center has-vivid-red-color has-text-color">
-<em>Questa è la parte più complicata di tutte. Prenditi il tempo necessario per capirla a fondo e se hai bisogno di aiuto non esitare a <a href=".local/assistenza/">contattarci</a>, possiamo aiutarti e rendere tutto più semplice!</em>
+<em>Questa è la parte più complicata di tutte. Prenditi il tempo necessario per capirla a fondo!</em>
 </p>
 <hr class="wp-block-separator"/>
 
@@ -292,4 +292,4 @@ Per fare ciò basterà loggarsi nel backend ed andare in “**Impostazioni – P
 
 **Hai terminato la serie per principianti! Ora puoi iniziare a dedicarti a qualcosa di più complesso!**
 
- [1]: .local/risorse-gratuite//</http:>
+ [1]: https://github.com/thetuxdev

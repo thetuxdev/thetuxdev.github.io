@@ -30,8 +30,9 @@ Puoi anche aprire il selettore usando la scorciatoia da tastiera “Ctrl+K Ctrl+
 
 2: Usa i tasti cursore per scorrere e visualizzare in anteprima i colori del tema
 
-3: Seleziona il tema che desideri e premi “Invio” sulla tastiera<figure class="wp-block-image">
-<img alt="" class="wp-image-1588" decoding="async" src="https://www.tabnine.com/blog/wp-content/uploads/2021/11/1-how-to-install-vscode-themes-from-marketplace.png"/> </figure>
+3: Seleziona il tema che desideri e premi “Invio” sulla tastiera
+
+{{< image src="https://www.tabnine.com/blog/wp-content/uploads/2021/11/1-how-to-install-vscode-themes-from-marketplace.png" >}}
 
 **Metodo 2: ricerca in VSCode**
 

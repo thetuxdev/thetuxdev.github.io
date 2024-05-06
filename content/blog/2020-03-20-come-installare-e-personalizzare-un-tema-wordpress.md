@@ -180,5 +180,5 @@ Nelle **prossime lezioni** vedremo come sistemarlo al meglio.
 
 **Continua così**, presto avrai creato **il tuo primo sito web in WordPress!!!**
 
- [1]: /installare-wordpress-in-locale%ef%bf%bc/
+ [1]: /installare-wordpress-in-locale/
  [2]: /come-funziona-wordpress/
