@@ -145,9 +145,9 @@ In qualiasi tipo di codice è molto importante inserire i commenti. Questi perme
 
 &lt;/ul&gt;</code></pre>
 
-Il tag <ul> permette di inserire un elenco. Per inserire un elenco numerato c’è il tag <ol> (Unordered List e Ordered List).
+Il tag `<ul>` permette di inserire un elenco. Per inserire un elenco numerato c’è il tag «<ol>« (Unordered List e Ordered List).
 
-Ogni elemento di un elenco deve essere inserito con il tag <li> (List Item)
+Ogni elemento di un elenco deve essere inserito con il tag `<li>` (List Item)
 
 ## Sporchiamoci le mani
 
