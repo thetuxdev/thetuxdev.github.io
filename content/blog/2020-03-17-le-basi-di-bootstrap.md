@@ -144,7 +144,7 @@ Ecco che abbiamo un layout con 2 colonne su **desktop**:
 
 E di 1 colonna da **tablet **in giù:
 
-{{< image src="/assets/img/uploads/2022/03/image-17.png" >}}
+{{< image src="/img/uploads/2022/03/image-17.png" >}}
 
 Vedrai che la larghezza è minore dell’intero schermo del desktop.
 
@@ -156,11 +156,11 @@ Per avere un’idea di come il sito sarà sui vari **dispositivi **puoi utiliz
 
 Su google chrome premi **f12 **e poi questa **icona** sulla sinistra:
 
-{{< image src="/assets/img/uploads/2022/03/image-18.png" >}}
+{{< image src="/img/uploads/2022/03/image-18.png" >}}
 
 Dopodiché in alto potrai scegliere un dispositivo mobile oppure selezionare le **dimensioni **che preferisci attraverso l’opzione “**Responsive**“
 
-{{< image src="/assets/img/uploads/2022/03/image-20.png" >}}
+{{< image src="/img/uploads/2022/03/image-20.png" >}}
 
 ## Breakpoints
 
@@ -362,7 +362,7 @@ Prova a visualizzare in modalità smartphone, vedrai che il menù scompare e app
 
 **Mobile:**
 
-{{< image src="/assets/img/uploads/2022/03/image-22.png" >}}
+{{< image src="/img/uploads/2022/03/image-22.png" >}}
 
 ### Bottoni
 
@@ -378,7 +378,7 @@ Un altro componente utilissimo sono i **bottoni**! Bootstrap fornisce un insiem
 &lt;button type="button" class="btn btn-dark"&gt;Dark&lt;/button&gt;
 
 &lt;button type="button" class="btn btn-link"&gt;Link&lt;/button&gt;</code></pre>
-{{< image src="/assets/img/uploads/2022/03/image-24.png" >}}
+{{< image src="/img/uploads/2022/03/image-24.png" >}}
 
 La classe “**btn**” indica il bottone, mentre “**btn-primary**” indica la tipologia del bottone.
 

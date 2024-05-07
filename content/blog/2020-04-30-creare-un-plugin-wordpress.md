@@ -46,7 +46,7 @@ Creiamo adesso un **file **in questa cartella chiamato “_**back-on-top.php**
 Questo codice **indicherà a WordPress l’esistenza del plugin.**
 
 Se salviamo e andiamo nel backend in “**Plugins**” vedremo apparire “**Back on top**” nell’elenco. Possiamo quindi **attivarlo**.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-331" decoding="async" src="/assets/img/uploads/2022/03/image-41-1024x48-1.png"/> </figure>
+<img alt="" class="wp-image-331" decoding="async" src="/img/uploads/2022/03/image-41-1024x48-1.png"/> </figure>
 
 Il plugin al momento **non fa assolutamente nulla**, ma l’abbiamo creato.
 
@@ -125,7 +125,7 @@ Per rendere le cose minimali inseriamo del **vanilla Javascript** dopo il div 
 **_E voilà!_**
 
 **Il plugin è bello che pronto.** Puoi salvare e se tutto è andato a buon fine dovresti vedere una freccia verso l’alto nell’angolo in basso a destra del sito. Cliccando sulla freccia dovresti tornare al top della pagina.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-332" decoding="async" src="/assets/img/uploads/2022/03/image-39-1.png"> </img></figure>
+<img alt="" class="wp-image-332" decoding="async" src="/img/uploads/2022/03/image-39-1.png"> </img></figure>
 
 **_Complimenti! Hai appena creato il tuo primo plugin!!!_**
 

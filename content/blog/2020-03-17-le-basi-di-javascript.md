@@ -48,7 +48,7 @@ Apriamo il nostro “**index.html**“, andiamo sul fondo e inseriamo questo cod
 
 Ora **salviamo** e **apriamo** la pagina “index.html”. Ecco che apparirà un **popup** con scritto “CIAO!”.
 
-{{< image src="/assets/img/uploads/2022/03/image-10.png" >}}
+{{< image src="/img/uploads/2022/03/image-10.png" >}}
 
 ## Codice Javascript esterno
 

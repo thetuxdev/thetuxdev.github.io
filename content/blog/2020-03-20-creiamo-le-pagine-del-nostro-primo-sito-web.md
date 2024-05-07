@@ -26,12 +26,12 @@ Creeremo sia **pagine **che **articoli**, in questo modo **capirai meglio**�
 Iniziamo con il creare la pagina “**Chi sono**“.
 
 Tramite il **menù laterale** ci rechiamo in “**Pagine**” e poi su “**Aggiungi pagina**“<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-248" decoding="async" src="/assets/img/uploads/2022/03/image-53.png"/> </figure>
+<img alt="" class="wp-image-248" decoding="async" src="/img/uploads/2022/03/image-53.png"/> </figure>
 
 Ora ci troveremo di fronte a **Gutenberg**: il **page builder** di WordPress.
 
 Attraverso questa interfaccia possiamo **creare la nostra pagina web **senza scrivere una sola riga di codice.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-249" decoding="async" src="/assets/img/uploads/2022/03/image-54-1024x507-1.png"/> </figure>
+<img alt="" class="wp-image-249" decoding="async" src="/img/uploads/2022/03/image-54-1024x507-1.png"/> </figure>
 
 Nel campo “**Aggiungi titolo**” scriviamo “_Chi sono_“, sotto al titolo invece possiamo scrivere il **contenuto della nostra pagina**
 
@@ -44,7 +44,7 @@ Il bello di questo page builder è che è **minimale**, **semplice **ed **in
 Tutti i contenuti sono **suddivisi in blocchi**. Per esempio un **paragrafo **è un blocco, **un’immagine **un altro blocco, un** elenco puntato** un altro e così via.
 
 Per inserire un blocco basta cliccare sul “**+**” sulla sinistra e scegliere il blocco desiderato.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-250" decoding="async" src="/assets/img/uploads/2022/03/image-55.png"/> </figure>
+<img alt="" class="wp-image-250" decoding="async" src="/img/uploads/2022/03/image-55.png"/> </figure>
 
 In questa pagina possiamo inserire un blocco “**Paragrafo**“, dentro il quale scrivere:
 
@@ -53,10 +53,10 @@ _“Ciao, sono nome, questo è il mio primo sito in WordPress!!! Bello vero?”_
 e sotto questo paragrafo possiamo inserire un blocco “**Immagine**” e andare a prendere **una nostra foto**.
 
 Dopo aver scelto il blocco immagine è sufficiente cliccare su “**Carica**“, scegliere una foto presente sul computer e questa verrà inserita nella posizione corretta.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-251" decoding="async" src="/assets/img/uploads/2022/03/image-56.png"/> </figure>
+<img alt="" class="wp-image-251" decoding="async" src="/img/uploads/2022/03/image-56.png"/> </figure>
 
 Infine per rendere visibili le modifiche dobbiamo **pubblicare la pagina.**<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-254" decoding="async" src="/assets/img/uploads/2022/03/image-58.png"/> </figure>
+<img alt="" class="wp-image-254" decoding="async" src="/img/uploads/2022/03/image-58.png"/> </figure>
 
 In alto a destra troverai due bottoni: **Anteprima **e **Pubblica**.
 
@@ -77,10 +77,10 @@ Nella **prossima lezione** vedremo come **inserire un modulo di contatto **s
 Ora creiamo la sezione “**Blog**” del sito. Come ormai saprai WordPress è nato come piattaforma di blogging, perciò è molto molto semplice implementare questa funzione!
 
 Per farlo andremo in “**Articoli – Categorie**“<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-256" decoding="async" src="/assets/img/uploads/2022/03/image-63.png"/> </figure>
+<img alt="" class="wp-image-256" decoding="async" src="/img/uploads/2022/03/image-63.png"/> </figure>
 
 Qua possiamo **creare le categorie del nostro sito**, per suddividere gli articoli e rendere la gestione e la navigazione ordinata.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-257" decoding="async" src="/assets/img/uploads/2022/03/image-64-1024x515-1.png"/> </figure>
+<img alt="" class="wp-image-257" decoding="async" src="/img/uploads/2022/03/image-64-1024x515-1.png"/> </figure>
 
 Come vedi di default è già presente una categoria “**Senza categoria**“, che fra poco andremo ad eliminare.
 
@@ -93,15 +93,15 @@ Se provi a **cancellare “Senza categoria”** vedrai che **non puoi **al m
 Questo perché è impostata come **categoria di default,** cioè ogni articolo senza categoria verrà inserito automaticamente dentro questa. Ma noi non la vogliamo, quindi andiamo a vedere come eliminarla!
 
 Andiamo su “**Impostazioni – Scrittura**“<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-258" decoding="async" src="/assets/img/uploads/2022/03/image-65.png"/> </figure>
+<img alt="" class="wp-image-258" decoding="async" src="/img/uploads/2022/03/image-65.png"/> </figure>
 
 Ed ecco qua che vediamo le impostazione per la** categoria predefinita:**<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-259" decoding="async" src="/assets/img/uploads/2022/03/image-66.png"/> </figure>
+<img alt="" class="wp-image-259" decoding="async" src="/img/uploads/2022/03/image-66.png"/> </figure>
 
 Basterà selezionare “**Blog**” al posto di “**Senza categoria**” e salvare premendo il tasto “**Salva le modifiche**” sul fondo.
 
 Ora torniamo in “**Articoli – Categorie**” e cancelliamo “**Senza categoria**“.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-260" decoding="async" src="/assets/img/uploads/2022/03/image-67.png"/> </figure>
+<img alt="" class="wp-image-260" decoding="async" src="/img/uploads/2022/03/image-67.png"/> </figure>
 
 Adesso ogni articolo che scriverai rientrerà in automatico nella categoria “**Blog**“.
 
@@ -110,7 +110,7 @@ Adesso ogni articolo che scriverai rientrerà in automatico nella categoria “*
 Ora creeremo un paio di articoli di prova!
 
 Andiamo in “**Articoli – Aggiungi articolo**“.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-261" decoding="async" src="/assets/img/uploads/2022/03/image-68.png"/> </figure>
+<img alt="" class="wp-image-261" decoding="async" src="/img/uploads/2022/03/image-68.png"/> </figure>
 
 Come puoi vedere **l’interfaccia è la stessa per la creazione di pagine.**
 
@@ -128,29 +128,29 @@ TIPS: è molto comune nel mondo del design utilizzare il testo “Lorem ipsum”
 Ora che abbiamo creato le nostre pagine e impostato il blog possiamo andare a creare il** menù di navigazione**, per permettere agli utenti di raggiungere tutte le pagine del nostro sito in maniera semplice, intuitiva e veloce.
 
 Andiamo quindi su “**Aspetto – Menu**“.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-262" decoding="async" src="/assets/img/uploads/2022/03/image-59-1.png"/> </figure>
+<img alt="" class="wp-image-262" decoding="async" src="/img/uploads/2022/03/image-59-1.png"/> </figure>
 
 Tramite questa sezione possiamo **creare i menù del nostro sito WordPress!**<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-263" decoding="async" src="/assets/img/uploads/2022/03/image-60-1024x514-1.png"/> </figure>
+<img alt="" class="wp-image-263" decoding="async" src="/img/uploads/2022/03/image-60-1024x514-1.png"/> </figure>
 
 Di default WordPress ci propone di creare un menù con inserite le ultime pagine che abbiamo creato.
 
 Andiamo nel campo “**Nome menu**” e al posto di “Menu 1” inseriamo “_Menù di navigazione_“.
 
 Dopodiché clicchiamo sulla freccia verso il basso sulla destra di “**Pagina di esempio**“. Si apriranno delle opzioni:<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-264" decoding="async" src="/assets/img/uploads/2022/03/image-61.png"/> </figure>
+<img alt="" class="wp-image-264" decoding="async" src="/img/uploads/2022/03/image-61.png"/> </figure>
 
 Qua clicchiamo “**Rimuovi**“.
 
 Per inserire la sezione “**Blog**” nel nostro menù di navigazione ci basterà cliccare su “**Categorie**“, selezionare “**Blog**” e premere “**Aggiungi al menu**“<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-265" decoding="async" src="/assets/img/uploads/2022/03/image-69.png"/> </figure>
+<img alt="" class="wp-image-265" decoding="async" src="/img/uploads/2022/03/image-69.png"/> </figure>
 
 È possibile **spostare in alto o in basso le voci** del menù semplicemente premendo su di esse e trascinandole nella posizione desiderata! **Semplice **no?
 
 Ora possiamo premere su “**Crea menu**“.
 
 Ora che il menù è creato vedremo delle** nuove impostazioni:**<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-266" decoding="async" src="/assets/img/uploads/2022/03/image-62.png"/> </figure>
+<img alt="" class="wp-image-266" decoding="async" src="/img/uploads/2022/03/image-62.png"/> </figure>
 
 Qua clicchiamo su “**Top Primary menu**” per poter impostare il menù appena creato come menu top, cioè in alto, la classica **barra di navigazione.**
 
@@ -161,7 +161,7 @@ ATTENZIONE! Ogni menù creato necessita di essere inserito da qualche parte nel 
 <hr class="wp-block-separator"/>
 
 Molto bene, **hai appena creato il menù di navigazione del tuo sito web.**<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-267" decoding="async" src="/assets/img/uploads/2022/03/image-70.png"/> </figure>
+<img alt="" class="wp-image-267" decoding="async" src="/img/uploads/2022/03/image-70.png"/> </figure>
 
 Prova ad andare nel** front-end **e lo vedrai comparire in alto sulla destra!
 

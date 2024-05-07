@@ -40,7 +40,7 @@ Vediamo **come aggiungere facilmente **shortcode nei post e nelle pagine di Wo
 ## AGGIUNTA DI UNO SHORTCODE NEI POST E NELLE PAGINE DI WORDPRESS
 
 Innanzitutto, è necessario** modificare il post e la pagina in cui si desidera aggiungere lo shortcode**. Successivamente, è necessario fare clic sul pulsante **Aggiungi blocco** per inserire un blocco _shortcode_.<figure class="wp-block-image size-large">
-<img alt="" class="wp-image-434" decoding="async" src="/assets/img/uploads/2022/03/shortcode-1024x513.gif"/> </figure>
+<img alt="" class="wp-image-434" decoding="async" src="/img/uploads/2022/03/shortcode-1024x513.gif"/> </figure>
 
 Dopo aver aggiunto il blocco _shortcode_, puoi semplicemente inserire il tuo shortcode nelle impostazioni del blocco. Lo shortcode sarà fornito da vari plugin di WordPress che potresti utilizzare.
 
@@ -51,7 +51,7 @@ Ora puoi salvare il tuo post o la pagina e visualizzare in anteprima le modifich
 Puoi anche usare gli shortcode nei widget della sidebar di WordPress . Basta visitare la pagina **Aspetto »Widget** e aggiungere il widget “Testo” a una sidebar.
 
 Ora puoi** incollare il tuo shortcode** nell’area di testo del widget.<figure class="wp-block-image size-large">
-<img alt="" class="wp-image-435" decoding="async" src="/assets/img/uploads/2022/03/image-33-1-1024x438.png"/> </figure>
+<img alt="" class="wp-image-435" decoding="async" src="/img/uploads/2022/03/image-33-1-1024x438.png"/> </figure>
 
 Non dimenticare di fare clic sul pulsante “**Salva**” per memorizzare le impostazioni del widget.
 
@@ -62,7 +62,7 @@ Successivamente, puoi visitare il tuo sito Web WordPress per vedere **l’ant
 Se stai ancora utilizzando il vecchio **editor classico **in WordPress, ecco come aggiungere codici brevi ai tuoi post e alle tue pagine WordPress.
 
 Modifica semplicemente il post e la pagina in cui desideri aggiungere lo shortcode. È possibile** incollare lo shortcode** in qualsiasi punto all’interno dell’editor dei contenuti nel punto in cui si desidera che venga visualizzato. Assicurati solo che lo shortcode sia nella sua stessa riga.<figure class="wp-block-image size-large">
-<img alt="" class="wp-image-437" decoding="async" src="/assets/img/uploads/2022/03/image-34-3-1024x316.png"/> </figure>
+<img alt="" class="wp-image-437" decoding="async" src="/img/uploads/2022/03/image-34-3-1024x316.png"/> </figure>
 
 Non dimenticare di **salvare **le modifiche. Successivamente puoi visualizzare l’anteprima del tuo post e della pagina per vedere lo shortcode in azione.
 

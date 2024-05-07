@@ -58,7 +58,7 @@ Version: 0.0.1
 Puoi **sostituire **l’autore con il tuo nome, così come il nome del tema e la descrizione.
 
 Se ora salvi il file CSS e vai nel backend di WordPress in “**Aspetto – Temi**” vedrai comparire il nostro tema!<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-316" decoding="async" src="/assets/img/uploads/2022/03/image-12-2.png"/> </figure>
+<img alt="" class="wp-image-316" decoding="async" src="/img/uploads/2022/03/image-12-2.png"/> </figure>
 
 Puoi **attivare il tema **e _voilà_! Il tema è fatto!
 
@@ -450,7 +450,7 @@ Nella programmazione è molto importante **suddividere i contenuti **in parti 
 Vediamo ora come **recuperare **alcune delle **informazioni principali** del nostro sito.
 
 Nel **backend **puoi impostare un nome e una descrizione al tuo sito, nella sezione “**Impostazioni – Generali**“.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-317" decoding="async" src="/assets/img/uploads/2022/03/image-14-1.png"/> </figure>
+<img alt="" class="wp-image-317" decoding="async" src="/img/uploads/2022/03/image-14-1.png"/> </figure>
 
 **Inserisci **il **titolo **del sito e un **motto**. Ora vediamo come recuperare questi dati nel **frontend**!
 

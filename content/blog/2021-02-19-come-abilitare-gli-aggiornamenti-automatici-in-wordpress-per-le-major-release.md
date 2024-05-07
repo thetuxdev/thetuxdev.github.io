@@ -50,7 +50,7 @@ Questo metodo è più **semplice **e consigliato a tutti gli utenti.
 Innanzitutto, è necessario installare e attivare il plug-in <a href="https://wordpress.org/plugins/stops-core-theme-and-plugin-updates/" rel="noreferrer noopener" target="_blank">Easy Updates Manager</a> . 
 
 Al momento dell’attivazione, è necessario visitare **Dashboard »** **Update Options** per configurare il plug-in.<figure class="wp-block-image size-large">
-<img alt="" class="wp-image-422" decoding="async" src="/assets/img/uploads/2022/03/image-27-1-1024x200.png"/> </figure>
+<img alt="" class="wp-image-422" decoding="async" src="/img/uploads/2022/03/image-27-1-1024x200.png"/> </figure>
 
 Nella sezione “**WordPress core updates**“, fai clic sull’opzione “**Auto update all releases**“.
 

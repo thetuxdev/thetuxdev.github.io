@@ -17,7 +17,7 @@ Per cominciare dovrai installare i** programmi necessari **per scrivere i tuoi
 
 Lasciamo da parte **l’eterna discussione** su quale sistema operativo sia migliore per una determinata cosa, sulle mode che portano a scegliere un pc rispetto ad un altro e cose di questo genere. Tutti i software presenti in questo articolo sono disponibili sia per **Windows **che per **Mac **che per **Linux**.<figure class="wp-block-image">
 
-[<img alt="" decoding="async" src="/assets/img/uploads/2020/05/scarica-gratis-desk.jpg"/>][1]</figure>
+[<img alt="" decoding="async" src="/img/uploads/2020/05/scarica-gratis-desk.jpg"/>][1]</figure>
 
 In questa guida ti indicherò i **migliori tool e programmi** grazie ai quali potrai** installare WordPress, sviluppare temi e plugin**, testare funzionalità e caricare le modifiche online.
 
@@ -25,7 +25,7 @@ Vediamo allora **cosa ci serve** per poter sviluppare siti web in **WordPress
 
 ## 1. BROWSER
 
-{{< image src="/assets/img/uploads/2022/03/image-17-1024x550-1.png" >}}
+{{< image src="/img/uploads/2022/03/image-17-1024x550-1.png" >}}
 
 Se abbiamo intenzione di fare un po’ di sviluppo web, il **software fondamentale** che dobbiamo avere è un browser. Tutti i sistemi operativi posseggono un browser pre-installato, ma il mio consiglio è quello di utilizzare <a href="http://www.google.com/intl/it/chrome/" rel="noreferrer noopener" target="_blank"><strong>Google Chrome</strong></a>. Questo browser è molto rapido ed offre una serie di** strumenti per sviluppatori **molto utile.
 
@@ -35,7 +35,7 @@ Recentemente **Microsoft **ha rilasciato la nuova versione di <a href="http:/
 
 ## 2. EDITOR DI TESTO
 
-{{< image src="/assets/img/uploads/2022/03/image-18-1024x548-1.png" >}}
+{{< image src="/img/uploads/2022/03/image-18-1024x548-1.png" >}}
 
 Per poter fare sviluppo web è necessario **scrivere del codice**, e per scrivere il codice occorre avere un **editor di testo**. E’ possibile scrivere codice anche con il blocco note, ma non è certo una soluzione ottimale.
 
@@ -47,7 +47,7 @@ Questo è sicuramente il **programma esseziale** per qualsiasi programmatore
 
 ## 3. SERVER LOCALE
 
-{{< image src="/assets/img/uploads/2022/03/image-1-1.png" >}}
+{{< image src="/img/uploads/2022/03/image-1-1.png" >}}
 
 Per poter “**_far girare_**” i nostri progetti sul nostro pc, è nevessario installare un server locale per far sì che funzionino.
 
@@ -57,7 +57,7 @@ Fondamentale per la creazione di siti in **WordPress**, per progetti in framewo
 
 ## 4. CLIENT FTP
 
-{{< image src="/assets/img/uploads/2022/03/image-19-1024x548-1.png" >}}
+{{< image src="/img/uploads/2022/03/image-19-1024x548-1.png" >}}
 
 Una volta terminato il nostro sito dobbiamo** caricarlo online**! 
 

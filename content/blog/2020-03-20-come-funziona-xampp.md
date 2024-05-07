@@ -22,7 +22,7 @@ Oggi vedremo **come avviarlo e farlo funzionare correttamente**!
 **Per prima cosa avvia XAMPP** cliccando sulla sua icona.
 
 Ti troverai una schermata come questa:<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-392" decoding="async" src="/assets/img/uploads/2022/03/image-2-1.png"/> </figure>
+<img alt="" class="wp-image-392" decoding="async" src="/img/uploads/2022/03/image-2-1.png"/> </figure>
 
 Sulla sinistra puoi vedere che **XAMPP fornisce una serie di servizi.**
 
@@ -34,7 +34,7 @@ A noi interessano principalmente i primi 2:
 Senza perderci in chiacchiere **inizia con l’avviare questi due servizi**, cliccando sul pulsante “**Start**” in corrispondenza di entrambi.
 
 Se tutto è andato per il verso giusto le scritte “**Apache**” e “**MySQL**” dovrebbero avere sfondo verde, così:<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-394" decoding="async" src="/assets/img/uploads/2022/03/image-3-1-1.png"/> </figure>
+<img alt="" class="wp-image-394" decoding="async" src="/img/uploads/2022/03/image-3-1-1.png"/> </figure>
 
 A questo punto il nostro server locale è avviato e funzionante!
 

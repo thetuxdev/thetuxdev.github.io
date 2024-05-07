@@ -49,12 +49,12 @@ Qua abbiamo** registrato un nuovo menu** attraverso la funzione _register\_na
 Se ora andiamo nel **backend **vedremo che la sezione “Aspetto – Menu” è attiva e utilizzabile.
 
 Procediamo quindi a **creare un nuovo menù:**<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-319" decoding="async" src="/assets/img/uploads/2022/03/image-31-1024x324-1.png"/> </figure>
+<img alt="" class="wp-image-319" decoding="async" src="/img/uploads/2022/03/image-31-1024x324-1.png"/> </figure>
 
 Per il momento inseriamo solamente la home page e la pagina di esempio di default di WordPress, giusto per avere del contenuto al suo interno e clicchiamo su “**Crea menu**“.
 
 Poi possiamo impostare il menù nella **posizione **“Menù navbar”:<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-321" decoding="async" src="/assets/img/uploads/2022/03/image-32-1024x142-1.png"/> </figure>
+<img alt="" class="wp-image-321" decoding="async" src="/img/uploads/2022/03/image-32-1024x142-1.png"/> </figure>
 
 Ora non ci resta che **inserire questo menù nella nostra barra di navigazione**, nell’header del tema.
 
@@ -173,7 +173,7 @@ add_action('widgets_init', 'InizializzazioneWidget');
 Ora abbiamo **aggiunto la possibilità di inserire widget nella sidebar**. I widget saranno inseriti in un div con classe “**sidebar**” e il titolo di ogni widget sarà un <h3>.
 
 Se andiamo nel backend in “**Aspetto – Widget**” possiamo vedere che abbiamo un’area riservata alla sidebar:<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-322" decoding="async" src="/assets/img/uploads/2022/03/image-33.png"/> </figure>
+<img alt="" class="wp-image-322" decoding="async" src="/img/uploads/2022/03/image-33.png"/> </figure>
 
 Proviamo ad inserire dei widget al suo interno. Al momento non verranno inseriti nel frontend.
 
@@ -192,7 +192,7 @@ Apriamo quindi il nostro file _sidebar.php_, cancelliamo tutto e sostituiamo il
 &lt;!-- /SIDEBAR --&gt;</code></pre>
 
 Ora nel backend proviamo ad inserire il Widget **“Articoli recenti”** nella sidebar, inserendo “Articoli recenti” come titolo e salvando.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-323" decoding="async" src="/assets/img/uploads/2022/03/image-34-1.png"/> </figure>
+<img alt="" class="wp-image-323" decoding="async" src="/img/uploads/2022/03/image-34-1.png"/> </figure>
 
 Se tutto è andato liscio dovresti vedere gli ultimi articoli apparire nella sidebar!<figure class="wp-block-image">
 <img alt="" class="wp-image-582" decoding="async" src=".local/wp-content/uploads/2020/04/image-35.png"/> </figure>
@@ -208,7 +208,7 @@ Prova a creare dei widget da solo adesso.
 Crea 4 widget da inserire nel footer del sito. Ricordati, devi registrare 4 zone per il footer in functions.php e andare nel file footer.php a inserire le aree giuste!
 
 Ecco il risultato nel front-end:<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-326" decoding="async" src="/assets/img/uploads/2022/03/image-36-1024x138-1.png"/> </figure>
+<img alt="" class="wp-image-326" decoding="async" src="/img/uploads/2022/03/image-36-1024x138-1.png"/> </figure>
 
 Prenditi un po’ di tempo e prova a farlo, qua sotto ti lascerò** il codice:**
 

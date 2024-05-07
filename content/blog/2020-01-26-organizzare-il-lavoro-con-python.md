@@ -20,7 +20,7 @@ Mentre studiavo e sviluppavo, mi è venuta in mente un’idea per un** piccolo 
 
 Così ho pensato di **automatizzare questo passaggio**, creando uno script che mi permetta di organizzarmi il computer appena acceso, aprendo tutto ciò di cui ho bisogno con un solo click.
 
-{{< image src="/assets/img/uploads/2022/03/ezgif-6-6f58fa3bf18b.gif" >}}
+{{< image src="/img/uploads/2022/03/ezgif-6-6f58fa3bf18b.gif" >}}
 
 
 

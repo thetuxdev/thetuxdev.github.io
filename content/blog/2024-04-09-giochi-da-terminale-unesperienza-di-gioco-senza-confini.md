@@ -76,7 +76,7 @@ Per installare Bastet sul tuo sistema, segui questi passaggi:
 Una volta installato Bastet sul tuo sistema, puoi avviare il gioco dal terminale digitando il comando `bastet`. Preparati a sfidare la tua mente e le tue capacità strategiche in questo coinvolgente gioco di Tetris con un tocco malvagio!
 
 ## **3. Moon Buggy: Esplora la Superficie Lunare**<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-7497" decoding="async" height="508" loading="lazy" sizes="(max-width: 684px) 100vw, 684px" src="/assets/img/uploads/2024/04/moon-buggy-23.png" srcset="/assets/img/uploads/2024/04/moon-buggy-23.png 684w, /assets/img/uploads/2024/04/moon-buggy-23-300x223.png 300w" width="684"/> </figure>
+<img alt="" class="wp-image-7497" decoding="async" height="508" loading="lazy" sizes="(max-width: 684px) 100vw, 684px" src="/img/uploads/2024/04/moon-buggy-23.png" srcset="/img/uploads/2024/04/moon-buggy-23.png 684w, /img/uploads/2024/04/moon-buggy-23-300x223.png 300w" width="684"/> </figure>
 
 Moon Buggy è un emulatore del classico gioco d’arcade in cui i giocatori guidano un veicolo lunare sopra il terreno accidentato della Luna. Il gioco richiede ai giocatori di superare ostacoli e saltare crepacci mentre cercano di percorrere la massima distanza possibile.
 
@@ -107,7 +107,7 @@ Una volta installato Moon Buggy sul tuo sistema, puoi avviare il gioco dal termi
 PacVim è una versione unica e divertente del classico gioco d’arcade Pac-Man, con un tocco educativo per gli appassionati di Vim, un popolare editor di testo da terminale. In PacVim, i giocatori controllano il classico personaggio Pac-Man mentre naviga attraverso un labirinto, mangiando palline e evitando i fantasmi.
 
 La caratteristica distintiva di PacVim è che il gioco è stato progettato per aiutare i giocatori a imparare e praticare le scorciatoie da tastiera di Vim. Ogni pallina nel labirinto corrisponde a una combinazione di tasti di Vim. Quando Pac-Man mangia una pallina, il giocatore deve digitare rapidamente la corrispondente combinazione di tasti per eliminarla dal labirinto.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-7498" decoding="async" height="440" loading="lazy" src="/assets/img/uploads/2024/04/all.gif" width="520"/> </figure>
+<img alt="" class="wp-image-7498" decoding="async" height="440" loading="lazy" src="/img/uploads/2024/04/all.gif" width="520"/> </figure>
 
 ### Installazione
 

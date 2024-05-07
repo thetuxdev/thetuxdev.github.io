@@ -48,7 +48,7 @@ Per evitare di sprecare il tuo tempo prezioso nell’apprendimento di un nuovo l
 ### 1. INDICE TIOBE
 
 Il [TIOBE Programming Community Index][1] è spesso utilizzato come standard del settore per determinare la popolarità dei linguaggi di programmazione. Viene pubblicato ogni mese e mostra come diversi linguaggi di programmazione hanno guadagnato o perso trazione rispetto al mese precedente. Pubblicano anche una breve analisi del settore ogni mese che riassume i cambiamenti più importanti che devi conoscere.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-508" decoding="async" src="/assets/img/uploads/2022/06/tiobe-community-index.jpeg"/> </figure>
+<img alt="" class="wp-image-508" decoding="async" src="/img/uploads/2022/06/tiobe-community-index.jpeg"/> </figure>
 
 ### 2. GITHUB OCTOVERSE
 
@@ -69,7 +69,7 @@ Il [TIOBE Programming Community Index][1] è spesso utilizzato come standard d
 Puoi trovare molte informazioni utili su quale linguaggio di programmazione scegliere anche nel sottodominio [Insights di Stack Overflow . ][4][Senza dubbio, il materiale più importante qui è il sondaggio annuale per gli sviluppatori][5] di Stack Overflow che contiene tutto ciò che potresti voler sapere sul settore.
 
 Ad esempio, nel 2019, quasi 90.000 sviluppatori hanno partecipato al sondaggio di 20 minuti che copre diversi argomenti, dalle loro tecnologie preferite alle preferenze lavorative. Oltre al sondaggio annuale, puoi trovare analisi approfondite, report in primo piano e set di dati archiviati anche su Stack Overflow Insights.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-509" decoding="async" src="/assets/img/uploads/2022/06/stack-overflow-insights.jpeg"/> </figure>
+<img alt="" class="wp-image-509" decoding="async" src="/img/uploads/2022/06/stack-overflow-insights.jpeg"/> </figure>
 
 ### 4. GOOGLE TREND
 
@@ -80,7 +80,7 @@ Ad esempio, nel 2019, quasi 90.000 sviluppatori hanno partecipato al sondaggio d
   3. Oltre ai linguaggi di programmazione, puoi anche cercare la popolarità di tecnologie correlate come librerie JavaScript, framework o temi WordPress .
 
 In effetti, Google Trends è un potente strumento di ricerca che ti consente di eseguire query e confronti completamente unici, quanti ne desideri, e tutto gratuitamente.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-510" decoding="async" src="/assets/img/uploads/2022/06/google-trends-programming-languages.jpeg"/> </figure>
+<img alt="" class="wp-image-510" decoding="async" src="/img/uploads/2022/06/google-trends-programming-languages.jpeg"/> </figure>
 
 ### 5. PIATTAFORME DI RICERCA LAVORO
 

@@ -42,7 +42,7 @@ Per capire meglio ciò che andremo a fare ora ti **consiglio **di leggere ques
 Per prima cosa è necessario **scaricare WordPress.**
 
 Farlo è molto semplice, è sufficiente andare a questo **link**: <http: it.wordpress.org=""></http:> e premere il bottone “**Scarica WordPress**” in alto a destra.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-397" decoding="async" src="/assets/img/uploads/2022/03/image-4-1024x250-1.png"/> </figure>
+<img alt="" class="wp-image-397" decoding="async" src="/img/uploads/2022/03/image-4-1024x250-1.png"/> </figure>
 
 Ora non resta che aspettare il termine del **download**, di solito è abbastanza rapido ma i tempi potrebbero cambiare a seconda della velocità della tua connessione.
 
@@ -59,7 +59,7 @@ Terminata l’estrazione avrai una cartella chiamata “**wordpress**“.
 Per poter far funzionare il nostro sito in WordPress in locale dobbiamo far partire il **XAMPP**.
 
 Per **avviare XAMPP** ti basterà cliccare sulla sua icona e una volta aperto il software cliccare su “**Start**” in corrispondenza di **Apache **e **MySQL**.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-398" decoding="async" src="/assets/img/uploads/2022/03/image-2-2.png"/> </figure>
+<img alt="" class="wp-image-398" decoding="async" src="/img/uploads/2022/03/image-2-2.png"/> </figure>
 
 In questo modo avvierai il server locale ed il database!
 
@@ -74,7 +74,7 @@ Aprendo questa cartella dovresti trovare al suo interno **3 cartelle:**
   * wp-includes
 
 **più una serie di file.**<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-399" decoding="async" src="/assets/img/uploads/2022/03/image-6-1.png"/> </figure>
+<img alt="" class="wp-image-399" decoding="async" src="/img/uploads/2022/03/image-6-1.png"/> </figure>
 
 **Questo è WordPress!!!**
 
@@ -97,12 +97,12 @@ Andremo quindi ora a **crearlo **utilizzando **phpmyadmin**.
 **Accedere **a phpmyadmin è molto **semplice**, ti basterà scrivere “**localhost/phpmyadmin**” nella barra di ricerca del tuo browser.
 
 Ti ritroverai in una schermata come questa:<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-400" decoding="async" src="/assets/img/uploads/2022/03/phpmyadmin-1024x486-1.jpeg"/> </figure>
+<img alt="" class="wp-image-400" decoding="async" src="/img/uploads/2022/03/phpmyadmin-1024x486-1.jpeg"/> </figure>
 
 Questo è il programma attraverso il quale** gestiremo i nostri database. **Graficamente non è carinissimo ma è molto **potente **e funzionale.
 
 Per il momento devi solamente **cliccare su “Nuovo”** nella barra laterale sinistra.<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-401" decoding="async" src="/assets/img/uploads/2022/03/image-5-1024x98-1.png"/> </figure>
+<img alt="" class="wp-image-401" decoding="async" src="/img/uploads/2022/03/image-5-1024x98-1.png"/> </figure>
 
 Sulla destra vedrai una schermata come questa qua sopra, ti basterà **scrivere il nome del database**, in questo caso “wp-test” e cliccare “**Crea**“
 
@@ -119,12 +119,12 @@ Per prima cosa colleghiamoci al nostro sito sul server locale, a questo indirizz
 Nel corso degli anni la procedura di installazione del CMS si è perfezionata sempre di più e oggi è possibile portarla a termine con **pochi semplici passaggi**:
 
 ### PASSAGGIO 1:<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-403" decoding="async" src="/assets/img/uploads/2022/03/image-7-1024x496-1.png"/> </figure>
+<img alt="" class="wp-image-403" decoding="async" src="/img/uploads/2022/03/image-7-1024x496-1.png"/> </figure>
 
 Clicchiamo sul pulsante “**Iniziamo!**“
 
 ### PASSAGGIO 2:<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-404" decoding="async" src="/assets/img/uploads/2022/03/image-8-1024x497-1.png"/> </figure>
+<img alt="" class="wp-image-404" decoding="async" src="/img/uploads/2022/03/image-8-1024x497-1.png"/> </figure>
 
 A questo punto ci vengono chiesti dei **parametri di configurazione**. Non preoccuparti, ora ti spiegherò cosa significano:
 
@@ -143,14 +143,14 @@ A questo punto ci vengono chiesti dei **parametri di configurazione**. Non preo
   * Prefisso tabella: “wp_”
 
 ### PASSAGGIO 3:<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-405" decoding="async" src="/assets/img/uploads/2022/03/image-9-1024x499-1.png"/> </figure>
+<img alt="" class="wp-image-405" decoding="async" src="/img/uploads/2022/03/image-9-1024x499-1.png"/> </figure>
 
 Molto bene! Il difficile è fatto! **Da ora è tutto in discesa.**
 
 WordPress si congratula con noi per aver inserito correttamente i dati del passaggio precedente, quindi non ci resta che cliccare su “**Avvia installazione**“
 
 ### PASSAGGIO 4:<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-406" decoding="async" src="/assets/img/uploads/2022/03/image-11.png"/> </figure>
+<img alt="" class="wp-image-406" decoding="async" src="/img/uploads/2022/03/image-11.png"/> </figure>
 
 Ora WordPress è stato installato! Non ci resta che** configurare** un paio di cosette:
 
@@ -163,27 +163,27 @@ Ora WordPress è stato installato! Non ci resta che** configurare** un paio di
 Compilati i campi puoi cliccare su “**Installa WordPress**“
 
 ### PASSAGGIO 5:<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-407" decoding="async" src="/assets/img/uploads/2022/03/image-12-1024x591-1.png"/> </figure>
+<img alt="" class="wp-image-407" decoding="async" src="/img/uploads/2022/03/image-12-1024x591-1.png"/> </figure>
 
 **E VOILÀ!!!**
 
 Hai appena terminato di installare correttamente WordPress in locale sul tuo computer!
 
 Ora puoi cliccare su “**Login**“<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-408" decoding="async" src="/assets/img/uploads/2022/03/image-13-2.png"/> </figure>
+<img alt="" class="wp-image-408" decoding="async" src="/img/uploads/2022/03/image-13-2.png"/> </figure>
 
 Inserire i tuoi dati di accesso ed **entrare nella tua installazione di WordPress.**
 
 Questo è il **backend **di WordPress:<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-409" decoding="async" src="/assets/img/uploads/2022/03/image-14-1024x481-1-1.png"/> </figure>
+<img alt="" class="wp-image-409" decoding="async" src="/img/uploads/2022/03/image-14-1024x481-1-1.png"/> </figure>
 
 Da qui potrai **configurare **e **compilare **il tuo sito web.
 
 Cliccando sull’icona della casetta in alto a destra invece potrai vedere il front-end del tuo sito<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-410" decoding="async" src="/assets/img/uploads/2022/03/image-15-2.png"/> </figure>
+<img alt="" class="wp-image-410" decoding="async" src="/img/uploads/2022/03/image-15-2.png"/> </figure>
 
 Durante l’installazione WordPress inserisce il suo tema standard. Quindi per il momento vedrai un **front-end** come questo:<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-411" decoding="async" src="/assets/img/uploads/2022/03/image-16-1024x460-1.png"/> </figure>
+<img alt="" class="wp-image-411" decoding="async" src="/img/uploads/2022/03/image-16-1024x460-1.png"/> </figure>
 
 **CONGRATULAZIONI!!!**
 

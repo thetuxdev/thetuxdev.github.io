@@ -188,7 +188,7 @@ Andiamo **fra i tag <body></body>** e inseriamo questo:
 
 Ora** salva la pagina e aggiornala nel browser**, vedrai comparire del contenuto!
 
-{{< image src="/assets/img/uploads/2022/03/image-1.png" >}}
+{{< image src="/img/uploads/2022/03/image-1.png" >}}
 
 Non è difficile da capire, ogni tag spiega se stesso.
 
@@ -220,7 +220,7 @@ Adesso** richiamiamo l’immagine nel nostro file _index.html_,** in questo m
 
 Ora **salviamo **il file e **aggiorniamo **il browser.
 
-{{< image src="/assets/img/uploads/2022/03/image-2-768x370-1.png" >}}
+{{< image src="/img/uploads/2022/03/image-2-768x370-1.png" >}}
 
 Vediamo che l’immagine viene visualizzata nella nostra pagina html.
 
@@ -232,7 +232,7 @@ Per visualizzare l’immagine in modo più carino possiamo aggiungere un altro a
 
 In questo modo sto **impostando la larghezza dell’immagine a 200px.** Ed ecco che si vede tutto decisamente meglio.
 
-{{< image src="/assets/img/uploads/2022/03/image-3.png" >}}
+{{< image src="/img/uploads/2022/03/image-3.png" >}}
 
 In questo modo posso **ridimensionare **l’immagine.
 

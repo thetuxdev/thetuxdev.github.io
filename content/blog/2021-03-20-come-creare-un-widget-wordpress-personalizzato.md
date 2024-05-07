@@ -24,7 +24,7 @@ I widget di WordPress contengono **parti di codice che puoi aggiungere alle sid
 Pensali come moduli che puoi usare per aggiungere diversi elementi usando una semplice** interfaccia drag and drop.**
 
 Per impostazione predefinita, **WordPress viene fornito con un set standard di widget** che è possibile utilizzare con qualsiasi tema WordPress. Consulta la nostra guida per principianti su [come utilizzare i widget in WordPress][1] .<figure class="wp-block-image size-large">
-<img alt="" class="wp-image-440" decoding="async" src="/assets/img/uploads/2022/03/image-1-2-1-1024x484.png"/> </figure>
+<img alt="" class="wp-image-440" decoding="async" src="/img/uploads/2022/03/image-1-2-1-1024x484.png"/> </figure>
 
 WordPress consente inoltre agli sviluppatori di **creare i propri widget personalizzati.**
 
@@ -175,12 +175,12 @@ add_action('widgets_init', 'swp_load_widget');
 </code></pre>
 
 Dopo aver aggiunto il codice, devi andare alla pagina **Aspetto »Widget** . Noterai il nuovo widget SpecialistaWP nell’elenco dei widget disponibili. Devi trascinare questo widget su una barra laterale.<figure class="wp-block-image size-large">
-<img alt="" class="wp-image-441" decoding="async" src="/assets/img/uploads/2022/03/image-2-1-1-1024x678.png"/> </figure>
+<img alt="" class="wp-image-441" decoding="async" src="/img/uploads/2022/03/image-2-1-1-1024x678.png"/> </figure>
 
 Questo widget ha solo un campo modulo da compilare, puoi **aggiungere il tuo testo e fare clic sul pulsante Salva **per memorizzare le modifiche.
 
 Ora puoi **visitare il tuo sito Web per vederlo in azione.**<figure class="wp-block-image size-large">
-<img alt="" class="wp-image-442" decoding="async" src="/assets/img/uploads/2022/03/image-3-1-2-1024x626.png"/> </figure>
+<img alt="" class="wp-image-442" decoding="async" src="/img/uploads/2022/03/image-3-1-2-1024x626.png"/> </figure>
 
 Ora **studiamo di nuovo il codice.**
 

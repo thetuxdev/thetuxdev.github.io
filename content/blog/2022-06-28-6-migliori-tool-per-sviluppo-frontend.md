@@ -21,7 +21,7 @@ Il codice utilizzato nella produzione è diverso dal codice di sviluppo. In pro
 In questo articolo potrai trovare raccolto i migliori strumenti di build che puoi utilizzare nello sviluppo frontend. Nota che tutti questi strumenti vengono eseguiti da riga di comando, quindi non sono dotati di un’interfaccia utente grafica.
 
 ## 1. NPM (PACKAGE MANAGER)<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-516" decoding="async" src="/assets/img/uploads/2022/06/npm.jpeg"/> </figure>
+<img alt="" class="wp-image-516" decoding="async" src="/img/uploads/2022/06/npm.jpeg"/> </figure>
 
 L’acronimo [npm][1] sta per Node Package Maid che è il gestore di pacchetti predefinito di Node.js. Quando [installi Node.js][2] sul tuo sistema, anche npm viene installato automaticamente e puoi accedervi dall’interfaccia da riga di comando. Con npm puoi installare qualsiasi pacchetto Node.js con un solo comando.
 
@@ -37,7 +37,7 @@ Puoi trovare tutti i pacchetti Node.js esistenti nel registro npm a cui puoi acc
   * Ampia documentazione e utile community.
 
 ## 2. YARN (PACKAGE MANAGER)<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-517" decoding="async" src="/assets/img/uploads/2022/06/yarn.jpeg"/> </figure>
+<img alt="" class="wp-image-517" decoding="async" src="/img/uploads/2022/06/yarn.jpeg"/> </figure>
 
 [Yarn][3] è un gestore di pacchetti frontend che può essere utilizzato come alternativa a npm. Poiché Yarn stesso è un pacchetto Node.js, devi installare Node.js prima di poter utilizzare Yarn sul tuo sistema. Quindi, devi solo seguire la [guida all’installazione][4] per utilizzarla per gestire le dipendenze del frontend.
 
@@ -53,7 +53,7 @@ Yarn velocizza il processo di compilazione memorizzando nella cache ogni pacchet
   * Modalità offline.
 
 ## 3. GRUNT (TASK RUNNER)<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-518" decoding="async" src="/assets/img/uploads/2022/06/grunt.jpeg"/> </figure>
+<img alt="" class="wp-image-518" decoding="async" src="/img/uploads/2022/06/grunt.jpeg"/> </figure>
 
 [Grunt][5] è un task runner frontend che ti consente di automatizzare attività ripetitive come minimizzazione, linting, test e altro. I task runner sono diversi dai gestori di pacchetti, poiché non puoi usarli per gestire le dipendenze. Ne hai bisogno solo se desideri eseguire le stesse attività durante ogni processo di compilazione.
 
@@ -69,7 +69,7 @@ Poiché Grunt è un pacchetto Node.js, puoi installarlo con npm, Yarn o un altro
   * Ampiamente adottato.
 
 ### 4. GULP (TASK RUNNER)<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-519" decoding="async" src="/assets/img/uploads/2022/06/gulp.jpeg"/> </figure>
+<img alt="" class="wp-image-519" decoding="async" src="/img/uploads/2022/06/gulp.jpeg"/> </figure>
 
 [Gulp][7] è un altro task runner automatizzato e anche il più forte concorrente di Grunt. Simile a Grunt, puoi utilizzare Gulp per automatizzare attività front-end ricorrenti come la preelaborazione CSS, l’ottimizzazione delle immagini e molti altri. È anche un pacchetto Node.js che puoi installare con i gestori di pacchetti npm e Yarn. Puoi definire le tue attività in [Gulpfile][8] e configurare le tue dipendenze relative alle tue attività nel file _package.json_ .
 
@@ -85,7 +85,7 @@ La più grande differenza rispetto a Grunt è che Gulp utilizza una tecnica di a
   * Superficie API minima per una semplice adozione.
 
 ## 5. BROWSERIFY (MODULE LOADER/BUNDLER)<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-520" decoding="async" src="/assets/img/uploads/2022/06/browserify.jpeg"/> </figure>
+<img alt="" class="wp-image-520" decoding="async" src="/img/uploads/2022/06/browserify.jpeg"/> </figure>
 
 [Browserify][10] è un caricatore di moduli Node.js che ti consente di raggruppare le tue dipendenze front-end e caricarle come un unico file JavaScript nel browser dell’utente. I gestori di pacchetti come npm e Yarn caricano i moduli sul lato server utilizzando la funzione _[require()][11]_ di Node.js progettata per caricare i moduli. Browserify porta il metodo _require()_ sul lato client, il che può comportare un enorme aumento delle prestazioni.
 

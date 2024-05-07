@@ -114,11 +114,11 @@ Il CSS è un linguaggio con una&nbsp;**sintassi specifica**. Se si commette un&n
 
 Ecco uno&nbsp;**schema**&nbsp;che raccoglie gli&nbsp;**elementi**&nbsp;del linguaggio CSS:
 
-{{< image src="/assets/img/uploads/schema-CSS.jpeg" >}}
+{{< image src="/img/uploads/schema-CSS.jpeg" >}}
 
 
 <div class="wp-block-image">
-  <figure class="aligncenter size-full"><img decoding="async" src="/assets/img/uploads/2022/03/schema-CSS.jpeg" alt="" class="wp-image-189" /></figure>
+  <figure class="aligncenter size-full"><img decoding="async" src="/img/uploads/2022/03/schema-CSS.jpeg" alt="" class="wp-image-189" /></figure>
 </div>
 
 ### Selettore
@@ -224,7 +224,7 @@ Qua possiamo cercare il font che più ci piace. In questa guida utilizzeremo il 
 Inseriamo quindi “**Source Sans Pro**” nella barra di ricerca di Google Fonts
 
 <div class="wp-block-image">
-  <figure class="aligncenter size-full"><img decoding="async" src="/assets/img/uploads/2022/03/image-5.png" alt="" class="wp-image-190" /></figure>
+  <figure class="aligncenter size-full"><img decoding="async" src="/img/uploads/2022/03/image-5.png" alt="" class="wp-image-190" /></figure>
 </div>
 
 e lo&nbsp;**selezioniamo**.
@@ -232,7 +232,7 @@ e lo&nbsp;**selezioniamo**.
 Ora ci troveremo di fronte ad una schermata come questa:
 
 <div class="wp-block-image">
-  <figure class="aligncenter size-large"><img decoding="async" src="/assets/img/uploads/2022/03/image-6-1536x725-1-1024x483.png" alt="" class="wp-image-192" /></figure>
+  <figure class="aligncenter size-large"><img decoding="async" src="/img/uploads/2022/03/image-6-1536x725-1-1024x483.png" alt="" class="wp-image-192" /></figure>
 </div>
 
 Sulla destra possiamo cliccare su “**+ Select this style**” in corrispondenza del carattere che vogliamo. Possiamo selezionarli tutti per avere tutte le variabili possibili del font, ma per ottimizzare i tempo di caricamento della pagina è meglio selezionare solo l’essenziale.
@@ -242,13 +242,13 @@ In questa guida selezioniamo solo il “**regular 400**” e il “**bold 700**�
 Ora si aprirà sulla destra una finestra come questa:
 
 <div class="wp-block-image">
-  <figure class="aligncenter size-full"><img decoding="async" src="/assets/img/uploads/2022/03/image-7.png" alt="" class="wp-image-193" /></figure>
+  <figure class="aligncenter size-full"><img decoding="async" src="/img/uploads/2022/03/image-7.png" alt="" class="wp-image-193" /></figure>
 </div>
 
 Qua clicchiamo su “**Embed**” e successivamente su “**@import**“
 
 <div class="wp-block-image">
-  <figure class="aligncenter size-full"><img decoding="async" src="/assets/img/uploads/2022/03/image-8.png" alt="" class="wp-image-194" /></figure>
+  <figure class="aligncenter size-full"><img decoding="async" src="/img/uploads/2022/03/image-8.png" alt="" class="wp-image-194" /></figure>
 </div>
 
 Adesso possiamo copiare il contenuto fra&nbsp;_<style>_&nbsp;e&nbsp;_</style>_ e incollarlo nel nostro **“style.css**“, cancellando tutto il resto.
@@ -324,7 +324,7 @@ Per gestire gli spazi fra gli elementi si possono utilizzare “**margin**” e 
 
 Ecco uno **schema **per spiegarti che differenza c’è fra i due:
 
-{{< image src="/assets/img/uploads/2022/03/margin-e-padding-1.jpeg" >}}
+{{< image src="/img/uploads/2022/03/margin-e-padding-1.jpeg" >}}
 
 Il **margin **indica lo spazio **all’esterno** del contenuto, il **padding **lo spazio **all’interno**.
 

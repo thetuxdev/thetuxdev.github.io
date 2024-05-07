@@ -22,7 +22,7 @@ for filename in os.listdir(folder_path):
             img_src = match.group(1)
 
             # Costruisci il nuovo blocco HTML con l'URL dell'immagine
-            new_content = re.sub(pattern, '{{< image src="/assets/img/uploads/' + os.path.basename(img_src) + '" >}}', content)
+            new_content = re.sub(pattern, '{{< image src="/img/uploads/' + os.path.basename(img_src) + '" >}}', content)
 
             # Sovrascrivi il file con il nuovo contenuto
             with open(file_path, 'w') as file:

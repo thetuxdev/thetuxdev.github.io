@@ -56,7 +56,7 @@ Se invece stai configurando un web server remoto, allora dovrai inserire il tuo 
 </code></pre>
 
 Dovresti ora vedere nel browser la pagina Web predefinita di Apache, che è disponibile a scopo informativo e di test. Dovrebbe assomigliare a qualcosa di simile a questo:<figure class="wp-block-image size-large">
-<img alt="" class="wp-image-493" decoding="async" src="/assets/img/uploads/2022/06/small_apache_default_1804-728x1024.png"/> </figure>
+<img alt="" class="wp-image-493" decoding="async" src="/img/uploads/2022/06/small_apache_default_1804-728x1024.png"/> </figure>
 
 Se vedi questa pagina, allora il tuo server web è ora installato correttamente e accessibile attraverso il tuo firewall.
 
@@ -324,7 +324,7 @@ L’indirizzo che vorrai visitare è:
 </code></pre>
 
 La pagina a cui vieni dovrebbe assomigliare a questa:<figure class="wp-block-image size-large">
-<img alt="" class="wp-image-494" decoding="async" src="/assets/img/uploads/2022/06/small_php_info_1804-796x1024.png"/> </figure>
+<img alt="" class="wp-image-494" decoding="async" src="/img/uploads/2022/06/small_php_info_1804-796x1024.png"/> </figure>
 
 Questa pagina fornisce alcune informazioni di base sul tuo server dal punto di vista di PHP. È utile per il debug e per garantire che le impostazioni vengano applicate correttamente.
 

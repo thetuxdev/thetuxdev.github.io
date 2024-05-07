@@ -40,13 +40,13 @@ Ora per entrare nel backend andiamo nella barra dell’**URL** e **aggiungiamo
 
 A questo punto ci troviamo la schermata di **login **di WordPress.
 
-{{< image src="/assets/img/uploads/2022/03/image-13.png" >}}
+{{< image src="/img/uploads/2022/03/image-13.png" >}}
 
 **Inseriamo **i nostri dati ed entriamo.
 
 Ecco il** backend di WordPress**. Da qui potrai **gestire **tutti i contenuti presenti sul tuo sito web.
 
-{{< image src="/assets/img/uploads/2022/03/image-14-1024x481-1.png" >}}
+{{< image src="/img/uploads/2022/03/image-14-1024x481-1.png" >}}
 
 ## INDICAZIONI GENERALI SUL BACKEND
 
@@ -55,7 +55,7 @@ Ma **come funziona **questo backend?
 È molto **semplice**. Sulla sinistra troverai tutte le sezioni per configurare il tuo sito, sulla destra invece vedrai ciò che stai attualmente modificando.
 
 Prenditi un po’ di tempo per **scorrere tutti i punti nel menù laterale** del backend, in modo da farti un’idea generale del suo funzionamento.<figure class="wp-block-image size-full">
-<img alt="WordPress" class="wp-image-223" decoding="async" src="/assets/img/uploads/2022/03/image-22-1.png"/> </figure>
+<img alt="WordPress" class="wp-image-223" decoding="async" src="/img/uploads/2022/03/image-22-1.png"/> </figure>
 
 ## 1. GESTIONE DEI CONTENUTI
 
@@ -67,7 +67,7 @@ Quando andiamo a creare una nuova pagina per il nostro sito possiamo scegliere f
   * **Pagine**
 
 ### ARTICOLI<figure class="wp-block-image size-full">
-<img alt="WordPress articoli" class="wp-image-222" decoding="async" src="/assets/img/uploads/2022/03/image-23.png"/> </figure>
+<img alt="WordPress articoli" class="wp-image-222" decoding="async" src="/img/uploads/2022/03/image-23.png"/> </figure>
 
 Gli **Articoli** sono dei contenuti elencati in ordine cronologico inverso (dal più recente al più vecchio). Sono utilizzati per i **blog**, i giornali e tutti i siti che si aggiornano continuamente.
 
@@ -78,14 +78,14 @@ Inoltre invitano alla conversazione grazie alla presenza dei **commenti **in f
 Un **esempio **di Articolo è quello che stai leggendo ora!
 
 ### PAGINE<figure class="wp-block-image size-full">
-<img alt="WordPress pagine" class="wp-image-221" decoding="async" src="/assets/img/uploads/2022/03/image-24-1.png"/> </figure>
+<img alt="WordPress pagine" class="wp-image-221" decoding="async" src="/img/uploads/2022/03/image-24-1.png"/> </figure>
 
 Le **Pagine **di WordPress sono contenuti **a sè stanti**, una tantum, senza particolari relazioni con altri contenuti del sito. Un esempio di una **Pagina **è la pagina di contatto del sito oppure la pagina “**chi siamo**“. Questa tipologia di contenuto non ha la sezione commenti solitamente.
 
 Entrambe queste tipologie possono contenere **testi**, immagini, **link **e tutto ciò che puoi desiderare inserire all’interno dei tuoi **contenuti**.
 
 ### MEDIA<figure class="wp-block-image size-full">
-<img alt="WordPress media" class="wp-image-220" decoding="async" src="/assets/img/uploads/2022/03/image-25.png"/> </figure>
+<img alt="WordPress media" class="wp-image-220" decoding="async" src="/img/uploads/2022/03/image-25.png"/> </figure>
 
 Se hai dato un’occhiata alla barra laterale del backend di WordPress avrai notato che, proprio fra **Articoli **e **Pagine**, c’è la sezione **Media**.
 
@@ -94,7 +94,7 @@ Questa sezione raccoglie **tutte le risorse** che caricherai sul tuo sito, com
 ## 2. GESTIONE DELLA GRAFICA
 
 La parte grafica del tuo sito è gestita tramite la sezione “**Aspetto**“.<figure class="wp-block-image size-full">
-<img alt="WordPress grafica" class="wp-image-218" decoding="async" src="/assets/img/uploads/2022/03/image-26-1.png"/> </figure>
+<img alt="WordPress grafica" class="wp-image-218" decoding="async" src="/img/uploads/2022/03/image-26-1.png"/> </figure>
 
 All’interno di questa sezione **puoi trovare:**
 
@@ -108,7 +108,7 @@ All’interno di questa sezione **puoi trovare:**
 ## 3. GESTIONE DELLE FUNZIONALITÀ
 
 Tutte le funzionalità che vuoi implementare nel tuo sito le puoi trovare nella sezione “**Plugin**“.<figure class="wp-block-image size-full">
-<img alt="WordPress funzionalità" class="wp-image-217" decoding="async" src="/assets/img/uploads/2022/03/image-27.png"/> </figure>
+<img alt="WordPress funzionalità" class="wp-image-217" decoding="async" src="/img/uploads/2022/03/image-27.png"/> </figure>
 
 I plugin sono dei **piccoli software** che consentono al sito di fare una **determinata funzione.**
 

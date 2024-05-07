@@ -62,7 +62,7 @@ Se questo comando vi dà “_zsh: command not found: laravel_” allora provate 
 Questo creerà un nuovo progetto Laravel all’interno della directory “app” e includerà la cartella “public”, utilizzata da Local di default.
 
 A questo punto, dovresti essere in grado di fare clic su “Visualizza sito” nell’app locale e dovrebbe mostrarti la pagina di benvenuto di Laravel, su htts: //laravel.local, per esempio. Se ricevi un errore 502, 404 o qualche altro errore, potrebbe essere necessario riavviare il server:<figure class="wp-block-image size-full">
-<img alt="" class="wp-image-344" decoding="async" src="/assets/img/uploads/2022/03/Laravel-on-Local_lbxrd9.jpeg"/> </figure>
+<img alt="" class="wp-image-344" decoding="async" src="/img/uploads/2022/03/Laravel-on-Local_lbxrd9.jpeg"/> </figure>
 
 ## Collegamento del database
 

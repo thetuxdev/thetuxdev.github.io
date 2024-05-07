@@ -150,7 +150,7 @@ Fortunatamente WordPress fornisce una funzione per facilitare moltissimo la **pa
 
 Puoi decidere quanti articoli far visualizzare nelle pagine archivio tramite la sezione “**Impostazioni – Lettura**“.
 
-{{< image src="/assets/img/uploads/2022/03/image-38-1.png" >}}
+{{< image src="/img/uploads/2022/03/image-38-1.png" >}}
 
 Per inserire la paginazione nel frontend andiamo nel nostro _**archive.php**_ e inseriamo questa funzione **dopo il** **loop**:
 
