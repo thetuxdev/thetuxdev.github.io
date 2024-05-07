@@ -240,7 +240,7 @@ Esplorare ulteriormente queste risorse fornirà agli sviluppatori una panoramica
  [28]: https://www.sitepoint.com/twitter-bootstrap-tutorial-handbook/
  [29]: https://scotch.io/bar-talk/bootstrap-4-whats-new
  [30]: https://medium.com/@drewcodes/getting-started-with-tailwind-css-4bed14f3e9b2
- [31]: https:/.logrocket.com/a-complete-guide-to-tailwind-css/
+ [31]: https://tailwindcss.com/docs/installation/framework-guides
  [32]: /scegliere-il-framework-css-bootstrap-o-tailwind/#community-e-forum-di-supporto
  [33]: https://stackoverflow.com/questions/tagged/bootstrap
  [34]: https://www.reddit.com/r/bootstrap/

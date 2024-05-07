@@ -571,7 +571,7 @@ Se vuoi continuare a sviluppare il tuo primo tema WordPress da zero prosegui con
 <a href="/creare-un-tema-wordpress-da-zero-parte-2/">Parte 2 &gt;&gt;</a>
 </p>
 
- [1]: .local/inizia-qui/inizia-qui-principiante/
+ [1]: /inizia-qui/
  [2]: /creare-un-tema-wordpress-da-zero-parte-3/
  [3]: /le-basi-dellhtml/
  [4]: /le-basi-di-bootstrap/

@@ -198,5 +198,5 @@ Speriamo che questo articolo ti abbia **aiutato a imparare come creare facilmen
 
 Buono sviluppo!
 
- [1]: /widget-in-wordpress-come-utilizzarli/
+ [1]: /come-creare-un-widget-wordpress-personalizzato/
  [2]: /installare-wordpress-in-locale/

@@ -108,5 +108,5 @@ Un paio di consigli per velocizzare il tuo lavoro:
 
 Molto bene, **ora sei pronto a fare sul serio!**
 
- [1]: /configurare-il-pc-per-sviluppare-in-wordpres/
+ [1]: /configurare-il-pc-per-sviluppare-in-wordpress/
  [2]: http://localhost/phpmyadmin/
