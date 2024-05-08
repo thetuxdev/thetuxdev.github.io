@@ -1,42 +1,55 @@
 {{ define "main" -}}
-    {{- $breakpoint := $.Scratch.Get "breakpoint" -}}
-    {{ $sidebar := .Render "single/sidebar" }}
-    {{ $toc := .Render "single/panel-toc" }}
+{{- $breakpoint := $.Scratch.Get "breakpoint" -}}
+{{ $sidebar := .Render "single/sidebar" }}
+{{ $toc := .Render "single/panel-toc" }}
 
-    {{ with $sidebar }}
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvass-sidebar" aria-inledby="offcanvas-label">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvas-label">{{ strings.FirstUpper $.Section }}</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="{{ T "close" }}"></button>
-            </div>
-            <div class="offcanvas-body">
-                {{ . | safeHTML }}
-            </div>
+{{ with $sidebar }}
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvass-sidebar" aria-inledby="offcanvas-label">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvas-label">{{ strings.FirstUpper $.Section }}</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="{{ T " close" }}"></button>
+    </div>
+    <div class="offcanvas-body">
+        {{ . | safeHTML }}
+    </div>
+</div>
+{{ end }}
+
+<div class="container-xxl flex-fill p-4 px-xxl-0">
+    {{ if eq .Type "page" }}
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+            {{ with .Title }}<h1 class="display-4 mt-5">{{ . }}</h1>{{ end }}
+            <div class="mt-5"></div>
+            {{ .Render "single/body" }}
         </div>
+    </div>
+    {{ else }}
+    {{ if $sidebar -}}
+    <div class="row row-cols-1 row-cols-{{ $breakpoint.current }}-2 row-cols-{{ $breakpoint.next }}-3">
+        <div
+            class="col col-{{ $breakpoint.next }}-2 d-none d-{{ $breakpoint.next }}-block sidebar-overflow sticky-top pt-5">
+            {{ $sidebar | safeHTML }}
+        </div>
+        <div class="col-12 col-{{ $breakpoint.current }}-9 col-{{ $breakpoint.next }}-8 mb-5 p-4">
+            {{ .Render "single/main" }}
+        </div>
+        <div
+            class="col col-{{ $breakpoint.current }}-3 col-{{ $breakpoint.next }}-2 d-none d-{{ $breakpoint.current }}-block pt-5">
+            {{ $toc | safeHTML }}
+        </div>
+    </div>
+    {{ else }}
+    <div class="row row-cols-1 row-cols-{{ $breakpoint.current }}-2">
+        <div class="col col-{{ $breakpoint.prev }}-12 col-{{ $breakpoint.current }}-9">
+            {{ .Render "single/main" }}
+        </div>
+        <div class="col col-{{ $breakpoint.current }}-3 d-none d-{{ $breakpoint.current }}-block">
+            {{ $toc | safeHTML }}
+        </div>
+    </div>
+    {{ end -}}
     {{ end }}
 
-    <div class="container-xxl flex-fill p-4 px-xxl-0">
-        {{ if $sidebar -}}
-            <div class="row row-cols-1 row-cols-{{ $breakpoint.current }}-2 row-cols-{{ $breakpoint.next }}-3">
-                <div class="col col-{{ $breakpoint.next }}-2 d-none d-{{ $breakpoint.next }}-block sidebar-overflow sticky-top pt-5">
-                    {{ $sidebar | safeHTML }}
-                </div>
-                <div class="col-12 col-{{ $breakpoint.current }}-9 col-{{ $breakpoint.next }}-8 mb-5 p-4">
-                    {{ .Render "single/main" }}
-                </div>
-                <div class="col col-{{ $breakpoint.current }}-3 col-{{ $breakpoint.next }}-2 d-none d-{{ $breakpoint.current }}-block pt-5">
-                    {{ $toc | safeHTML }}
-                </div>
-            </div>
-        {{ else }}
-            <div class="row row-cols-1 row-cols-{{ $breakpoint.current }}-2">
-                <div class="col col-{{ $breakpoint.prev }}-12 col-{{ $breakpoint.current }}-9">
-                    {{ .Render "single/main" }}
-                </div>
-                <div class="col col-{{ $breakpoint.current }}-3 d-none d-{{ $breakpoint.current }}-block">
-                    {{ $toc | safeHTML }}
-                </div>
-            </div>
-        {{ end -}}
-    </div>
+</div>
 {{ end -}}
