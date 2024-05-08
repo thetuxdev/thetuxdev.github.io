@@ -1,6 +1,6 @@
 ---
 title: Benvenuto su The TUX Dev!
-description: Il blog che parla di Linux, Tecnologia e Programmazione. Ci immergiamo nelle profondità del software libero e open source, credendo fermamente nella sua capacità di promuovere la collaborazione, l'innovazione e la libertà digitale.
+description: Ciao! Sono Alberto, Sviluppatore Web Freelance, e questo è il mio angolo digitale dedicato a programmazione,  tecnologia e mondo Linux. Qui condivido risorse, novità e talvolta anche opinioni personali sull’universo del Free and Open Source Software.
 thumbnail:
     url: /img/thetuxdev.jpeg
     author: Harris Vo
