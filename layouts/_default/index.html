@@ -8,6 +8,8 @@
 {{- $fullCover := $.Scratch.Get "fullCover" -}}
 {{- $layout := $page.Params.layout -}}
 
+<h1 class="d-none">The TUX Dev</h1>
+
 <div class="container-xxl p-4 px-xxl-0">
     {{- if ne $layout "featured" -}}
     {{ if and (not $page.IsHome) site.Params.navigation.breadcrumb }}
