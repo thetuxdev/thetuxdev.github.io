@@ -4,9 +4,13 @@
   weight = 10
 
 [[main]]
+  name = "News"
+  pageRef = "/tags/news/"
+  weight = 20
+[[main]]
   name = "Guide"
   pageRef = "/tags/guide/"
-  weight = 20
+  weight = 11
 [[main]]
   name = "Linux"
   pageRef = "/tags/linux"

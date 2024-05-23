@@ -37,19 +37,25 @@
             </div>
 
 
+
+
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
-                {{ range first 6 (where .Site.RegularPages "Type" "post") }}
+                {{ $posts := where .Site.RegularPages "Type" "post" }}
+                {{ $news := where .Site.RegularPages "Type" "news" }}
+                {{ $latestContent := union $posts $news | first 6 }}      
+                {{ range $latestContent }}
+
                 <div class="article">
                     <div class="col">
                         <div class="card  h-100 border-0 card-zoom text-start">
                             <div class="card-body d-flex flex-column p-0">
                                 <p class="card-text"><small class="text-body-secondary text-uppercase">
-                                    {{ dateFormat "2 January 2006" .Date }}&nbsp;•
+                                        {{ dateFormat "2 January 2006" .Date }}&nbsp;•
                                         {{ $list := .Params.tags }}
                                         {{ $len := len $list }}
                                         {{ range $index, $tag := $list }}
 
-                                        <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}"
+                                        <a href="{{ " /tags/" | relLangURL }}{{ $tag | urlize }}"
                                             class="text-decoration-none link-primary tag-link">
                                             {{ $tag }}
                                         </a>
@@ -96,13 +102,12 @@
                     <div class="col">
                         <div class="card  h-100 border-0 card-zoom text-start">
                             <div class="card-body d-flex flex-column p-0">
-                                <p class="card-text"><small class="text-body-secondary text-uppercase">{{ .Date.Format
-                                        "2 gennaio 2006" }}&nbsp;•
+                                <p class="card-text"><small class="text-body-secondary text-uppercase"> {{ dateFormat "2 January 2006" .Date }}&nbsp;•
                                         {{ $list := .Params.tags }}
                                         {{ $len := len $list }}
                                         {{ range $index, $tag := $list }}
 
-                                        <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}"
+                                        <a href="{{ " /tags/" | relLangURL }}{{ $tag | urlize }}"
                                             class="text-decoration-none link-primary tag-link">
                                             {{ $tag }}
                                         </a>
@@ -132,6 +137,60 @@
 </div>
 
 
+<div class="container-fluid  p-0">
+    <div class="container-xxl p-4 px-xxl-0 pb-5">
+        <div class="container-fluid p-0">
+            <div class="row mb-5 align-items-center">
+                <div class="col-md">
+                    <h2 class="mb-0">News</h2>
+                </div>
+                <div class="col-md-auto text-md-start text-start pt-3 pt-md-0">
+                    <a href="/tags/news">
+                        <p class="mb-0">Leggi tutte le News »</p>
+                    </a>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+               
+
+                {{ range first 6 (where .Site.RegularPages "Type" "news") }}
+                <div class="article">
+                    <div class="col">
+                        <div class="card  h-100 border-0 card-zoom text-start">
+                            <div class="card-body d-flex flex-column p-0">
+                                <p class="card-text"><small class="text-body-secondary text-uppercase"> {{ dateFormat "2 January 2006" .Date }}&nbsp;•
+                                        {{ $list := .Params.tags }}
+                                        {{ $len := len $list }}
+                                        {{ range $index, $tag := $list }}
+
+                                        <a href="{{ " /tags/" | relLangURL }}{{ $tag | urlize }}"
+                                            class="text-decoration-none link-primary tag-link">
+                                            {{ $tag }}
+                                        </a>
+                                        {{ if ne (add $index 1) $len }}
+                                        -
+                                        {{ end }}
+
+                                        {{ end }}
+
+                                    </small></p><a href="{{ .Permalink }}" class="card-body-link stretched-link">
+                                    <p class="card-title fs-5 fw-bold">{{ .Title }}</p>
+
+                                    <div class="card-text card-body-link">
+                                        {{ .Summary }}
+                                    </div>
+                                </a>
+                                <p class="card-text"><small class="text-body-secondary text-uppercase"></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+
+        </div>
+    </div>
+</div>
 
 
 <div class="container-fluid  p-0">
@@ -153,13 +212,12 @@
                     <div class="col">
                         <div class="card  h-100 border-0 card-zoom text-start">
                             <div class="card-body d-flex flex-column p-0">
-                                <p class="card-text"><small class="text-body-secondary text-uppercase">{{ .Date.Format
-                                        "2 gennaio 2006" }}&nbsp;•
+                                <p class="card-text"><small class="text-body-secondary text-uppercase"> {{ dateFormat "2 January 2006" .Date }}&nbsp;•
                                         {{ $list := .Params.tags }}
                                         {{ $len := len $list }}
                                         {{ range $index, $tag := $list }}
 
-                                        <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}"
+                                        <a href="{{ " /tags/" | relLangURL }}{{ $tag | urlize }}"
                                             class="text-decoration-none link-primary tag-link">
                                             {{ $tag }}
                                         </a>
@@ -207,13 +265,12 @@
                     <div class="col">
                         <div class="card  h-100 border-0 card-zoom text-start">
                             <div class="card-body d-flex flex-column p-0">
-                                <p class="card-text"><small class="text-body-secondary text-uppercase">{{ .Date.Format
-                                        "2 gennaio 2006" }}&nbsp;•
+                                <p class="card-text"><small class="text-body-secondary text-uppercase"> {{ dateFormat "2 January 2006" .Date }}&nbsp;•
                                         {{ $list := .Params.tags }}
                                         {{ $len := len $list }}
                                         {{ range $index, $tag := $list }}
 
-                                        <a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}"
+                                        <a href="{{ " /tags/" | relLangURL }}{{ $tag | urlize }}"
                                             class="text-decoration-none link-primary tag-link">
                                             {{ $tag }}
                                         </a>
