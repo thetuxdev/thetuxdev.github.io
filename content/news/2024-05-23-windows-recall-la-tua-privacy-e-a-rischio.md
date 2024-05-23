@@ -1,5 +1,6 @@
 ---
-title: "Privacy a Rischio: Microsoft Integra un'AI che Osserva Ogni Tua Mossa su Windows"
+title: "Windows Recall. La tua Privacy è a Rischio?"
+description: "Microsoft Integra un'AI che Osserva Ogni Tua Mossa su Windows"
 author: Alberto
 type: news
 date: 2024-05-21
