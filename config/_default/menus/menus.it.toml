@@ -5,7 +5,7 @@
 
 [[main]]
   name = "News"
-  pageRef = "/tags/news/"
+  pageRef = "/news/"
   weight = 20
 [[main]]
   name = "Guide"
