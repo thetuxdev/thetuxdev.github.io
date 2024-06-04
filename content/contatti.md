@@ -5,4 +5,4 @@ updated: 2023-08-02
 showComments: false
 ---
 
-Per informazioni e collaborazioni [Contattaci](mailto:thetuxdev@gmail.com)
+Per informazioni e collaborazioni [contattami](mailto:thetuxdev@gmail.com)

@@ -16,7 +16,7 @@ Ci immergiamo nelle profondità del software libero e open source, credendo ferm
 
 ## Contributing
 
-Se vuoi collaborare con noi [Contattaci](mailto:thetuxdev@gmail.com).
+Se vuoi collaborare con noi [contattami](mailto:thetuxdev@gmail.com).
 
 ## License
 
