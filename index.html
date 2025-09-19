@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Progetto chiuso</title>
+  <style>
+    :root{--bg:#000;--muted:#9aa0a6;--accent:#6ee7b7}
+    html,body{height:100%;margin:0}
+    body{
+      background:var(--bg);
+      color:#fff;
+      font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      -webkit-font-smoothing:antialiased;
+      display:flex;align-items:center;justify-content:center;padding:0;
+    }
+    .card{
+      text-align:center;max-width:720px;padding:3rem;border-radius:12px;
+      box-shadow:0 6px 30px rgba(0,0,0,0.6);
+      background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border:1px solid rgba(255,255,255,0.04);
+    }
+    h1{font-size:clamp(1.6rem,4vw,2.4rem);margin:0 0 .5rem}
+    p.lead{margin:0 0 1.25rem;color:var(--muted);line-height:1.5}
+    .emoji{font-size:1.1rem}
+    .sub{font-size:.95rem;color:var(--muted);margin-top:1.25rem}
+    a.btn{
+      display:inline-block;margin-top:1rem;padding:.6rem 1rem;border-radius:10px;
+      text-decoration:none;font-weight:600;background:transparent;border:1px solid rgba(255,255,255,0.06);
+      color:inherit;backdrop-filter: blur(4px);
+    }
+    @media (prefers-reduced-motion: no-preference){
+      .card{transform:translateY(6px);transition:transform .36s cubic-bezier(.2,.9,.3,1)}
+      .card:hover{transform:translateY(0)}
+    }
+    footer{margin-top:1.25rem;color:var(--muted);font-size:.9rem}
+  </style>
+</head>
+<body>
+  <main class="card" role="main">
+    <h1>Progetto chiuso</h1>
+    <p class="lead">Grazie per aver seguito questo spazio su Linux, tecnologia e programmazione. Al momento ho chiuso il canale per concentrarmi su altri progetti.</p>
+    <p class="emoji">Grazie per il tempo trascorso virtualmente insieme.</p>
+    <p>🧑‍💻 Happy Coding</p>
+
+    <div class="sub">Se tornerò attivo, aggiornerò qui le informazioni.</div>
+
+    <footer>© <span id="year"></span> Alberto</footer>
+  </main>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
